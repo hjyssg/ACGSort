@@ -11,46 +11,43 @@ package mangamanagetool;
  */
 import java.io.*;
 import java.util.*;
+
 import java.net.*;
 import javax.swing.tree.ExpandVetoException;
-
 
 public class SortedFileTable
 {
 
-    /*
-     * sorted author list
-     * the first element is the folder
-     * the rest are the author's name. each authot may have mutilpe names
-     * e.g 鳥居姫, 魚骨工造 (カポ), 怪奇日蝕(綾野なおと)
+    /**
+     * the key is the author name e.g 鳥居姫, 魚骨工造 (カポ), 怪奇日蝕(綾野なおと)
+     * 
      */
-    private ArrayList<ArrayList<Object>> eaList;
-    
+    public Hashtable<String, AuthorInfo> table;
+
     public SortedFileTable(String sortedFolderPath) throws Exception
     {
-        this.eaList = new ArrayList<ArrayList<Object>>();
-        
-        this.updateForSingleURL(new File(sortedFolderPath));
+        this.table = new Hashtable<String, AuthorInfo>();
+
+        this.iterateAllSubfolder(new File(sortedFolderPath));
     }
-    
-    
-    private void updateForSingleURL(File rootFolder)
+
+    private void iterateAllSubfolder(File rootFolder)
     {
         try
         {
             //iterate through each author's folder
-            for (File sf : rootFolder.listFiles())
+            for (File f : rootFolder.listFiles())
             {
                 //...and find author name, save into  ealist
-                if (sf.isDirectory() && (!sf.isHidden()))
+                if (f.isDirectory() && (!f.isHidden()))
                 {
-                    ArrayList<Object> entry = new ArrayList<Object>(2);
-                    URL tempUrl = sf.toURI().toURL();
-                    
-                    entry.add(tempUrl);
-                    
-                    entry.addAll(NameParser.getAuthorNameEntry(sf.getName()));
-                    eaList.add(entry);
+                    String directoryName = f.getName();
+
+                    AuthorInfo entry = new AuthorInfo();
+                    entry.names = NameParser.getAuthorNameEntry(directoryName);
+                    entry.directory = f;
+
+                    this.table.put(directoryName, entry);
                 }
             }
         }
@@ -59,39 +56,23 @@ public class SortedFileTable
             System.err.println(e);
         }
     }
-    
 
+   
 
-    //@param s: author name
-    //@return the folder url, null if no exitence
-    public URL getAuthorFolderURL(String s)
-    {
-        for (int ii = 0; ii < eaList.size(); ii++)
-        {
-            ArrayList<Object> entry = eaList.get(ii);
-            for (int jj = 1; jj < entry.size(); jj++)
-            {
-                String tempS = (String) entry.get(jj);
-                // will modify here later
-                int editDistance = NameParser.stringDistance(tempS, s);
-                if (editDistance < 2)
-                {
-                    return (URL) entry.get(0);
-                }
-            }
-        }
-        return null;
-    }
-    
     public void debugDisplay()
     {
-        for (ArrayList<Object> entry : eaList)
-        {            
-            for (Object object : entry)
-            {
-                System.out.print(object.toString() + "   ");
-            }
-            System.out.println();
+        ArrayList<String> arr = new ArrayList();
+        for (String s : table.keySet())
+        {
+            arr.add(s);
+        }
+
+        System.out.println("number of keys " + arr.size());
+
+        Collections.sort(arr);
+        for (String s : arr)
+        {
+            System.out.println(s);
         }
     }
 }

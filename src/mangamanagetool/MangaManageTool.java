@@ -49,9 +49,9 @@ public class MangaManageTool
         {
          
         //get the author of unsorted files     
-        ArrayList<String> arr = new ArrayList(unsortedFileList.table.keySet());
-        //sort them for more readable output
-        Collections.sort(arr); 
+        ArrayList<String> unsortedAuthorNames = new ArrayList(unsortedFileList.table.keySet());
+        //sort them for more readable output00
+        Collections.sort(unsortedAuthorNames); 
 
         int mvCounter = 0;
         int mkdirCounter = 0;
@@ -59,7 +59,8 @@ public class MangaManageTool
         
         StringBuilder mvbuiBuilder = new StringBuilder();
         
-        //command to make new folder
+        //command to make new folder 
+        //windows and mac both use "mkdir" to make new directory
         StringBuilder mkdrirBuilder = new StringBuilder();
 
         //command to move files one windows
@@ -70,36 +71,35 @@ public class MangaManageTool
 
         StringBuilder mkdirCommand = new StringBuilder();
 
-        for (String s : arr)
+        for (String unsortedAuthorName : unsortedAuthorNames)
         {
             //check if there already exist a folder for the file
-            URL folderURL = existingAuthorList.getAuthorFolderURL(s);
-            if (folderURL != null)
+            File destFolder = getAuthorFolder(existingAuthorList, unsortedAuthorName, unsortedFileList.table.get(unsortedAuthorName).names);
+            if (destFolder != null)
             {
-                mvbuiBuilder.append(s).append("\n");
+                mvbuiBuilder.append(unsortedAuthorName).append("\n");
 
                 //tell user to move the file
-                ArrayList<File> urls = unsortedFileList.table.get(s);
-                for (File tempFile : urls)
+                ArrayList<File> sourceFiles = unsortedFileList.table.get(unsortedAuthorName).files;
+                for (File sourceFile : sourceFiles)
                 {
-                    mvMacCommand.append("mv "+"\""+tempFile.getPath()+"\" "+"\""+folderURL.getPath()+"\"\n");
-                    mvWinCommand.append("move " + "\"" + tempFile.getPath() + "\" " + "\"" + folderURL.getPath() + "\"\n");
-       
-                    //mvMacCommand.append("mv ").append(tempUrl.getPath()).append(folderURL.getPath()).append("\n");
+                    mvMacCommand.append("mv "+"\""+sourceFile.getPath()+"\" "+"\""+destFolder.getPath()+"\"\n");
+                    mvWinCommand.append("move " + "\"" + sourceFile.getPath() + "\" " + "\"" + destFolder.getPath() + "\"\n");
+
                 }
 
                 //move src dest
                 mvCounter++;
             }
-             else if (unsortedFileList.table.get(s).size() >= 2) 
+             else if (unsortedFileList.table.get(unsortedAuthorName).files.size() >= 2) 
             {
                 //if folder  does not exist and this author have more than two book
                 //tell user to create one
                 
-                mkdrirBuilder.append(s).append("\n");
+                mkdrirBuilder.append(unsortedAuthorName).append("\n");
 
                 //mkdir folder  
-                mkdirCommand.append("mkdir \"" + s + "\"\n");
+                mkdirCommand.append("mkdir \"" + unsortedAuthorName + "\"\n");
                 mkdirCounter++;
             }
         }
@@ -113,13 +113,41 @@ public class MangaManageTool
         System.out.println("建立新文件" + mkdirCounter + "次");
         System.out.print(mkdrirBuilder.toString());
         System.out.println(mkdirCommand);    
-         System.out.println(mvMacCommand);
+        System.out.println(mvMacCommand);
         }
         catch(Exception e)
         {
             System.out.println(e);
         }
-        
-        
+    }
+    
+    
+     //@param s: author name
+    //@return the folder url, null if no exitence
+    public static File getAuthorFolder(SortedFileTable sortedtable,String sourceName, ArrayList<String> sourceNames)
+    {
+        //if we can find directly, nice
+        if (sortedtable.table.contains(sourceName))
+        {
+            return sortedtable.table.get(sourceName).directory;
+        }
+
+        //if not, compare all authors names
+  
+        for (AuthorInfo entry : sortedtable.table.values())
+        {
+            for (String name : entry.names)
+            {
+                for (String name2 : sourceNames)
+                {
+                    if (NameParser.stringDistance(name2, name) < 2)
+                    {
+                        return entry.directory;
+                    }
+                }
+            }
+
+        }
+        return null;
     }
 }
