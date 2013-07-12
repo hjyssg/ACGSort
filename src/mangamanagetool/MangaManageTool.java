@@ -23,7 +23,7 @@ public class MangaManageTool
     {
         ArrayList authorFolderURLs = new ArrayList<URL>();
 
-        System.out.println(args[0]+" "+args[1]);
+       // System.out.println(args[0]+" "+args[1]);
  
         SortedFileTable authorList = new SortedFileTable(args[0].trim());
         //authorList.debugDisplay();
