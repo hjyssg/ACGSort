@@ -28,15 +28,11 @@ public class MangaManageTool
         SortedFileTable authorList = new SortedFileTable(args[0].trim());
         //authorList.debugDisplay();
 
-
-     
- 
        UnsortedFileTable unsortedFileList = new UnsortedFileTable(args[1].trim());
        //unsortedFileList.debugDisplay();
 
 
-  
-            moveFileAndMkdir(authorList, unsortedFileList);
+        moveFileAndMkdir(authorList, unsortedFileList);
     }
     
     /**
@@ -60,10 +56,16 @@ public class MangaManageTool
         int mvCounter = 0;
         int mkdirCounter = 0;
 
+        
         StringBuilder mvbuiBuilder = new StringBuilder();
+        
+        //command to make new folder
         StringBuilder mkdrirBuilder = new StringBuilder();
 
+        //command to move files one windows
         StringBuilder mvWinCommand = new StringBuilder();
+        
+        //command to move file on mac and linux
         StringBuilder mvMacCommand = new StringBuilder();
 
         StringBuilder mkdirCommand = new StringBuilder();
@@ -78,11 +80,11 @@ public class MangaManageTool
 
                 //tell user to move the file
                 ArrayList<File> urls = unsortedFileList.table.get(s);
-                for (File tempUrl : urls)
+                for (File tempFile : urls)
                 {
-                    //mvMacCommand.append("mv "+"\""+tempUrl.getPath()+"\" "+"\""+folderURL.getPath()+"\"\n");
-                    mvWinCommand.append("move " + "\"" + tempUrl.getPath() + "\" " + "\"" + folderURL.getPath() + "\"\n");
-                    mvWinCommand.append("move ").append(tempUrl.getPath()).append(folderURL.getPath()).append("\n");
+                    mvMacCommand.append("mv "+"\""+tempFile.getPath()+"\" "+"\""+folderURL.getPath()+"\"\n");
+                    mvWinCommand.append("move " + "\"" + tempFile.getPath() + "\" " + "\"" + folderURL.getPath() + "\"\n");
+       
                     //mvMacCommand.append("mv ").append(tempUrl.getPath()).append(folderURL.getPath()).append("\n");
                 }
 
@@ -105,13 +107,13 @@ public class MangaManageTool
 
         System.out.println("移动" + mvCounter + "次");
         System.out.print(mvbuiBuilder.toString());
-        //System.out.println(mvWinCommand);
+        System.out.println(mvWinCommand);
 
         System.out.println("\n\n\n\n\n\n\n\n\n");
         System.out.println("建立新文件" + mkdirCounter + "次");
         System.out.print(mkdrirBuilder.toString());
-        //System.out.println(mkdirCommand);    
-        // System.out.println(mvMacCommand);
+        System.out.println(mkdirCommand);    
+         System.out.println(mvMacCommand);
         }
         catch(Exception e)
         {

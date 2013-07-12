@@ -20,7 +20,7 @@ public class SortedFileTable
 
     /*
      * sorted author list
-     * the first element is the folder urL
+     * the first element is the folder
      * the rest are the author's name. each authot may have mutilpe names
      * e.g 鳥居姫, 魚骨工造 (カポ), 怪奇日蝕(綾野なおと)
      */

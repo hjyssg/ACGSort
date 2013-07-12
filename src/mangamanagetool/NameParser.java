@@ -177,4 +177,10 @@ public class NameParser
         }
         return false;
     }
+    
+    public static String getFileExtension(String fileName)
+    {
+      return  fileName.substring(fileName.lastIndexOf(".") + 1, fileName.length());
+    }
+    
 }

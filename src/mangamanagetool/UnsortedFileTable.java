@@ -15,13 +15,13 @@ import java.util.*;
 public class UnsortedFileTable {
     //the key is the author name 
     //the value is the array of file of his/her manga and doujinshi
+
     Hashtable<String, ArrayList<File>> table;
 
     //create the authotList based on the text file from Everthing
     public UnsortedFileTable(String fileFolderPath) throws Exception {
         table = new Hashtable<String, ArrayList<File>>();
 
-        //System.out.println("["+fileFolderPath);
         this.iterateAllSubfolderAndFindCompressedFile(new File(fileFolderPath));
     }
 
@@ -35,7 +35,9 @@ public class UnsortedFileTable {
                     if (f.isFile()) {
                         String fileName = f.getName();
 
-                        String extension = fileName.substring(fileName.lastIndexOf(".") + 1, fileName.length());
+                        //get file extension
+                        String extension = NameParser.getFileExtension(fileName);
+
                         if (!f.isHidden() && NameParser.isCompressionFile(extension)) {
                             String authorName = NameParser.getAuthorName(f.getName());
 
