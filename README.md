@@ -64,6 +64,8 @@ A Java Toolkit that helps manage doujin manga file
 
 如果你用的是Windows，我推薦你使用everything來幫助你移動文件。
 
-這個程序是一個netbeans project，下載後請用netbeans打開來run。 
+###打開方式
+1.在Mac下直接右點打開dist/jar文件。
+2.用Netbeans打開來run。這是一個Netbeans Project。 
 
 如果你有任何好的主意或者發現bug，請pull request或者fork給我來進行修改。
