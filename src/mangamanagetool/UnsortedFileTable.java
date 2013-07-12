@@ -19,39 +19,7 @@ public class UnsortedFileTable
     //the value is the array of url of his/her manga and doujinshi
     Hashtable<String, ArrayList> table;
 
-    //create the authotList based on the text file from Everthing
-    public UnsortedFileTable(File ZipFileListText) throws IOException
-    {
-        table = new Hashtable<String, ArrayList>();
 
-        //take input from text file
-        Scanner fileInScanner = new Scanner(ZipFileListText);
-        while (fileInScanner.hasNextLine())
-        {
-            String line = fileInScanner.nextLine();
-            URL tempUrl = new URL("file:///" + line);
-
-            String name = NameParser.getAuthorName(tempUrl.getFile());
-            if (name != null)
-            {
-
-                if (table.containsKey(name))
-                {
-                    table.get(name).add(tempUrl);
-                }
-                else
-                {
-                    ArrayList urlEntry = new ArrayList<URL>();
-                    urlEntry.add(tempUrl);
-                    table.put(name, urlEntry);
-                }
-                //System.out.println("put " + name + "   " + tempUrl.getFile());
-            }
-        }
-        //close the file
-        fileInScanner.close();
-        ZipFileListText.exists();
-    }
 
     //create the authotList based on the text file from Everthing
     public UnsortedFileTable(URL fileFolder) throws Exception
@@ -70,11 +38,11 @@ public class UnsortedFileTable
         {
             for (File f : files)
             {
+                // System.out.println(f);
+                
                 if (f.isFile())
                 {
                     String fileName = f.getName();
-
-                    //System.out.println(fileName);
 
                     String extension = fileName.substring(fileName.lastIndexOf(".") + 1, fileName.length());
                     if (!f.isHidden() && NameParser.isCompressionFile(extension))
@@ -96,11 +64,11 @@ public class UnsortedFileTable
                                 table.put(authorName, urlEntry);
                             }
                         }
-                    }
-                    else
-                    {
+                    } 
+                }
+                else
+               {
                         iterateAllSubfolderAndFindCompressedFile(f);
-                    }
                 }
             }
         } 
