@@ -5,7 +5,6 @@ A Java Toolkit that helps manage doujin manga file
 
 如果你是一名阿宅，你擁有超過超多的漫畫、同人誌。你一定會想整理他們。 
   
- 
 根據我個人實踐，最好的整理辦法就是按作者名分類。最好的整理辦法就是按作者名分類。這個很重要，這裡要說兩次。
 因為實用的作者總是很使用，難用的作者一直都那麼難用。
 並且一般漫畫文件都有標作者，分起來比較方便。
@@ -13,8 +12,6 @@ A Java Toolkit that helps manage doujin manga file
 同人作品有人可以按題材分。但是同人作品一般水平差別很多，魚龍混雜。都放在一起會導致有時你想到一個本子，但找不到。
 作者也有水平好壞，你可以實用的作者放一個文件夾，不實用的作者放一個文件夾。
  
-
-
 
 ###具體整理方法  
 
@@ -43,9 +40,6 @@ A Java Toolkit that helps manage doujin manga file
     三血中吐     
     (.............)
 
-
-
-
 你可以按這樣手動整理。但這樣的做法的實際問題是：            
 1.隨著文件數量增加，一個一個文件找相應作者文件夾很困難。     
 2.當新作者出現的時候，憑記憶沒法及時創建該作者相對應的文件。     
@@ -65,7 +59,7 @@ A Java Toolkit that helps manage doujin manga file
 如果你用的是Windows，我推薦你使用everything來幫助你移動文件。
 
 ###打開方式
-1.在Mac下直接右點打開dist/jar文件。   
+1.右鍵打開dist/MangaManageTool.jar文件。或者用terminal運行java -jar MangaManageTool.jar。    
 2.用Netbeans打開來run。這是一個Netbeans Project。 
 
 如果你有任何好的主意或者發現bug，請pull request或者fork給我來進行修改。
