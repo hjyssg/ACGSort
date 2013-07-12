@@ -12,15 +12,11 @@ package mangamanagetool;
 import java.io.*;
 import java.util.*;
 import java.net.*;
+import javax.swing.tree.ExpandVetoException;
 
 
 public class SortedFileTable
 {
-    /*
-     * the folders that contain author's folder
-     */
-    public URL sortedFileFolder;
-   
 
     /*
      * sorted author list
@@ -30,20 +26,18 @@ public class SortedFileTable
      */
     private ArrayList<ArrayList<Object>> eaList;
     
-    public SortedFileTable(URL sortedFolderURL)
+    public SortedFileTable(String sortedFolderPath) throws Exception
     {
         this.eaList = new ArrayList<ArrayList<Object>>();
-        this.sortedFileFolder = sortedFolderURL;
-        this.updateForSingleURL(sortedFolderURL);
+        
+        this.updateForSingleURL(new File(sortedFolderPath));
     }
     
     
-    private void updateForSingleURL(URL url)
+    private void updateForSingleURL(File rootFolder)
     {
         try
         {
-            File rootFolder = new File(url.toURI());
-
             //iterate through each author's folder
             for (File sf : rootFolder.listFiles())
             {

@@ -10,32 +10,33 @@ package mangamanagetool;
  */
 
 import java.net.*;
-import java.util.ArrayList;
+import java.io.*;
+import java.util.*;
 import java.util.Collections;
+
 
 public class MangaManageTool
 {
+    //the first argurment is where sorted folders are
+    //the second is where unsorted files are
      public static void main(String[] args) throws Exception
     {
         ArrayList authorFolderURLs = new ArrayList<URL>();
 
-        //"file:///F:\\_Happy%20Lesson\\_Manga\\按作者分类"
-        SortedFileTable authorList = new SortedFileTable(new URL("file:///" + "C:\\Users\\jhuang\\Dropbox\\bbb"));
-        authorList.debugDisplay();
+        System.out.println(args[0]+" "+args[1]);
+ 
+        SortedFileTable authorList = new SortedFileTable(args[0].trim());
+        //authorList.debugDisplay();
 
 
-        UnsortedFileTable unsortedFileList = new UnsortedFileTable(new URL("file:///" + "C:\\Users\\jhuang\\Dropbox\\aaa"));
-        unsortedFileList.debugDisplay();
+     
+ 
+       UnsortedFileTable unsortedFileList = new UnsortedFileTable(args[1].trim());
+       //unsortedFileList.debugDisplay();
 
 
-        try
-        {
+  
             moveFileAndMkdir(authorList, unsortedFileList);
-        }
-        catch (Exception e)
-        {
-            System.err.println(e);
-        }
     }
     
     /**
@@ -46,12 +47,15 @@ public class MangaManageTool
      * @param unsortedFileList
      * @throws Exception 
      */
-    public static void moveFileAndMkdir(SortedFileTable existingAuthorList, UnsortedFileTable unsortedFileList) throws Exception
+    public static void moveFileAndMkdir(SortedFileTable existingAuthorList, UnsortedFileTable unsortedFileList) 
     {
+        try
+        {
+         
+        //get the author of unsorted files     
         ArrayList<String> arr = new ArrayList(unsortedFileList.table.keySet());
-        
-
-        Collections.sort(arr);
+        //sort them for more readable output
+        Collections.sort(arr); 
 
         int mvCounter = 0;
         int mkdirCounter = 0;
@@ -66,13 +70,15 @@ public class MangaManageTool
 
         for (String s : arr)
         {
+            //check if there already exist a folder for the file
             URL folderURL = existingAuthorList.getAuthorFolderURL(s);
             if (folderURL != null)
             {
                 mvbuiBuilder.append(s).append("\n");
 
-                ArrayList<URL> urls = unsortedFileList.table.get(s);
-                for (URL tempUrl : urls)
+                //tell user to move the file
+                ArrayList<File> urls = unsortedFileList.table.get(s);
+                for (File tempUrl : urls)
                 {
                     //mvMacCommand.append("mv "+"\""+tempUrl.getPath()+"\" "+"\""+folderURL.getPath()+"\"\n");
                     mvWinCommand.append("move " + "\"" + tempUrl.getPath() + "\" " + "\"" + folderURL.getPath() + "\"\n");
@@ -82,10 +88,12 @@ public class MangaManageTool
 
                 //move src dest
                 mvCounter++;
-                continue;
             }
-            if (unsortedFileList.table.get(s).size() >= 2)
+             else if (unsortedFileList.table.get(s).size() >= 2) 
             {
+                //if folder  does not exist and this author have more than two book
+                //tell user to create one
+                
                 mkdrirBuilder.append(s).append("\n");
 
                 //mkdir folder  
@@ -104,5 +112,12 @@ public class MangaManageTool
         System.out.print(mkdrirBuilder.toString());
         //System.out.println(mkdirCommand);    
         // System.out.println(mvMacCommand);
+        }
+        catch(Exception e)
+        {
+            System.out.println(e);
+        }
+        
+        
     }
 }
