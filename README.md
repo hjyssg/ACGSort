@@ -9,13 +9,19 @@ A Java Toolkit that helps manage doujin manga file
 
  
 比如，我的整理的文件是這樣：   
-......./_Manga/Sorted_By_Author$  ls     
-23.4ド (イチリ)                           ドウガネブイブイ (あぶりだしざくろ)  
-5年目の放課後                             とりのおいしいところ (鳥三)  
-ActiveMover・迷-めいず-                   にびなも凸面体(アイソトニクス)  
-Heaven's Gate (安藤智也)                  メメ50  
-Lapis Lazuli                              三色網戸  
-LEYMEI                                    三血中吐  
+......./_Manga/Sorted_By_Author$  ls -1    
+23.4ド (イチリ)                 
+ドウガネブイブイ (あぶりだしざくろ) 
+5年目の放課後                 
+とりのおいしいところ (鳥三)  
+ActiveMover・迷-めいず-    
+にびなも凸面体(アイソトニクス)  
+Heaven's Gate (安藤智也)    
+メメ50  
+Lapis Lazuli     
+三色網戸  
+LEYMEI 
+三血中吐  
 (....................省略...............................)  
 
 
