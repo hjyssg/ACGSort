@@ -247,7 +247,6 @@ public class MainInterface extends javax.swing.JFrame
     public static void moveFileAndMkdir(SortedFileTable existingAuthorList, UnsortedFileTable unsortedFileList) throws Exception
     {
         
-
             //get the author of unsorted files     
             ArrayList<String> unsortedAuthorNames = new ArrayList(unsortedFileList.table.keySet());
             //sort them for more readable output00
@@ -272,9 +271,6 @@ public class MainInterface extends javax.swing.JFrame
             StringBuilder mvStr = new StringBuilder();
             StringBuilder mkdirStr = new StringBuilder();
             
-            
-            
-
             for (String unsortedAuthorName : unsortedAuthorNames)
             {
                 //check if there already exist a folder for the file

@@ -180,6 +180,5 @@ public class NameParser
             }
         }
         return costs[s2.length()];
-    }
-    
+    }   
 }
