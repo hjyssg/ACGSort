@@ -364,12 +364,11 @@ public class MainInterface extends javax.swing.JFrame {
         out.close();
 
 
-//            System.out.println(mvWinCommand);
-//
-//            System.out.println("\n\n\n\n\n\n\n\n\n");
-//            System.out.print(mkdrirBuilder.toString());
-//            System.out.println(mkdirCommand);
-//            System.out.println(mvMacCommand);
+        System.out.println(mvWinCommand);
+
+        System.out.println("\n\n\n\n\n\n\n\n\n");
+        System.out.print(mkdrirBuilder);
+        System.out.println(mkdirCommand);
     }
 
     //@param s: author name

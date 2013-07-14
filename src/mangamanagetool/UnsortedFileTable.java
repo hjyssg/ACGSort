@@ -11,92 +11,73 @@ import java.util.*;
  *
  * @author junyang_huang
  */
-public class UnsortedFileTable
-{
+public class UnsortedFileTable {
     //the key is the author name 
     //the value is the array of file of his/her manga and doujinshi
-   public Hashtable<String, AuthorInfo> table;
+
+    public Hashtable<String, AuthorInfo> table;
 
     //create the authotList based on the text file from Everthing
-    public UnsortedFileTable(String fileFolderPath) throws Exception
-    {
+    public UnsortedFileTable(String fileFolderPath) throws Exception {
         table = new Hashtable<String, AuthorInfo>();
 
         this.iterateAllSubfolderAndFindCompressedFile(new File(fileFolderPath));
     }
 
-    private void iterateAllSubfolderAndFindCompressedFile(File dir)
-    {
-        try
-        {
+    private void iterateAllSubfolderAndFindCompressedFile(File dir) {
+        try {
             File[] files = dir.listFiles();
 
-            if (files != null)
-            {
-                for (File f : files)
-                {
-                    if (f.isFile())
-                    {
+            if (files != null) {
+                for (File f : files) {
+                    if (f.isFile()) {
                         String fileName = f.getName();
 
                         //get file extension
                         String extension = NameParser.getFileExtension(fileName);
 
-                        if (!f.isHidden() && NameParser.isCompressionFile(extension))
-                        {
+                        if (!f.isHidden() && NameParser.isCompressionFile(extension)) {
                             String authorName = NameParser.getAuthorName(fileName);
 
-                            if (authorName != null)
-                            {
+                            if (authorName != null) {
                                 //System.out.println(authorName+"  " + fileName);
 
-                                if (table.containsKey(authorName))
-                                {
+                                if (table.containsKey(authorName)) {
                                     table.get(authorName).files.add(f);
-                                }
-                                else
-                                {
-                                 
+                                } else {
+
                                     AuthorInfo entry = new AuthorInfo();
                                     ArrayList fileEntry = new ArrayList<File>();
                                     fileEntry.add(f);
                                     entry.files = fileEntry;
                                     entry.names = NameParser.getAuthorNameEntry(authorName);
-                                    
+
                                     table.put(fileName, entry);
-                                    
+
                                 }
                             }
                         }
-                    }
-                    else
-                    {
+                    } else {
                         iterateAllSubfolderAndFindCompressedFile(f);
                     }
                 }
             }
-        }
-        catch (Exception e)
-        {
+        } catch (Exception e) {
             System.out.println(e);
         }
     }
 
-    public void debugDisplay()
-    {
+    public void debugDisplay() {
         ArrayList<String> arr = new ArrayList();
-        for (String s : table.keySet())
-        {
+        for (String s : table.keySet()) {
             arr.add(s);
         }
 
         System.out.println("number of keys " + arr.size());
 
         Collections.sort(arr);
-        for (String s : arr)
-        {
+        for (String s : arr) {
             System.out.println(s);
         }
     }
-
 }
