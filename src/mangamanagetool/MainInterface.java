@@ -8,9 +8,12 @@ import java.io.File;
 import java.io.PrintWriter;
 import java.io.FileOutputStream;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Properties;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.*;
 
 /**
@@ -27,8 +30,13 @@ public class MainInterface extends javax.swing.JFrame {
      * Creates new form MainInterface
      */
     public MainInterface() {
-        initComponents();
-        this.loadUserSetting();
+   
+            initComponents();
+            this.loadUserSetting();
+            
+          
+            
+      
     }
 
     private void loadUserSetting() {
@@ -210,6 +218,7 @@ public class MainInterface extends javax.swing.JFrame {
     private void run(java.awt.event.ActionEvent evt)//GEN-FIRST:event_run
     {//GEN-HEADEREND:event_run
 
+        
         this.saveUserSetting();
 
         this.runButton.setEnabled(false);
@@ -280,7 +289,7 @@ public class MainInterface extends javax.swing.JFrame {
      * @param unsortedFileList
      * @throws Exception
      */
-    public static void moveFileAndMkdir(SortedFileTable existingAuthorList, UnsortedFileTable unsortedFileList) throws Exception {
+    private  void moveFileAndMkdir(SortedFileTable existingAuthorList, UnsortedFileTable unsortedFileList) throws Exception {
 
         //get the author of unsorted files     
         ArrayList<String> unsortedAuthorNames = new ArrayList(unsortedFileList.table.keySet());
@@ -337,28 +346,30 @@ public class MainInterface extends javax.swing.JFrame {
 
         //write result into text files
         PrintWriter out;
+        
+        String saveFolder =  System.getProperty("user.dir");
 
-        out = new PrintWriter("mv_win_command.txt");
+        out = new PrintWriter(saveFolder+ "\\" + "mv_win_command.txt");
         mvWinCommand.insert(0, "Need to move files " + mvCounter + " times\n\r\n\r");
         out.print(mvWinCommand.toString());
         out.close();
 
-        out = new PrintWriter("mv_mac_command.txt");
+        out = new PrintWriter( saveFolder+ "\\" +"mv_mac_command.txt");
         mvMacCommand.insert(0, "Need to move files " + mvCounter + " times\n\r\n\r");
         out.print(mvMacCommand.toString());
         out.close();
 
-        out = new PrintWriter("mkdir_command.txt");
+        out = new PrintWriter( saveFolder+ "\\" +"mkdir_command.txt");
         mkdirCommand.insert(0, "Need to create " + mkdirCounter + " new folders\n\r\n\r");
         out.print(mkdirCommand.toString());
         out.close();
 
-        out = new PrintWriter("mkdir_easy_read.txt");
+        out = new PrintWriter(saveFolder+ "\\" + "mkdir_easy_read.txt");
         mkdirStr.insert(0, "Need to create " + mkdirCounter + " new folders\n\r\n\r");
         out.print(mkdirStr.toString());
         out.close();
 
-        out = new PrintWriter("mv_easy_read.txt");
+        out = new PrintWriter( saveFolder+ "\\" +"mv_easy_read.txt");
         mvStr.insert(0, "Need to move files " + mvCounter + " times\n\r\n\r");
         out.print(mvStr.toString());
         out.close();
@@ -369,11 +380,15 @@ public class MainInterface extends javax.swing.JFrame {
         System.out.println("\n\n\n\n\n\n\n\n\n");
         System.out.print(mkdrirBuilder);
         System.out.println(mkdirCommand);
+        
+       java.awt.Desktop.getDesktop().open(new File(saveFolder));
+        
+        
     }
 
     //@param s: author name
     //@return the folder url, null if no exitence
-    public static File getAuthorFolder(SortedFileTable sortedtable, String sourceName, ArrayList<String> sourceNames) {
+    public  File getAuthorFolder(SortedFileTable sortedtable, String sourceName, ArrayList<String> sourceNames) {
         //if we can find directly, nice
         if (sortedtable.table.contains(sourceName)) {
             return sortedtable.table.get(sourceName).directory;
