@@ -6,26 +6,75 @@ package mangamanagetool;
 
 import java.io.File;
 import java.io.PrintWriter;
+import java.io.FileOutputStream;
+import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Properties;
 import javax.swing.*;
 
 /**
  *
  * @author jhuang
  */
-public class MainInterface extends javax.swing.JFrame
-{
+public class MainInterface extends javax.swing.JFrame {
+
+    private final String UNSORTED_FOLDER_PATH_PROPERTY = "unsorted folder path property";
+    private final String SORTED_FOLDER_PATH_PROPERTY = "sort folder path property";
+    private final String SETTING_FILE = "property.xml";
 
     /**
      * Creates new form MainInterface
      */
-    public MainInterface()
-    {
+    public MainInterface() {
         initComponents();
-        
-        this.unsortedFolderTF.setText("F:\\_Happy Lesson\\Going_to_sort");
-        this.sortedFolderTF.setText("F:\\_Happy Lesson\\_Manga\\Sorted_By_Author");
+        this.loadUserSetting();
+    }
+
+    private void loadUserSetting() {
+        try {
+            FileInputStream in = new FileInputStream(SETTING_FILE);
+            Properties userSetting = new Properties();
+            userSetting.loadFromXML(in);
+
+            if (userSetting.getProperty(UNSORTED_FOLDER_PATH_PROPERTY) != null) {
+                this.unsortedFolderTF.setText(userSetting.getProperty(UNSORTED_FOLDER_PATH_PROPERTY));
+            }
+
+            if (userSetting.getProperty(SORTED_FOLDER_PATH_PROPERTY) != null) {
+                this.sortedFolderTF.setText(userSetting.getProperty(SORTED_FOLDER_PATH_PROPERTY));
+            }
+
+            in.close();
+        } catch (Exception e) {
+
+            System.err.println("Fail to save user setting");
+        }
+    }
+
+    private void saveUserSetting() {
+        try {
+            String unsortedPath = "";
+            String sortedPath = "";
+
+            if (this.rememberBox.isSelected()) {
+                unsortedPath = this.unsortedFolderTF.getText().trim();
+                sortedPath = this.sortedFolderTF.getText().trim();
+            }
+
+            Properties userSetting = new Properties();
+            userSetting.setProperty(UNSORTED_FOLDER_PATH_PROPERTY, unsortedPath);
+            userSetting.setProperty(SORTED_FOLDER_PATH_PROPERTY, sortedPath);
+
+            FileOutputStream out = new FileOutputStream(SETTING_FILE);
+            userSetting.storeToXML(out, "Setting of user's folders");
+
+            out.close();
+
+        } catch (Exception e) {
+
+            System.err.println("Fail to save user setting");
+        }
     }
 
     /**
@@ -43,19 +92,12 @@ public class MainInterface extends javax.swing.JFrame
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         StatusPanel = new javax.swing.JPanel();
+        rememberBox = new javax.swing.JCheckBox();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        addHierarchyBoundsListener(new java.awt.event.HierarchyBoundsListener() {
-            public void ancestorResized(java.awt.event.HierarchyEvent evt) {
-            }
-            public void ancestorMoved(java.awt.event.HierarchyEvent evt) {
-                chooseWhereSortedFoldersAre(evt);
-            }
-        });
-
-        unsortedFolderTF.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                unsortedFolderTFActionPerformed(evt);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowClosing(java.awt.event.WindowEvent evt) {
+                formWindowClosing(evt);
             }
         });
 
@@ -74,6 +116,11 @@ public class MainInterface extends javax.swing.JFrame
         });
 
         jButton2.setText("Folder Where Sorted Folders Are");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ChooseWhereSortedFIlesAre(evt);
+            }
+        });
 
         StatusPanel.setName(""); // NOI18N
 
@@ -88,26 +135,30 @@ public class MainInterface extends javax.swing.JFrame
             .addGap(0, 40, Short.MAX_VALUE)
         );
 
+        rememberBox.setSelected(true);
+        rememberBox.setText("Remember Folders");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
+                        .addGap(128, 128, 128)
+                        .addComponent(StatusPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 312, Short.MAX_VALUE)
+                        .addComponent(runButton, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(45, 45, 45)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jButton2)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addComponent(sortedFolderTF, javax.swing.GroupLayout.DEFAULT_SIZE, 744, Short.MAX_VALUE)
                                 .addComponent(unsortedFolderTF))
-                            .addComponent(jButton1)))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(73, 73, 73)
-                        .addComponent(StatusPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 312, Short.MAX_VALUE)
-                        .addComponent(runButton, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(22, Short.MAX_VALUE))
+                            .addComponent(jButton1)
+                            .addComponent(rememberBox))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -125,7 +176,9 @@ public class MainInterface extends javax.swing.JFrame
                         .addGap(73, 73, 73)
                         .addComponent(runButton, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(64, 64, 64)
+                        .addGap(47, 47, 47)
+                        .addComponent(rememberBox)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(StatusPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(35, Short.MAX_VALUE))
         );
@@ -136,92 +189,71 @@ public class MainInterface extends javax.swing.JFrame
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private String chooseFile()
-    {
-         //Create a file chooser
+    private String chooseFile() {
+        //Create a file chooser
         JFileChooser chooser = new JFileChooser();
         chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
         chooser.setMultiSelectionEnabled(false);
         chooser.setApproveButtonText("choose");
-        
+
         //In response to a button click:
         int returnVal = chooser.showOpenDialog(this);
-        
-        if(returnVal == JFileChooser.APPROVE_OPTION) 
-        {
-             //System.out.println("You chose to open this file: " + chooser.getSelectedFile());
-             return chooser.getSelectedFile().getPath();
-        }
-        else
-        {
+
+        if (returnVal == JFileChooser.APPROVE_OPTION) {
+            //System.out.println("You chose to open this file: " + chooser.getSelectedFile());
+            return chooser.getSelectedFile().getPath();
+        } else {
             return null;
         }
     }
-    
-    
-    private void unsortedFolderTFActionPerformed(java.awt.event.ActionEvent evt)//GEN-FIRST:event_unsortedFolderTFActionPerformed
-    {//GEN-HEADEREND:event_unsortedFolderTFActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_unsortedFolderTFActionPerformed
 
     private void run(java.awt.event.ActionEvent evt)//GEN-FIRST:event_run
     {//GEN-HEADEREND:event_run
+
+        this.saveUserSetting();
+
         this.runButton.setEnabled(false);
         //this.runButton.setText("Running...");
-        
-        
+
+
         UnsortedFileTable unsortedFileList = null;
         SortedFileTable authorList = null;
-        try 
-       {
+        try {
             String unsortedPath = this.unsortedFolderTF.getText().trim();
 
             unsortedFileList = new UnsortedFileTable(unsortedPath.trim());
             //unsortedFileList.debugDisplay();
-       }
-       catch (Exception e)
-       {
-           System.err.println(e+"during scanning unsorted files");
-           JOptionPane.showMessageDialog(this, e+"during scanning unsorted files");
-           this.runButton.setEnabled(true);
-           //this.runButton.setText("Run");
-           return;
-       }   
-       
-       
-        try
-        {
-            String sortedPath = this.sortedFolderTF.getText().trim();
-            authorList = new SortedFileTable(sortedPath.trim());
-            //authorList.debugDisplay();
-        }
-        catch (Exception e)
-        {
-             System.err.println(e+"during scanning Sorted folder");
-            JOptionPane.showMessageDialog(this, e+"during scanning Sorted folder");
+        } catch (Exception e) {
+            System.err.println(e + "during scanning unsorted files");
+            JOptionPane.showMessageDialog(this, e + "during scanning unsorted files");
             this.runButton.setEnabled(true);
             //this.runButton.setText("Run");
             return;
         }
-       
-        try
-        {
-           moveFileAndMkdir(authorList, unsortedFileList);
-           JOptionPane.showMessageDialog(this,"Please check the project. Command files are created successfully");  
+
+
+        try {
+            String sortedPath = this.sortedFolderTF.getText().trim();
+            authorList = new SortedFileTable(sortedPath.trim());
+            //authorList.debugDisplay();
+        } catch (Exception e) {
+            System.err.println(e + "during scanning Sorted folder");
+            JOptionPane.showMessageDialog(this, e + "during scanning Sorted folder");
+            this.runButton.setEnabled(true);
+            //this.runButton.setText("Run");
+            return;
         }
-        catch (Exception e)
-        {
-            System.err.println(e+"during calculation");
-            JOptionPane.showMessageDialog(this, e+"during calculation");
+
+        try {
+            moveFileAndMkdir(authorList, unsortedFileList);
+            JOptionPane.showMessageDialog(this, "Please check the project. Command files are created successfully");
+        } catch (Exception e) {
+            System.err.println(e + "during calculation");
+            JOptionPane.showMessageDialog(this, e + "during calculation");
+        } finally {
+            this.runButton.setEnabled(true);
+            //this.runButton.setText("Run");
         }
-        finally
-        {
-             this.runButton.setEnabled(true);
-             //this.runButton.setText("Run");
-        }
-        
-         
-        
     }//GEN-LAST:event_run
 
     private void chooseWhereUnsortedFilesAre(java.awt.event.ActionEvent evt)//GEN-FIRST:event_chooseWhereUnsortedFilesAre
@@ -229,12 +261,16 @@ public class MainInterface extends javax.swing.JFrame
         this.unsortedFolderTF.setText(chooseFile());
     }//GEN-LAST:event_chooseWhereUnsortedFilesAre
 
-    private void chooseWhereSortedFoldersAre(java.awt.event.HierarchyEvent evt)//GEN-FIRST:event_chooseWhereSortedFoldersAre
-    {//GEN-HEADEREND:event_chooseWhereSortedFoldersAre
+    private void ChooseWhereSortedFIlesAre(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ChooseWhereSortedFIlesAre
+        // TODO add your handling code here:
         this.sortedFolderTF.setText(chooseFile());
-    }//GEN-LAST:event_chooseWhereSortedFoldersAre
+    }//GEN-LAST:event_ChooseWhereSortedFIlesAre
 
-    
+    private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
+        // TODO add your handling code here:
+        this.saveUserSetting();
+    }//GEN-LAST:event_formWindowClosing
+
     /**
      * find matched files between SortedFileTable and UnsortedFileTable print
      * out instruction about how to move file from unsortedFolder to
@@ -244,96 +280,90 @@ public class MainInterface extends javax.swing.JFrame
      * @param unsortedFileList
      * @throws Exception
      */
-    public static void moveFileAndMkdir(SortedFileTable existingAuthorList, UnsortedFileTable unsortedFileList) throws Exception
-    {
-        
-            //get the author of unsorted files     
-            ArrayList<String> unsortedAuthorNames = new ArrayList(unsortedFileList.table.keySet());
-            //sort them for more readable output00
-            Collections.sort(unsortedAuthorNames);
+    public static void moveFileAndMkdir(SortedFileTable existingAuthorList, UnsortedFileTable unsortedFileList) throws Exception {
 
-            int mvCounter = 0;
-            int mkdirCounter = 0;
+        //get the author of unsorted files     
+        ArrayList<String> unsortedAuthorNames = new ArrayList(unsortedFileList.table.keySet());
+        //sort them for more readable output00
+        Collections.sort(unsortedAuthorNames);
 
-            //command to make new folder 
-            //windows and mac both use "mkdir" to make new directory
-            StringBuilder mkdrirBuilder = new StringBuilder();
+        int mvCounter = 0;
+        int mkdirCounter = 0;
 
-            //command to move files one windows
-            StringBuilder mvWinCommand = new StringBuilder();
+        //command to make new folder 
+        //windows and mac both use "mkdir" to make new directory
+        StringBuilder mkdrirBuilder = new StringBuilder();
 
-            //command to move file on mac and linux
-            StringBuilder mvMacCommand = new StringBuilder();
+        //command to move files one windows
+        StringBuilder mvWinCommand = new StringBuilder();
 
-            StringBuilder mkdirCommand = new StringBuilder();
-            
-            //a non-shell version for human to read
-            StringBuilder mvStr = new StringBuilder();
-            StringBuilder mkdirStr = new StringBuilder();
-            
-            for (String unsortedAuthorName : unsortedAuthorNames)
-            {
-                //check if there already exist a folder for the file
-                File destFolder = getAuthorFolder(existingAuthorList, unsortedAuthorName, unsortedFileList.table.get(unsortedAuthorName).names);
-                if (destFolder != null)
-                {
-                    //tell user to move the file
-                    ArrayList<File> sourceFiles = unsortedFileList.table.get(unsortedAuthorName).files;
-                    for (File sourceFile : sourceFiles)
-                    {
-                        mvMacCommand.append("mv \"").append(sourceFile.getPath()).append("\" \"").append(destFolder.getPath()).append("\"\n\r");
-                        mvWinCommand.append("move \"").append(sourceFile.getPath()).append("\" \"").append(destFolder.getPath()).append("\"\n\r");
+        //command to move file on mac and linux
+        StringBuilder mvMacCommand = new StringBuilder();
 
-                        mvStr.append(sourceFile.getName()).append("    ").append(destFolder.getName()).append("\n\r");
-                        
-                        mvCounter++;
-                    }
+        StringBuilder mkdirCommand = new StringBuilder();
 
-                    //move src dest
-                    
+        //a non-shell version for human to read
+        StringBuilder mvStr = new StringBuilder();
+        StringBuilder mkdirStr = new StringBuilder();
+
+        for (String unsortedAuthorName : unsortedAuthorNames) {
+            //check if there already exist a folder for the file
+            File destFolder = getAuthorFolder(existingAuthorList, unsortedAuthorName, unsortedFileList.table.get(unsortedAuthorName).names);
+            if (destFolder != null) {
+                //tell user to move the file
+                ArrayList<File> sourceFiles = unsortedFileList.table.get(unsortedAuthorName).files;
+                for (File sourceFile : sourceFiles) {
+                    mvMacCommand.append("mv \"").append(sourceFile.getPath()).append("\" \"").append(destFolder.getPath()).append("\"\n\r");
+                    mvWinCommand.append("move \"").append(sourceFile.getPath()).append("\" \"").append(destFolder.getPath()).append("\"\n\r");
+
+                    mvStr.append(sourceFile.getName()).append("    ").append(destFolder.getName()).append("\n\r");
+
+                    mvCounter++;
                 }
-                else if (unsortedFileList.table.get(unsortedAuthorName).files.size() >= 2)
-                {
-                    //if folder  does not exist and this author have more than two book
-                    //tell user to create one
-                    mkdirCommand.append("mkdir \"").append(unsortedAuthorName).append("\"\n\r");
-                    mkdirStr.append(unsortedAuthorName).append("\n\r");
-                    
-                    mkdirCounter++;
-                }
+
+                //move src dest
+
+            } else if (unsortedFileList.table.get(unsortedAuthorName).files.size() >= 2) {
+                //if folder  does not exist and this author have more than two book
+                //tell user to create one
+                mkdirCommand.append("mkdir \"").append(unsortedAuthorName).append("\"\n\r");
+                mkdirStr.append(unsortedAuthorName).append("\n\r");
+
+                mkdirCounter++;
             }
+        }
 
-            
-            
-            //write result into text files
-            PrintWriter out;
 
-            out = new PrintWriter("mv_win_command.txt");
-            mvWinCommand.insert(0,"Need to move files " + mvCounter + " times\n\r\n\r" );
-            out.print(mvWinCommand.toString());
-            out.close();
-            
-            out = new PrintWriter("mv_mac_command.txt");
-            mvMacCommand.insert(0,"Need to move files " + mvCounter + " times\n\r\n\r" );
-            out.print(mvMacCommand.toString());
-            out.close();
-            
-            out = new PrintWriter("mkdir_command.txt");
-            mkdirCommand.insert(0,"Need to create " + mkdirCounter + " new folders\n\r\n\r" );
-            out.print(mkdirCommand.toString());
-            out.close();
-            
-            out = new PrintWriter("mkdir_easy_read.txt");
-            mkdirStr.insert(0,"Need to create " + mkdirCounter + " new folders\n\r\n\r" );
-            out.print(mkdirStr.toString());
-            out.close();
-            
-            out = new PrintWriter("mv_easy_read.txt");
-            mvStr.insert(0,"Need to move files " + mvCounter + " times\n\r\n\r");
-            out.print(mvStr.toString());
-            out.close();
-            
-            
+
+        //write result into text files
+        PrintWriter out;
+
+        out = new PrintWriter("mv_win_command.txt");
+        mvWinCommand.insert(0, "Need to move files " + mvCounter + " times\n\r\n\r");
+        out.print(mvWinCommand.toString());
+        out.close();
+
+        out = new PrintWriter("mv_mac_command.txt");
+        mvMacCommand.insert(0, "Need to move files " + mvCounter + " times\n\r\n\r");
+        out.print(mvMacCommand.toString());
+        out.close();
+
+        out = new PrintWriter("mkdir_command.txt");
+        mkdirCommand.insert(0, "Need to create " + mkdirCounter + " new folders\n\r\n\r");
+        out.print(mkdirCommand.toString());
+        out.close();
+
+        out = new PrintWriter("mkdir_easy_read.txt");
+        mkdirStr.insert(0, "Need to create " + mkdirCounter + " new folders\n\r\n\r");
+        out.print(mkdirStr.toString());
+        out.close();
+
+        out = new PrintWriter("mv_easy_read.txt");
+        mvStr.insert(0, "Need to move files " + mvCounter + " times\n\r\n\r");
+        out.print(mvStr.toString());
+        out.close();
+
+
 //            System.out.println(mvWinCommand);
 //
 //            System.out.println("\n\n\n\n\n\n\n\n\n");
@@ -344,24 +374,18 @@ public class MainInterface extends javax.swing.JFrame
 
     //@param s: author name
     //@return the folder url, null if no exitence
-    public static File getAuthorFolder(SortedFileTable sortedtable, String sourceName, ArrayList<String> sourceNames)
-    {
+    public static File getAuthorFolder(SortedFileTable sortedtable, String sourceName, ArrayList<String> sourceNames) {
         //if we can find directly, nice
-        if (sortedtable.table.contains(sourceName))
-        {
+        if (sortedtable.table.contains(sourceName)) {
             return sortedtable.table.get(sourceName).directory;
         }
 
         //if not, compare all authors names
 
-        for (AuthorInfo entry : sortedtable.table.values())
-        {
-            for (String name : entry.names)
-            {
-                for (String name2 : sourceNames)
-                {
-                    if (NameParser.stringDistance(name2, name) < 1)
-                    {
+        for (AuthorInfo entry : sortedtable.table.values()) {
+            for (String name : entry.names) {
+                for (String name2 : sourceNames) {
+                    if (NameParser.stringDistance(name2, name) < 1) {
                         return entry.directory;
                     }
                 }
@@ -370,51 +394,37 @@ public class MainInterface extends javax.swing.JFrame
         }
         return null;
     }
-    
+
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
          * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
          */
-        try
-        {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels())
-            {
-                if ("Nimbus".equals(info.getName()))
-                {
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
             }
-        }
-        catch (ClassNotFoundException ex)
-        {
+        } catch (ClassNotFoundException ex) {
             java.util.logging.Logger.getLogger(MainInterface.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        catch (InstantiationException ex)
-        {
+        } catch (InstantiationException ex) {
             java.util.logging.Logger.getLogger(MainInterface.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        catch (IllegalAccessException ex)
-        {
+        } catch (IllegalAccessException ex) {
             java.util.logging.Logger.getLogger(MainInterface.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        catch (javax.swing.UnsupportedLookAndFeelException ex)
-        {
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(MainInterface.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable()
-        {
-            public void run()
-            {
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
                 new MainInterface().setVisible(true);
             }
         });
@@ -423,6 +433,7 @@ public class MainInterface extends javax.swing.JFrame
     private javax.swing.JPanel StatusPanel;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JCheckBox rememberBox;
     private javax.swing.JButton runButton;
     private javax.swing.JTextField sortedFolderTF;
     private javax.swing.JTextField unsortedFolderTF;
