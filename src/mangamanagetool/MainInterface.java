@@ -92,103 +92,116 @@ public class MainInterface extends javax.swing.JFrame {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+    private void initComponents()
+    {
 
         unsortedFolderTF = new javax.swing.JTextField();
         sortedFolderTF = new javax.swing.JTextField();
         runButton = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
-        StatusPanel = new javax.swing.JPanel();
         rememberBox = new javax.swing.JCheckBox();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jList1 = new javax.swing.JList();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jList2 = new javax.swing.JList();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        addWindowListener(new java.awt.event.WindowAdapter() {
-            public void windowClosing(java.awt.event.WindowEvent evt) {
+        addWindowListener(new java.awt.event.WindowAdapter()
+        {
+            public void windowClosing(java.awt.event.WindowEvent evt)
+            {
                 formWindowClosing(evt);
             }
         });
 
         runButton.setText("Run");
-        runButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        runButton.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 run(evt);
             }
         });
 
         jButton1.setText("Folder Where Unsorted Files Are");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jButton1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 chooseWhereUnsortedFilesAre(evt);
             }
         });
 
         jButton2.setText("Folder Where Sorted Folders Are");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        jButton2.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 ChooseWhereSortedFIlesAre(evt);
             }
         });
 
-        StatusPanel.setName(""); // NOI18N
-
-        javax.swing.GroupLayout StatusPanelLayout = new javax.swing.GroupLayout(StatusPanel);
-        StatusPanel.setLayout(StatusPanelLayout);
-        StatusPanelLayout.setHorizontalGroup(
-            StatusPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 240, Short.MAX_VALUE)
-        );
-        StatusPanelLayout.setVerticalGroup(
-            StatusPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 40, Short.MAX_VALUE)
-        );
-
         rememberBox.setSelected(true);
         rememberBox.setText("Remember Folders");
+
+        jList1.setModel(new DefaultListModel());
+        jList1.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_INTERVAL_SELECTION);
+        jScrollPane1.setViewportView(jList1);
+
+        jList2.setModel(new DefaultListModel());
+        jScrollPane2.setViewportView(jList2);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 0, 0)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(128, 128, 128)
-                        .addComponent(StatusPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 312, Short.MAX_VALUE)
-                        .addComponent(runButton, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(runButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 164, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(45, 45, 45)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton2)
+                        .addComponent(rememberBox)
+                        .addGap(33, 33, 33)))
+                .addGap(0, 0, 0))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(39, 39, 39)
+                .addComponent(jButton2)
+                .addGap(0, 0, 0))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
+                            .addGap(4, 4, 4)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(sortedFolderTF, javax.swing.GroupLayout.DEFAULT_SIZE, 744, Short.MAX_VALUE)
-                                .addComponent(unsortedFolderTF))
-                            .addComponent(jButton1)
-                            .addComponent(rememberBox))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addComponent(sortedFolderTF)
+                                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 670, Short.MAX_VALUE))))
+                    .addComponent(jButton1)
+                    .addComponent(unsortedFolderTF, javax.swing.GroupLayout.PREFERRED_SIZE, 663, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(18, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(32, 32, 32)
+                .addGap(27, 27, 27)
                 .addComponent(jButton1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(unsortedFolderTF, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(43, 43, 43)
-                .addComponent(jButton2)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(sortedFolderTF, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(73, 73, 73)
-                        .addComponent(runButton, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(47, 47, 47)
-                        .addComponent(rememberBox)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(StatusPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(35, Short.MAX_VALUE))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jButton2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(sortedFolderTF, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(rememberBox)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(runButton, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         unsortedFolderTF.getAccessibleContext().setAccessibleName("unsortedFolderTF");
@@ -219,6 +232,9 @@ public class MainInterface extends javax.swing.JFrame {
     {//GEN-HEADEREND:event_run
 
         
+      
+        
+        
         this.saveUserSetting();
 
         this.runButton.setEnabled(false);
@@ -231,7 +247,9 @@ public class MainInterface extends javax.swing.JFrame {
             String unsortedPath = this.unsortedFolderTF.getText().trim();
 
             unsortedFileList = new UnsortedFileTable(unsortedPath.trim());
-            //unsortedFileList.debugDisplay();
+
+            unsortedFileList.debugDisplay();
+     
         } catch (Exception e) {
             System.err.println(e + "during scanning unsorted files");
             JOptionPane.showMessageDialog(this, e + "during scanning unsorted files");
@@ -244,6 +262,25 @@ public class MainInterface extends javax.swing.JFrame {
         try {
             String sortedPath = this.sortedFolderTF.getText().trim();
             authorList = new SortedFileTable(sortedPath.trim());
+            
+            
+            
+            
+            
+            
+            //need to add UI support for mutiple select 
+            authorList.addNewFolder("F:\\_Happy Lesson\\_Manga\\Sorted_By_Author\\_冷藏库");
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             //authorList.debugDisplay();
         } catch (Exception e) {
             System.err.println(e + "during scanning Sorted folder");
@@ -255,7 +292,7 @@ public class MainInterface extends javax.swing.JFrame {
 
         try {
             moveFileAndMkdir(authorList, unsortedFileList);
-            JOptionPane.showMessageDialog(this, "Please check the project. Command files are created successfully");
+           // JOptionPane.showMessageDialog(this, "Please check the project. Command files are created successfully");
         } catch (Exception e) {
             System.err.println(e + "during calculation");
             JOptionPane.showMessageDialog(this, e + "during calculation");
@@ -267,12 +304,27 @@ public class MainInterface extends javax.swing.JFrame {
 
     private void chooseWhereUnsortedFilesAre(java.awt.event.ActionEvent evt)//GEN-FIRST:event_chooseWhereUnsortedFilesAre
     {//GEN-HEADEREND:event_chooseWhereUnsortedFilesAre
-        this.unsortedFolderTF.setText(chooseFile());
+       
+        String file = chooseFile();
+         
+        this.unsortedFolderTF.setText(file);
+        
+        DefaultListModel model1 =  (DefaultListModel) jList1.getModel();
+        model1.addElement(file);
+        
     }//GEN-LAST:event_chooseWhereUnsortedFilesAre
 
     private void ChooseWhereSortedFIlesAre(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ChooseWhereSortedFIlesAre
         // TODO add your handling code here:
-        this.sortedFolderTF.setText(chooseFile());
+        
+        
+        String file = chooseFile();
+       
+        this.sortedFolderTF.setText(file);
+        
+        DefaultListModel model2 =  (DefaultListModel) jList2.getModel();
+        model2.addElement(file);
+        
     }//GEN-LAST:event_ChooseWhereSortedFIlesAre
 
     private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
@@ -293,7 +345,7 @@ public class MainInterface extends javax.swing.JFrame {
 
         //get the author of unsorted files     
         ArrayList<String> unsortedAuthorNames = new ArrayList(unsortedFileList.table.keySet());
-        //sort them for more readable output00
+        //sort them for more readable output
         Collections.sort(unsortedAuthorNames);
 
         int mvCounter = 0;
@@ -318,6 +370,7 @@ public class MainInterface extends javax.swing.JFrame {
         for (String unsortedAuthorName : unsortedAuthorNames) {
             //check if there already exist a folder for the file
             File destFolder = getAuthorFolder(existingAuthorList, unsortedAuthorName, unsortedFileList.table.get(unsortedAuthorName).names);
+            
             if (destFolder != null) {
                 //tell user to move the file
                 ArrayList<File> sourceFiles = unsortedFileList.table.get(unsortedAuthorName).files;
@@ -332,7 +385,7 @@ public class MainInterface extends javax.swing.JFrame {
 
                 //move src dest
 
-            } else if (unsortedFileList.table.get(unsortedAuthorName).files.size() >= 2) {
+            } else if (unsortedFileList.table.get(unsortedAuthorName).files.size() >1) {
                 //if folder  does not exist and this author have more than two book
                 //tell user to create one
                 mkdirCommand.append("mkdir \"").append(unsortedAuthorName).append("\"\n\r");
@@ -399,6 +452,9 @@ public class MainInterface extends javax.swing.JFrame {
         for (AuthorInfo entry : sortedtable.table.values()) {
             for (String name : entry.names) {
                 for (String name2 : sourceNames) {
+                    
+                  // System.out.println(name2 + "  "+ name);
+                   
                     if (NameParser.stringDistance(name2, name) < 1) {
                         return entry.directory;
                     }
@@ -444,9 +500,12 @@ public class MainInterface extends javax.swing.JFrame {
         });
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel StatusPanel;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+    private javax.swing.JList jList1;
+    private javax.swing.JList jList2;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JCheckBox rememberBox;
     private javax.swing.JButton runButton;
     private javax.swing.JTextField sortedFolderTF;

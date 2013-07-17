@@ -37,6 +37,7 @@ public class UnsortedFileTable {
                         String extension = NameParser.getFileExtension(fileName);
 
                         if (!f.isHidden() && NameParser.isCompressionFile(extension)) {
+                            
                             String authorName = NameParser.getAuthorName(fileName);
 
                             if (authorName != null) {
@@ -52,7 +53,7 @@ public class UnsortedFileTable {
                                     entry.files = fileEntry;
                                     entry.names = NameParser.getAuthorNameEntry(authorName);
 
-                                    table.put(fileName, entry);
+                                    table.put(authorName, entry);
 
                                 }
                             }
@@ -77,7 +78,7 @@ public class UnsortedFileTable {
 
         Collections.sort(arr);
         for (String s : arr) {
-            System.out.println(s);
+            System.out.println(s+ "     " + table.get(s).files);
         }
     }
 }

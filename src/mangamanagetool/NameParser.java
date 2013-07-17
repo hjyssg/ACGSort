@@ -75,7 +75,7 @@ public class NameParser {
         "汉化", "漢化", "English", "Chinese", "Korean", "中文", "한국",
         "アニメ", "anime", "Anime",
         "雑誌", "杂志",
-        "Anthology", "アンソロジー",
+        "Anthology", "アンソロジー", "Various", "よろず", "original", "オリジナル",
         "Artist", "アーティスト",
         "成年コミック", "コミック", "一般コミック", "COMIC",
         "Doujinshi", "Doujin", "同人", "同人",

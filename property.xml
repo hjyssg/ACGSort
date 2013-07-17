@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Setting of user's folders</comment>
+<entry key="unsorted folder path property">C:\Users\jhuang\Documents</entry>
+<entry key="sort folder path property">F:\_Happy Lesson\_Manga\Sorted_By_Author</entry>
+</properties>
