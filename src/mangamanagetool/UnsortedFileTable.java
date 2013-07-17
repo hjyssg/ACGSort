@@ -68,9 +68,7 @@ public class UnsortedFileTable {
                                 }
                             }
                         }
-                    } else {
-                        iterateAllSubfolderAndFindCompressedFile(f);
-                    }
+                    } 
                 }
             }
         } catch (Exception e) {
