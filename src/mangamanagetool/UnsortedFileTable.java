@@ -24,6 +24,16 @@ public class UnsortedFileTable {
         this.iterateAllSubfolderAndFindCompressedFile(new File(fileFolderPath));
     }
 
+    
+    public UnsortedFileTable() {
+        table = new Hashtable<String, AuthorInfo>();
+    }
+    
+    public void addFolder(String folderPath)
+    {
+        iterateAllSubfolderAndFindCompressedFile(new File(folderPath));
+    }
+    
     private void iterateAllSubfolderAndFindCompressedFile(File dir) {
         try {
             File[] files = dir.listFiles();

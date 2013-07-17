@@ -22,6 +22,11 @@ public class SortedFileTable {
      *
      */
     public Hashtable<String, AuthorInfo> table;
+    
+    public SortedFileTable()
+    {
+        this.table = new Hashtable<String, AuthorInfo>();
+    }
 
     public SortedFileTable(String sortedFolderPath) throws Exception {
         this.table = new Hashtable<String, AuthorInfo>();
