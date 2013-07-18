@@ -4,7 +4,6 @@
  */
 package mangamanagetool;
 
-
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.io.File;
@@ -23,15 +22,12 @@ import com.thoughtworks.xstream.io.xml.DomDriver;
 import com.thoughtworks.xstream.io.xml.StaxDriver;
 import java.util.Arrays;
 
-
-
 /**
  *
  * @author jhuang
  */
 public class MainInterface extends javax.swing.JFrame
 {
-
     private final String UNSORTED_FOLDER_PATH_PROPERTY = "unsorted folder path";
     private final String SORTED_FOLDER_PATH_PROPERTY = "sort folder path";
     private final String SETTING_FILE = "property.xml";
@@ -41,12 +37,13 @@ public class MainInterface extends javax.swing.JFrame
      */
     public MainInterface()
     {
-
         initComponents();
         loadUserSetting();
-
     }
 
+    /*
+     * load User Setting into UI
+     */
     private void loadUserSetting()
     {
         try
@@ -57,22 +54,28 @@ public class MainInterface extends javax.swing.JFrame
 
             //xml parser
             XStream xstream = new XStream(new DomDriver());
- 
+
             if (userSetting.getProperty(UNSORTED_FOLDER_PATH_PROPERTY) != null)
             {
-                String [] unsortedPathArr =(String[]) xstream.fromXML(userSetting.getProperty(UNSORTED_FOLDER_PATH_PROPERTY));
-                for (String s :unsortedPathArr)
+                String[] unsortedPathArr = (String[]) xstream.fromXML(userSetting.getProperty(UNSORTED_FOLDER_PATH_PROPERTY));
+                for (String s : unsortedPathArr)
                 {
-                      getDefaultListModel(unsortedFolderList).addElement(s);     
+                     if (s!=null)
+                    {
+                        getDefaultListModel(unsortedFolderList).addElement(s);
+                    }
                 }
             }
 
             if (userSetting.getProperty(SORTED_FOLDER_PATH_PROPERTY) != null)
             {
-                String [] sortedPathArr =(String[]) xstream.fromXML(userSetting.getProperty(SORTED_FOLDER_PATH_PROPERTY));
-                for (String s :sortedPathArr)
+                String[] sortedPathArr = (String[]) xstream.fromXML(userSetting.getProperty(SORTED_FOLDER_PATH_PROPERTY));
+                for (String s : sortedPathArr)
                 {
-                      getDefaultListModel(sortedFolderList).addElement(s);     
+                    if (s!=null)
+                    {
+                         getDefaultListModel(sortedFolderList).addElement(s);
+                    }
                 }
             }
 
@@ -84,37 +87,35 @@ public class MainInterface extends javax.swing.JFrame
         }
     }
 
+    /**
+     *  save User Setting from UI
+     */
     private void saveUserSetting()
     {
         try
         {
             String unsortedPath = "";
             String sortedPath = "";
-
+            Properties userSetting = null;
+            
             if (this.rememberBox.isSelected())
             {
-                  Object[] tempUnsortedArr =   getDefaultListModel(unsortedFolderList).toArray();
-                 String[] unsortedPathArr =  Arrays.copyOf(tempUnsortedArr, tempUnsortedArr.length, String[].class); 
-                  
-                  Object[] tempSortedArr = getDefaultListModel(sortedFolderList).toArray();
-                  String[] sortedPathArr = Arrays.copyOf(tempSortedArr, tempSortedArr.length, String[].class);
-                  
-                  //init xml generator
-                  XStream xstream = new XStream(new StaxDriver());
-                 
-                  
-                  unsortedPath = xstream.toXML(unsortedPathArr);
-                  sortedPath = xstream.toXML(sortedPathArr);
-                  
-                 unsortedPath = unsortedPath.replaceAll("&lt;", "<");
-                 unsortedPath = unsortedPath.replaceAll("&gt;", ">");
-                  
-                 sortedPath = sortedPath.replaceAll("&lt;", "<");
-                 sortedPath = sortedPath.replaceAll("&gt;", ">");
-                  
+                Object[] tempUnsortedArr = getDefaultListModel(unsortedFolderList).toArray();
+                String[] unsortedPathArr = Arrays.copyOf(tempUnsortedArr, tempUnsortedArr.length, String[].class);
+                
+         
+                Object[] tempSortedArr = getDefaultListModel(sortedFolderList).toArray();
+                String[] sortedPathArr = Arrays.copyOf(tempSortedArr, tempSortedArr.length, String[].class);
+
+                //init xml generator
+                XStream xstream = new XStream(new StaxDriver());
+
+
+                unsortedPath = xstream.toXML(unsortedPathArr);
+                sortedPath = xstream.toXML(sortedPathArr);
             }
 
-            Properties userSetting = new Properties();
+            userSetting = new Properties();
             userSetting.setProperty(UNSORTED_FOLDER_PATH_PROPERTY, unsortedPath);
             userSetting.setProperty(SORTED_FOLDER_PATH_PROPERTY, sortedPath);
 
@@ -122,7 +123,6 @@ public class MainInterface extends javax.swing.JFrame
             userSetting.storeToXML(out, "Setting of user's folders");
 
             out.close();
-
         }
         catch (Exception e)
         {
@@ -151,6 +151,9 @@ public class MainInterface extends javax.swing.JFrame
         sortedFolderList = new javax.swing.JList();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        setName("Manga Sorter"); // NOI18N
+        setResizable(false);
         addWindowListener(new java.awt.event.WindowAdapter()
         {
             public void windowClosing(java.awt.event.WindowEvent evt)
@@ -177,7 +180,7 @@ public class MainInterface extends javax.swing.JFrame
             }
         });
 
-        jButton2.setText("Add Folders Where Sorted Folders Are (Opitional)");
+        jButton2.setText("Add Folders Where Sorted Files Are (Opitional)");
         jButton2.addActionListener(new java.awt.event.ActionListener()
         {
             public void actionPerformed(java.awt.event.ActionEvent evt)
@@ -253,6 +256,9 @@ public class MainInterface extends javax.swing.JFrame
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    /*
+     * a method for file choosing
+     */
     private String chooseFile()
     {
         //Create a file chooser
@@ -275,25 +281,29 @@ public class MainInterface extends javax.swing.JFrame
         }
     }
 
+    /*
+     * the most important method
+     * read folder and then do the matching
+     */
     private void run(java.awt.event.ActionEvent evt)//GEN-FIRST:event_run
     {//GEN-HEADEREND:event_run
-      
+
         this.runButton.setEnabled(false);
         //this.runButton.setText("Running...");
 
 
         UnsortedFileTable unsortedFileList = new UnsortedFileTable();
         SortedFileTable authorList = new SortedFileTable();
-              
+
         try
         {
-         
-            Object[] tempUnsortedArr =   getDefaultListModel(unsortedFolderList).toArray();
-            String[] unsortedPathArr =  Arrays.copyOf(tempUnsortedArr, tempUnsortedArr.length, String[].class); 
-            
+
+            Object[] tempUnsortedArr = getDefaultListModel(unsortedFolderList).toArray();
+             String[] unsortedPathArr = Arrays.copyOf(tempUnsortedArr, tempUnsortedArr.length, String[].class);
+
             for (String path : unsortedPathArr)
             {
-                unsortedFileList.addFolder(path.trim());
+                 unsortedFileList.addFolder(path.trim());
             }
 
             unsortedFileList.debugDisplay();
@@ -301,8 +311,9 @@ public class MainInterface extends javax.swing.JFrame
         }
         catch (Exception e)
         {
-            System.err.println(e + "during scanning unsorted files");
-            JOptionPane.showMessageDialog(this, e + "during scanning unsorted files");
+            e.printStackTrace();
+            System.err.println(e.getStackTrace() + " during scanning unsorted files");
+            JOptionPane.showMessageDialog(this, e + " during scanning unsorted files");
             this.runButton.setEnabled(true);
             //this.runButton.setText("Run");
             return;
@@ -311,18 +322,16 @@ public class MainInterface extends javax.swing.JFrame
 
         try
         {
-             Object[] tempSortedArr = getDefaultListModel(sortedFolderList).toArray(); 
-             String[] sortedPathArr = Arrays.copyOf(tempSortedArr, tempSortedArr.length, String[].class);
+            Object[] tempSortedArr = getDefaultListModel(sortedFolderList).toArray();
+            String[] sortedPathArr = Arrays.copyOf(tempSortedArr, tempSortedArr.length, String[].class);
 
             for (String path : sortedPathArr)
             {
-                unsortedFileList.addFolder(path.trim());
+                authorList.addFolder(path.trim());
             }
 
-            unsortedFileList.debugDisplay();
-
-
-            //authorList.debugDisplay();
+            authorList.debugDisplay();
+            
         }
         catch (Exception e)
         {
@@ -350,42 +359,58 @@ public class MainInterface extends javax.swing.JFrame
         }
     }//GEN-LAST:event_run
 
+     /*
+     * choose folder for unsorted list
+     */
     private void chooseWhereUnsortedFilesAre(java.awt.event.ActionEvent evt)//GEN-FIRST:event_chooseWhereUnsortedFilesAre
     {//GEN-HEADEREND:event_chooseWhereUnsortedFilesAre
         String file = chooseFile();
         getDefaultListModel(unsortedFolderList).addElement(file);
     }//GEN-LAST:event_chooseWhereUnsortedFilesAre
 
+    /*
+     * choose folder for sorted list
+     */
     private void ChooseWhereSortedFIlesAre(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ChooseWhereSortedFIlesAre
         String file = chooseFile();
         getDefaultListModel(sortedFolderList).addElement(file);
     }//GEN-LAST:event_ChooseWhereSortedFIlesAre
 
+    /*
+     * called when program closing
+     */
     private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
         this.saveUserSetting();
     }//GEN-LAST:event_formWindowClosing
 
+    /*
+     *  delete list item from unsortedFolderList
+     */
     private void unsortedFolderListKeyReleased(java.awt.event.KeyEvent evt)//GEN-FIRST:event_unsortedFolderListKeyReleased
     {//GEN-HEADEREND:event_unsortedFolderListKeyReleased
         if (evt.getKeyCode() == KeyEvent.VK_DELETE)
         {
             int index = unsortedFolderList.getSelectedIndex();
-            getDefaultListModel(unsortedFolderList).remove(index);
+            getDefaultListModel(unsortedFolderList).removeElementAt(index);
         }
     }//GEN-LAST:event_unsortedFolderListKeyReleased
 
+    /*
+     * delete list item from sortedFolderList
+     */
     private void sortedFolderListKeyReleased(java.awt.event.KeyEvent evt)//GEN-FIRST:event_sortedFolderListKeyReleased
     {//GEN-HEADEREND:event_sortedFolderListKeyReleased
         // TODO add your handling code here:
         if (evt.getKeyCode() == KeyEvent.VK_DELETE)
         {
             int index = sortedFolderList.getSelectedIndex();
-            getDefaultListModel(sortedFolderList).remove(index);
+            getDefaultListModel(sortedFolderList).removeElementAt(index);
         }
     }//GEN-LAST:event_sortedFolderListKeyReleased
 
     /**
      * a simple utility to get the defaultListModel of JList
+     *
      * @param list
      * @return DefaultListModel
      */
@@ -393,6 +418,8 @@ public class MainInterface extends javax.swing.JFrame
     {
         return (DefaultListModel) list.getModel();
     }
+    
+
 
     /**
      * find matched files between SortedFileTable and UnsortedFileTable print
@@ -449,12 +476,13 @@ public class MainInterface extends javax.swing.JFrame
                     mvCounter++;
                 }
 
-               //move src dest
+                //move src dest
             }
-            else if (unsortedFileList.table.get(unsortedAuthorName).files.size() > 1)
+            //if folder  does not exist and this author have more than two book
+            //tell user to create one
+            else if (unsortedFileList.table.get(unsortedAuthorName).files.size() > 3)
             {
-                //if folder  does not exist and this author have more than two book
-                //tell user to create one
+
                 mkdirCommand.append("mkdir \"").append(unsortedAuthorName).append("\"\n\r");
                 mkdirStr.append(unsortedAuthorName).append("\n\r");
 
@@ -521,12 +549,12 @@ public class MainInterface extends javax.swing.JFrame
 
                     // System.out.println(name2 + "  "+ name);
                     int strDistance = NameParser.stringDistance(name2, name);
-                    
+
                     if (strDistance == 0)
                     {
                         return entry.directory;
                     }
-                    else if (strDistance == 1&&name2.length()>2&&name.length()>2)
+                    else if (strDistance == 1 && name2.length() > 2 && name.length() > 2)
                     {
                         return entry.directory;
                     }

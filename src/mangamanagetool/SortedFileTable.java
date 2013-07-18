@@ -34,7 +34,7 @@ public class SortedFileTable {
         this.iterateAllSubfolder(new File(sortedFolderPath));
     }
     
-    public void addNewFolder(String sortedFilePath)
+    public void addFolder(String sortedFilePath)
     {
         this.iterateAllSubfolder(new File(sortedFilePath));
     }

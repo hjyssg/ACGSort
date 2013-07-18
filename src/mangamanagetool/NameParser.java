@@ -12,7 +12,8 @@ import java.util.ArrayList;
  * @purpose: get a list of author names from managa files
  *
  */
-public class NameParser {
+public class NameParser
+{
 
     /**
      * input an author name string and return an array of author names e.g "生徒会室
@@ -22,10 +23,12 @@ public class NameParser {
      * @param the author name
      * @return an array of author names
      */
-    public static ArrayList<String> getAuthorNameEntry(String s) {
+    public static ArrayList<String> getAuthorNameEntry(String s)
+    {
         String[] names = s.split("\\[|\\]|\\(|\\)|,");
-        ArrayList<String> result = new ArrayList<String>(2);
-        for (String tempS : names) {
+        ArrayList<String> result = new ArrayList<String>(names.length);
+        for (String tempS : names)
+        {
             result.add(tempS.trim());
         }
         return result;
@@ -40,38 +43,44 @@ public class NameParser {
      * @param fn fileName
      * @return author name
      */
-    public static String getAuthorName(String fn) {
-        String result = null;
+    public static String getAuthorName(String fn)
+    {
         boolean t1 = false, t2 = false;
         int index1 = 0, index2 = 0;
-        //find "[" and "]"
-        for (int ii = 0; ii < fn.length(); ii++) {
-            if (fn.charAt(ii) == '[') {
+
+        int ii = 0;
+
+        while (ii < fn.length())
+        {
+            if (fn.charAt(ii) == '[')
+            {
                 index1 = ii;
                 t1 = true;
-                for (int jj = ii + 1; jj < fn.length(); jj++) {
-                    if (fn.charAt(jj) == ']') {
-                        index2 = jj;
-                        t2 = true;
-                        break;
-                    }
-                }
-                break;
             }
+            else if (fn.charAt(ii) == ']')
+            {
+                index2 = ii;
+                t2 = true;
+            }
+
+            if (t1 && t2 && index1 < index2)
+            {
+                String temp = fn.substring(index1 + 1, index2);
+
+                if (!containWrongWord(temp))
+                {
+                    return temp.trim();
+                }
+            }
+
+            ii++;
         }
 
-        //if contain "[]", the author name
-        if (t2 && t1) {
-            String temp = fn.substring(index1 + 1, index2);
-            if (!containWrongWord(temp)) {
-                result = temp;
-                return result.trim();
-            }
-        }
-        return result;
+        return null;
     }
     //exclude non-author name 
-    public static final String[] wrongWords = {
+    public static final String[] wrongWords =
+    {
         "汉化", "漢化", "English", "Chinese", "Korean", "中文", "한국",
         "アニメ", "anime", "Anime",
         "雑誌", "杂志",
@@ -85,38 +94,47 @@ public class NameParser {
     };
 
     //exclude certain string
-    private static boolean containWrongWord(String s) {
+    private static boolean containWrongWord(String s)
+    {
         //comiket (e.g c79, c82) is not an authour name
         //pure number is not an anthour e.g 101012
-        if (s == null || (s.matches("[Cc][0-9]{2}|[0-9]+"))) {
+        if (s == null || (s.matches("[Cc][0-9]{2}|[0-9]+")))
+        {
             return true;
         }
 
         //should not contain any wrong word
-        for (String w : wrongWords) {
-            if (s.contains(w)) {
+        for (String w : wrongWords)
+        {
+            if (s.contains(w))
+            {
                 return true;
             }
         }
         return false;
     }
-    private static final String[] CompressionType = {
+    private static final String[] CompressionType =
+    {
         "zip", "rar", "7zip", "pdf"
     };
 
     /*
      * decide if file is compressed file based on its extension
      */
-    public static boolean isCompressionFile(String fileExtension) {
-        for (String etx : CompressionType) {
-            if (fileExtension.equalsIgnoreCase(etx)) {
+    public static boolean isCompressionFile(String fileExtension)
+    {
+        for (String etx : CompressionType)
+        {
+            if (fileExtension.equalsIgnoreCase(etx))
+            {
                 return true;
             }
         }
         return false;
     }
 
-    public static String getFileExtension(String fileName) {
+    public static String getFileExtension(String fileName)
+    {
         return fileName.substring(fileName.lastIndexOf(".") + 1, fileName.length());
     }
 
@@ -128,20 +146,28 @@ public class NameParser {
      * @param s2
      * @return the string distance
      */
-    public static int stringDistance(String s1, String s2) {
+    public static int stringDistance(String s1, String s2)
+    {
         s1 = s1.toLowerCase();
         s2 = s2.toLowerCase();
 
         int[] costs = new int[s2.length() + 1];
-        for (int i = 0; i <= s1.length(); i++) {
+        for (int i = 0; i <= s1.length(); i++)
+        {
             int lastValue = i;
-            for (int j = 0; j <= s2.length(); j++) {
-                if (i == 0) {
+            for (int j = 0; j <= s2.length(); j++)
+            {
+                if (i == 0)
+                {
                     costs[j] = j;
-                } else {
-                    if (j > 0) {
+                }
+                else
+                {
+                    if (j > 0)
+                    {
                         int newValue = costs[j - 1];
-                        if (s1.charAt(i - 1) != s2.charAt(j - 1)) {
+                        if (s1.charAt(i - 1) != s2.charAt(j - 1))
+                        {
                             newValue = Math.min(Math.min(newValue, lastValue), costs[j]) + 1;
                         }
                         costs[j - 1] = lastValue;
@@ -149,7 +175,8 @@ public class NameParser {
                     }
                 }
             }
-            if (i > 0) {
+            if (i > 0)
+            {
                 costs[s2.length()] = lastValue;
             }
         }

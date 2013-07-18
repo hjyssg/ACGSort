@@ -43,6 +43,8 @@ public class UnsortedFileTable {
                     if (f.isFile()) {
                         String fileName = f.getName();
 
+                       //System.out.println(fileName);
+                        
                         //get file extension
                         String extension = NameParser.getFileExtension(fileName);
 
@@ -68,7 +70,11 @@ public class UnsortedFileTable {
                                 }
                             }
                         }
-                    } 
+                    }
+                    else
+                    {
+                        iterateAllSubfolderAndFindCompressedFile(f);
+                    }
                 }
             }
         } catch (Exception e) {
