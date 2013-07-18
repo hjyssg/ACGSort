@@ -259,6 +259,7 @@ public class MainInterface extends javax.swing.JFrame
     /*
      * a method for file choosing
      */
+    private  File lastTimeChoice = null;   //a function-only local vairable for chooseFile
     private String chooseFile()
     {
         //Create a file chooser
@@ -266,13 +267,16 @@ public class MainInterface extends javax.swing.JFrame
         chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
         chooser.setMultiSelectionEnabled(false);
         chooser.setApproveButtonText("choose");
-
+        
+        chooser.setCurrentDirectory(lastTimeChoice);
+        
         //In response to a button click:
         int returnVal = chooser.showOpenDialog(this);
 
         if (returnVal == JFileChooser.APPROVE_OPTION)
         {
             //System.out.println("You chose to open this file: " + chooser.getSelectedFile());
+            lastTimeChoice = chooser.getSelectedFile().getParentFile();
             return chooser.getSelectedFile().getPath();
         }
         else
