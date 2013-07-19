@@ -68,7 +68,7 @@ MangaManageTool
     
 我被迫又写了一个英文说明。
 
-===========English============
+===========English============  
 If you are an Otaku and have a big manga collection, you may want to sort them.
 
 Based on my own practice, the best way is to sort manga files based on the author.  Again, based on the author. It is so important, so I repeat.
