@@ -16,6 +16,9 @@ public class UnsortedFileTable {
     //the value is the array of file of his/her manga and doujinshi
 
     public Hashtable<String, AuthorInfo> table;
+    public boolean oneLevel = false;
+    public boolean fileOnly = true;
+
 
     //create the authotList based on the text file from Everthing
     public UnsortedFileTable(String fileFolderPath) throws Exception {
@@ -24,6 +27,15 @@ public class UnsortedFileTable {
         this.iterateAllSubfolderAndFindCompressedFile(new File(fileFolderPath));
     }
 
+      public UnsortedFileTable(String fileFolderPath, boolean oneLevel, boolean fileOnly) throws Exception
+      {
+       
+       this.oneLevel = oneLevel;   
+       this.fileOnly = fileOnly;  
+       table = new Hashtable<String, AuthorInfo>();
+
+        this.iterateAllSubfolderAndFindCompressedFile(new File(fileFolderPath));
+     }
     
     public UnsortedFileTable() {
         table = new Hashtable<String, AuthorInfo>();
@@ -40,7 +52,7 @@ public class UnsortedFileTable {
 
             if (files != null) {
                 for (File f : files) {
-                    if (f.isFile()) {
+                    if (f.isFile()||(!this.fileOnly)) {
                         String fileName = f.getName();
 
                        //System.out.println(fileName);
@@ -48,7 +60,7 @@ public class UnsortedFileTable {
                         //get file extension
                         String extension = NameParser.getFileExtension(fileName);
 
-                        if (!f.isHidden() && NameParser.isCompressionFile(extension)) {
+                        if (!f.isHidden() && NameParser.isCompressionFile(extension)||(!this.fileOnly)) {
                             
                             String authorName = NameParser.getAuthorName(fileName);
 
@@ -73,7 +85,10 @@ public class UnsortedFileTable {
                     }
                     else
                     {
-                        iterateAllSubfolderAndFindCompressedFile(f);
+                        if (!this.oneLevel)
+                        {
+                             iterateAllSubfolderAndFindCompressedFile(f);
+                        } 
                     }
                 }
             }
