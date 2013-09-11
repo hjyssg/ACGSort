@@ -31,6 +31,7 @@ public class MainInterface extends javax.swing.JFrame
     private final String UNSORTED_FOLDER_PATH_PROPERTY = "unsorted folder path";
     private final String SORTED_FOLDER_PATH_PROPERTY = "sort folder path";
     private final String SETTING_FILE = "property.xml";
+    
 
     /**
      * Creates new form MainInterface
@@ -38,7 +39,8 @@ public class MainInterface extends javax.swing.JFrame
     public MainInterface()
     {
         initComponents();
-        loadUserSetting();
+        loadUserSetting(); 
+        
     }
 
     /*
@@ -138,8 +140,7 @@ public class MainInterface extends javax.swing.JFrame
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents()
-    {
+    private void initComponents() {
 
         runButton = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
@@ -149,42 +150,35 @@ public class MainInterface extends javax.swing.JFrame
         unsortedFolderList = new javax.swing.JList();
         jScrollPane2 = new javax.swing.JScrollPane();
         sortedFolderList = new javax.swing.JList();
+        blurMatchingCheckBox = new javax.swing.JCheckBox();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setName("Manga Sorter"); // NOI18N
         setResizable(false);
-        addWindowListener(new java.awt.event.WindowAdapter()
-        {
-            public void windowClosing(java.awt.event.WindowEvent evt)
-            {
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowClosing(java.awt.event.WindowEvent evt) {
                 formWindowClosing(evt);
             }
         });
 
         runButton.setText("Run");
-        runButton.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        runButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 run(evt);
             }
         });
 
         jButton1.setText("Add Folders Where Unsorted Files Are (Required)");
-        jButton1.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 chooseWhereUnsortedFilesAre(evt);
             }
         });
 
         jButton2.setText("Add Folders Where Sorted Files Are (Opitional)");
-        jButton2.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ChooseWhereSortedFIlesAre(evt);
             }
         });
@@ -194,10 +188,8 @@ public class MainInterface extends javax.swing.JFrame
 
         unsortedFolderList.setModel(new DefaultListModel());
         unsortedFolderList.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
-        unsortedFolderList.addKeyListener(new java.awt.event.KeyAdapter()
-        {
-            public void keyReleased(java.awt.event.KeyEvent evt)
-            {
+        unsortedFolderList.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
                 unsortedFolderListKeyReleased(evt);
             }
         });
@@ -205,14 +197,19 @@ public class MainInterface extends javax.swing.JFrame
 
         sortedFolderList.setModel(new DefaultListModel());
         sortedFolderList.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
-        sortedFolderList.addKeyListener(new java.awt.event.KeyAdapter()
-        {
-            public void keyReleased(java.awt.event.KeyEvent evt)
-            {
+        sortedFolderList.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
                 sortedFolderListKeyReleased(evt);
             }
         });
         jScrollPane2.setViewportView(sortedFolderList);
+
+        blurMatchingCheckBox.setText("Blur Matching");
+        blurMatchingCheckBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                blurMatchingCheckBoxActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -222,6 +219,8 @@ public class MainInterface extends javax.swing.JFrame
                 .addGap(20, 20, 20)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
+                        .addComponent(blurMatchingCheckBox)
+                        .addGap(60, 60, 60)
                         .addComponent(rememberBox)
                         .addGap(18, 18, 18)
                         .addComponent(runButton, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -249,7 +248,8 @@ public class MainInterface extends javax.swing.JFrame
                 .addGap(33, 33, 33)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(runButton, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(rememberBox))
+                    .addComponent(rememberBox)
+                    .addComponent(blurMatchingCheckBox))
                 .addGap(35, 35, 35))
         );
 
@@ -412,6 +412,10 @@ public class MainInterface extends javax.swing.JFrame
         }
     }//GEN-LAST:event_sortedFolderListKeyReleased
 
+    private void blurMatchingCheckBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_blurMatchingCheckBoxActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_blurMatchingCheckBoxActionPerformed
+
     /**
      * a simple utility to get the defaultListModel of JList
      *
@@ -482,10 +486,10 @@ public class MainInterface extends javax.swing.JFrame
 
                 //move src dest
             }
-            //if folder  does not exist and this author have more than two book
-            //tell user to create one
             else if (unsortedFileList.table.get(unsortedAuthorName).files.size() > 3)
             {
+                //if folder  does not exist and this author have more than two book
+                //tell user to create one
 
                 mkdirCommand.append("mkdir \"").append(unsortedAuthorName).append("\"\n\r");
                 mkdirStr.append(unsortedAuthorName).append("\n\r");
@@ -533,6 +537,10 @@ public class MainInterface extends javax.swing.JFrame
         java.awt.Desktop.getDesktop().open(new File(saveFolder));
     }
 
+    
+    
+    
+    
     //@param s: author name
     //@return the folder url, null if no exitence
     public File getAuthorFolder(SortedFileTable sortedtable, String sourceName, ArrayList<String> sourceNames)
@@ -543,6 +551,9 @@ public class MainInterface extends javax.swing.JFrame
             return sortedtable.table.get(sourceName).directory;
         }
 
+        
+        File result = null;
+        
         //if not, compare all authors names
         for (AuthorInfo entry : sortedtable.table.values())
         {
@@ -550,23 +561,23 @@ public class MainInterface extends javax.swing.JFrame
             {
                 for (String name2 : sourceNames)
                 {
-
                     // System.out.println(name2 + "  "+ name);
                     int strDistance = NameParser.stringDistance(name2, name);
 
                     if (strDistance == 0)
                     {
-                        return entry.directory;
+                        result =  entry.directory;
+                        return result;
                     }
-                    else if (strDistance == 1 && name2.length() > 2 && name.length() > 2)
+                    else if (this.blurMatchingCheckBox.isSelected() && strDistance == 1 && name2.length() > 2 && name.length() > 2)
                     {
-                        return entry.directory;
+                        result = entry.directory;
                     }
                 }
             }
 
         }
-        return null;
+        return result;
     }
 
     /**
@@ -618,6 +629,7 @@ public class MainInterface extends javax.swing.JFrame
         });
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JCheckBox blurMatchingCheckBox;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JScrollPane jScrollPane1;

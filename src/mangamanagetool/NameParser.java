@@ -16,9 +16,9 @@ public class NameParser
 {
 
     /**
-     * input an author name string and return an array of author names e.g "生徒会室
-     * (あきもと大)" will return [生徒会室, あきもと大] abgrund (さいかわゆさ) will return
-     * [abgrund,さいかわゆさ]
+     * input an author name string and return an array of author names
+     * e.g "生徒会室 (あきもと大)" will return [生徒会室, あきもと大] 
+     * abgrund (さいかわゆさ) will return    [abgrund,さいかわゆさ]
      *
      * @param the author name
      * @return an array of author names
@@ -29,10 +29,12 @@ public class NameParser
         ArrayList<String> result = new ArrayList<String>(names.length);
         for (String tempS : names)
         {
-            result.add(tempS.trim());
+            result.add(tempS.trim().replaceAll(" {2,}", " " ));
         }
         return result;
     }
+    
+
 
     /**
      * return author name from a file name e.g "(COMIC1☆7) [DUAL BEAT (柚木貴)]
