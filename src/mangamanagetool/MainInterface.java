@@ -238,6 +238,7 @@ public class MainInterface extends javax.swing.JFrame
             }
         });
 
+        FileOnlyCheckBox.setSelected(true);
         FileOnlyCheckBox.setText("File Only");
 
         createDirSpinter.setPreferredSize(new java.awt.Dimension(1, 30));
@@ -365,9 +366,9 @@ public class MainInterface extends javax.swing.JFrame
         unsortedFileList.oneLevel = this.oneLevelCheckBox.isSelected();
         unsortedFileList.fileOnly = this.FileOnlyCheckBox.isSelected();
 
+        //scan unsorted folders
         try
         {
-
             Object[] tempUnsortedArr = getDefaultListModel(unsortedFolderList).toArray();
             String[] unsortedPathArr = Arrays.copyOf(tempUnsortedArr, tempUnsortedArr.length, String[].class);
 
@@ -377,7 +378,6 @@ public class MainInterface extends javax.swing.JFrame
             }
 
             unsortedFileList.debugDisplay();
-
         }
         catch (Exception e)
         {
@@ -390,6 +390,7 @@ public class MainInterface extends javax.swing.JFrame
         }
 
 
+         //scan sorted folders
         try
         {
             Object[] tempSortedArr = getDefaultListModel(sortedFolderList).toArray();
@@ -412,6 +413,7 @@ public class MainInterface extends javax.swing.JFrame
             return;
         }
 
+        //run the matching algo
         try
         {
             moveFileAndMkdir(authorList, unsortedFileList);
@@ -588,7 +590,7 @@ public class MainInterface extends javax.swing.JFrame
         out.close();
 
         out = new PrintWriter(saveFolder + "\\" + "mkdir_command.txt");
-        mkdirCommand.insert(0, "Need to create " + mkdirCounter + " new folders\n\r\n\r");
+        mkdirCommand.insert(0, "#Need to create " + mkdirCounter + " new folders\n\r\n\r");
         out.print(mkdirCommand.toString());
         out.close();
 

@@ -37,8 +37,8 @@ public class NameParser
 
 
     /**
-     * return author name from a file name e.g "(COMIC1☆7) [DUAL BEAT (柚木貴)]
-     * LONESOME DUMMY (ザ·キング·オブ·ファイターズ).zip" will give "DUAL BEAT (柚木貴)"
+     * return author name from a file name
+     *e.g "(COMIC1☆7) [DUAL BEAT (柚木貴)]  LONESOME DUMMY (ザ·キング·オブ·ファイターズ).zip" will give "DUAL BEAT (柚木貴)"
      * "(サンクリ60) [abgrund (さいかわゆさ)] やばいと思ったがちー欲を抑えきれなかった・・・! (はたらく魔王さま!).zip"
      * will give "abgrund (さいかわゆさ)"
      *
@@ -52,6 +52,7 @@ public class NameParser
 
         int ii = 0;
 
+        //check char by char
         while (ii < fn.length())
         {
             if (fn.charAt(ii) == '[')
@@ -64,9 +65,16 @@ public class NameParser
                 index2 = ii;
                 t2 = true;
             }
-
+            
             if (t1 && t2 && index1 < index2)
             {
+                 //if "[foo]" followed by "." extension, it is invalid
+                if(index2<fn.length()-1&&fn.charAt(index2+1)=='.')
+                {
+                    ii++;
+                    continue;
+                }
+                
                 String temp = fn.substring(index1 + 1, index2);
 
                 if (!containWrongWord(temp))

@@ -52,7 +52,8 @@ public class UnsortedFileTable {
 
             if (files != null) {
                 for (File f : files) {
-                    if (f.isFile()||(!this.fileOnly)) {
+                    if (f.isFile()||(!this.fileOnly)) 
+                    {
                         String fileName = f.getName();
 
                        //System.out.println(fileName);
@@ -70,7 +71,6 @@ public class UnsortedFileTable {
                                 if (table.containsKey(authorName)) {
                                     table.get(authorName).files.add(f);
                                 } else {
-
                                     AuthorInfo entry = new AuthorInfo();
                                     ArrayList fileEntry = new ArrayList<File>();
                                     fileEntry.add(f);
@@ -78,12 +78,12 @@ public class UnsortedFileTable {
                                     entry.names = NameParser.getAuthorNameEntry(authorName);
 
                                     table.put(authorName, entry);
-
                                 }
                             }
                         }
                     }
-                    else
+                    
+                    if(f.isDirectory())
                     {
                         if (!this.oneLevel)
                         {
@@ -95,6 +95,9 @@ public class UnsortedFileTable {
         } catch (Exception e) {
             System.out.println(e);
         }
+        
+        
+        
     }
 
     public void debugDisplay() {
