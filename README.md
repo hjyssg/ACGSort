@@ -1,8 +1,7 @@
 MangaManageTool
 ===============
 
-*Update 08.13.2013   
-现在也支持按公司名整理galgame，只要公司名像漫画作者名一样在中括号[ ]里面。
+##### Update 08.13.2013 现在也支持按公司名整理galgame，只要公司名像漫画作者名一样在中括号[ ]里面。
 
 
 如果你是一名阿宅，你擁有超過超多的漫畫、同人誌。你一定會想整理他們。 
@@ -73,6 +72,8 @@ MangaManageTool
 我被迫又写了一个英文说明。
 
 ===========English============  
+#####Update 08.13.2013   Supporting galgame sorting now!  
+
 If you are an Otaku and have a big manga collection, you may want to sort them.
 
 Based on my own practice, the best way is to sort manga files based on the author.  Again, based on the author. It is so important, so I repeat.
