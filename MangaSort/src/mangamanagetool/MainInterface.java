@@ -555,21 +555,11 @@ public class MainInterface extends javax.swing.JFrame {
         out.print(mkdirCommand.toString());
         out.close();
 
-        out = new PrintWriter(saveFolder + "\\" + "mkdir_easy_read.txt");
-        mkdirStr.insert(0, "Need to create " + mkdirCounter + " new folders\n\r\n\r");
-        out.print(mkdirStr.toString());
-        out.close();
-
-        out = new PrintWriter(saveFolder + "\\" + "mv_easy_read.txt");
-        mvStr.insert(0, "Need to move files " + mvCounter + " times\n\r\n\r");
-        out.print(mvStr.toString());
-        out.close();
-
-        System.out.println(mvWinCommand);
-
-        System.out.println("\n\n\n\n\n\n\n\n\n");
-        System.out.print(mkdrirBuilder);
-        System.out.println(mkdirCommand);
+//        System.out.println(mvWinCommand);
+//
+//        System.out.println("\n\n\n\n\n\n\n\n\n");
+//        System.out.print(mkdrirBuilder);
+//        System.out.println(mkdirCommand);
 
         java.awt.Desktop.getDesktop().open(new File(saveFolder));
     }
