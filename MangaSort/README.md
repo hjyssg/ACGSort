@@ -43,11 +43,7 @@ MangaManageTool
 這個程序會自動讀取兩個文件夾的所有文件的文件名，配對計算，最後在生成的shell command文件
 告訴你要移動哪些文件，要新建哪些文件夾。你需自己用terminal去執行shell command或者根據此手動整理。
 
-之所以不直接由這個程序執行移動和創建文件夾操作是因為:  
-1.移動文件是一件很risky的事。丟失、損壞都有可能發生。  
-2.這個程序的利用文件名來進行匹配，不是100%正確的，需要人工判斷。   
-3.手動移動才有樂趣，程序一下跑完就沒意思了.  
-4.作為軟件工程師，隨便動別人電腦內部文件是一件不道德的事情。  
+
 
 ###打開方式
 1.右鍵打開dist/MangaManageTool.jar文件。或者用terminal運行java -jar MangaManageTool.jar。  
@@ -67,9 +63,6 @@ MangaManageTool
 
 對於Windows，我推薦使用everything來幫助移動文件。我推荐DirSync Pro用备份文件, 非常好用。
 
-如果你有任何好的主意或者發現bug，請pull request。同时欢迎fork这个project。   
-    
-我被迫又写了一个英文说明。
 
 ===========English============  
 #####Update 08.13.2013   Supporting galgame sorting now!  

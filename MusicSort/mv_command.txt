@@ -1,0 +1,42 @@
+mkdir "D:\_MUSIC\_Sorted\ウィザード・バリスターズ～弁魔士セシル～" 
+move "D:\_MUSIC\_Unsorted\[얼티메이트] [140228] TVアニメ「ウィザード・バリスターズ～弁魔士セシル～」EDテーマ「BLUE TOPAZ」／田辺留依 (320K+BK)" "D:\_MUSIC\_Sorted\ウィザード・バリスターズ～弁魔士セシル～\[얼티메이트] [140228] TVアニメ「ウィザード・バリスターズ～弁魔士セシル～」EDテーマ「BLUE TOPAZ」／田辺留依 (320K+BK)"
+
+mkdir "D:\_MUSIC\_Sorted\ロウきゅーぶ" 
+move "D:\_MUSIC\_Unsorted\[131127] TVアニメ「ロウきゅーぶ！SS」Blu-ray第3巻特典CD キャラクターソングス Vol.1 (320K+BK)" "D:\_MUSIC\_Sorted\ロウきゅーぶ\[131127] TVアニメ「ロウきゅーぶ！SS」Blu-ray第3巻特典CD キャラクターソングス Vol.1 (320K+BK)"
+
+mkdir "D:\_MUSIC\_Sorted\輪廻のラグランジェ" 
+move "D:\_MUSIC\_Unsorted\[120201]TVアニメ『輪廻のラグランジェ』OP&ED「TRY UNITE!／Hello!」／中島愛[320K]" "D:\_MUSIC\_Sorted\輪廻のラグランジェ\[120201]TVアニメ『輪廻のラグランジェ』OP&ED「TRY UNITE!／Hello!」／中島愛[320K]"
+
+mkdir "D:\_MUSIC\_Sorted\中二病でも恋がしたい" 
+move "D:\_MUSIC\_Unsorted\[140205] TVアニメ「中二病でも恋がしたい！戀」EDテーマ「Van!shment Th!s World」／Black Raison d'etre (320K+BK)" "D:\_MUSIC\_Sorted\中二病でも恋がしたい\[140205] TVアニメ「中二病でも恋がしたい！戀」EDテーマ「Van!shment Th!s World」／Black Raison d'etre (320K+BK)"
+
+mkdir "D:\_MUSIC\_Sorted\ウィザード・バリスターズ～弁魔士セシル～" 
+move "D:\_MUSIC\_Unsorted\[얼티메이트] [140305] TVアニメ「ウィザード・バリスターズ～弁魔士セシル～」OPテーマ「JUSTITIA」／Lia (320K)" "D:\_MUSIC\_Sorted\ウィザード・バリスターズ～弁魔士セシル～\[얼티메이트] [140305] TVアニメ「ウィザード・バリスターズ～弁魔士セシル～」OPテーマ「JUSTITIA」／Lia (320K)"
+
+mkdir "D:\_MUSIC\_Sorted\ゆゆ式" 
+move "D:\_MUSIC\_Unsorted\[130417] TVアニメ「ゆゆ式」OP曲「せーのっ！」、ED曲「Affection」、イメージソング「セツナイロ」／情報処理部(野々原ゆずこ(CV.大久保瑠美)、櫟井唯(CV.津田美波)、日向縁(CV.種田梨沙))、Morinaga Mayumi (320K+BK)" "D:\_MUSIC\_Sorted\ゆゆ式\[130417] TVアニメ「ゆゆ式」OP曲「せーのっ！」、ED曲「Affection」、イメージソング「セツナイロ」／情報処理部(野々原ゆずこ(CV.大久保瑠美)、櫟井唯(CV.津田美波)、日向縁(CV.種田梨沙))、Morinaga Mayumi (320K+BK)"
+
+mkdir "D:\_MUSIC\_Sorted\いなり、こんこん、恋いろは。" 
+move "D:\_MUSIC\_Unsorted\[얼티메이트] [140205] TVアニメ「世界征服～謀略のズヴィズダー～」OPテーマ「Be mine!」＆TVアニメ「いなり、こんこん、恋いろは。」EDテーマ「SAVED.」／坂本真綾 (320K+BK)" "D:\_MUSIC\_Sorted\いなり、こんこん、恋いろは。\[얼티메이트] [140205] TVアニメ「世界征服～謀略のズヴィズダー～」OPテーマ「Be mine!」＆TVアニメ「いなり、こんこん、恋いろは。」EDテーマ「SAVED.」／坂本真綾 (320K+BK)"
+
+mkdir "D:\_MUSIC\_Sorted\世界征服" 
+move "D:\_MUSIC\_Unsorted\[140319] TVアニメ「世界征服～謀略のズヴィズダー～」オリジナルサウンドトラック Vol.1 (320K+BK)" "D:\_MUSIC\_Sorted\世界征服\[140319] TVアニメ「世界征服～謀略のズヴィズダー～」オリジナルサウンドトラック Vol.1 (320K+BK)"
+
+mkdir "D:\_MUSIC\_Sorted\はたらく魔王さま" 
+move "D:\_MUSIC\_Unsorted\[130911] TVアニメ「はたらく魔王さま！」キャラソンミニアルバム「歌う魔王さま！？」(320K+BK)" "D:\_MUSIC\_Sorted\はたらく魔王さま\[130911] TVアニメ「はたらく魔王さま！」キャラソンミニアルバム「歌う魔王さま！？」(320K+BK)"
+
+mkdir "D:\_MUSIC\_Sorted\ディーふらぐ" 
+move "D:\_MUSIC\_Unsorted\[얼티메이트] [140305] TVアニメ「ディーふらぐ！」EDテーマ「ミンナノナマエヲイレテクダサイ」(320K)" "D:\_MUSIC\_Sorted\ディーふらぐ\[얼티메이트] [140305] TVアニメ「ディーふらぐ！」EDテーマ「ミンナノナマエヲイレテクダサイ」(320K)"
+
+mkdir "D:\_MUSIC\_Sorted\ロウきゅーぶ" 
+move "D:\_MUSIC\_Unsorted\[얼티메이트] [140226] TVアニメ「ロウきゅーぶ！SS」Blu-ray第6巻特典CD キャラクターソングス Vol.2 (320K+BK)" "D:\_MUSIC\_Sorted\ロウきゅーぶ\[얼티메이트] [140226] TVアニメ「ロウきゅーぶ！SS」Blu-ray第6巻特典CD キャラクターソングス Vol.2 (320K+BK)"
+
+mkdir "D:\_MUSIC\_Sorted\琴浦さん" 
+move "D:\_MUSIC\_Unsorted\[EAC] [130123] TVアニメ 琴浦さん OPテーマ「そんなこと裏のまた裏話でしょ？」[DVD付初回限定盤]／中島愛 (tak+png+MKV) cue Kotoura-san OP Sonna Koto Ura no Mata Urabanashi Desho by Megumi Nakajima" "D:\_MUSIC\_Sorted\琴浦さん\[EAC] [130123] TVアニメ 琴浦さん OPテーマ「そんなこと裏のまた裏話でしょ？」[DVD付初回限定盤]／中島愛 (tak+png+MKV) cue Kotoura-san OP Sonna Koto Ura no Mata Urabanashi Desho by Megumi Nakajima"
+
+mkdir "D:\_MUSIC\_Sorted\ディーふらぐ" 
+move "D:\_MUSIC\_Unsorted\[얼티메이트] [140226] TVアニメ「ディーふらぐ！」OPテーマ「すているめいと！」／イオシスjkガールズ (320K)" "D:\_MUSIC\_Sorted\ディーふらぐ\[얼티메이트] [140226] TVアニメ「ディーふらぐ！」OPテーマ「すているめいと！」／イオシスjkガールズ (320K)"
+
+mkdir "D:\_MUSIC\_Sorted\世界征服" 
+move "D:\_MUSIC\_Unsorted\[140129] TVアニメ「世界征服～謀略のズヴィズダー～」EDテーマ「ビジュメニア」／悠木碧 (320K)" "D:\_MUSIC\_Sorted\世界征服\[140129] TVアニメ「世界征服～謀略のズヴィズダー～」EDテーマ「ビジュメニア」／悠木碧 (320K)"
+
