@@ -35,8 +35,6 @@
               <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
               <Component id="createDirSpinter" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
-              <Component id="rememberBox" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="runButton" min="-2" pref="127" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
           </Group>
@@ -64,10 +62,7 @@
                       <EmptySpace min="35" pref="35" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="rememberBox" min="-2" max="-2" attributes="0"/>
-                          <Component id="runButton" min="-2" pref="36" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="runButton" min="-2" pref="36" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -91,12 +86,6 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chooseWhereUnsortedFilesAre"/>
       </Events>
-    </Component>
-    <Component class="javax.swing.JCheckBox" name="rememberBox">
-      <Properties>
-        <Property name="selected" type="boolean" value="true"/>
-        <Property name="text" type="java.lang.String" value="Remember Folders"/>
-      </Properties>
     </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane1">
       <AuxValues>
