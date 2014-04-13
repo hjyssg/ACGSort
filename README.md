@@ -1,2 +1,2 @@
-Two JAVA tool to sort local resource beased on the file name.
+Two JAVA tool to sort local resource based on the file name.
 
