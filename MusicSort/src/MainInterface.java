@@ -26,7 +26,7 @@ import java.util.logging.Logger;
  */
 public class MainInterface extends javax.swing.JFrame {
 
-    private String file = "anine_list.txt";
+    private String file = "anime_list.txt";
     private ArrayList<String> animes = new ArrayList<String>();
     private FolderList folders = new FolderList() ;
 
