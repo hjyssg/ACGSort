@@ -5,14 +5,18 @@
             <url>src/mangamanagetool/UnsortedFileTable.java</url>
             <bookmark id="1">
                 <name/>
-                <line>90</line>
+                <line>92</line>
                 <key/>
             </bookmark>
         </file>
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/junyang/Dropbox/MangaManageTool/MangaSort/src/mangamanagetool/NameParser.java</file>
             <file>file:/C:/Users/junyang/Dropbox/MangaManageTool/MangaSort/src/mangamanagetool/MainInterface.java</file>
+            <file>file:/C:/Users/junyang/Dropbox/MangaManageTool/MangaSort/src/mangamanagetool/UnsortedFileTable.java</file>
+            <file>file:/C:/Users/junyang/Dropbox/MangaManageTool/MangaSort/src/mangamanagetool/SortedFileTable.java</file>
+            <file>file:/C:/Users/junyang/Dropbox/MangaManageTool/MangaSort/src/mangamanagetool/AuthorInfo.java</file>
         </group>
     </open-files>
 </project-private>

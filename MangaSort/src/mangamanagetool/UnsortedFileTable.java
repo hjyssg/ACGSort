@@ -36,6 +36,7 @@ public class UnsortedFileTable {
     }
 
     public UnsortedFileTable() {
+        
         table = new Hashtable<String, AuthorInfo>();
     }
 
@@ -87,6 +88,7 @@ public class UnsortedFileTable {
                 }
             }
         } catch (Exception e) {
+              e.printStackTrace();
             System.out.println(e);
         }
     }
@@ -101,7 +103,7 @@ public class UnsortedFileTable {
 
         Collections.sort(arr);
         for (String s : arr) {
-            System.out.println(s + "     " + table.get(s).files);
+            System.out.println("|"+s + "|     " + table.get(s).names + " | " + table.get(s).files);
         }
     }
 }

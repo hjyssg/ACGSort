@@ -23,7 +23,7 @@ public class NameParser {
      * @return an array of author names
      */
     public static ArrayList<String> getAuthorNameEntry(String s) {
-        String[] names = s.split("\\[|\\]|\\(|\\)|,");
+        String[] names = s.split("\\[|\\]|\\(|\\)|,|、|&");
         ArrayList<String> result = new ArrayList<String>(names.length);
         for (String tempS : names) {
             //trim and only allow one space internally

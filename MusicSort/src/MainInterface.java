@@ -179,7 +179,7 @@ public class MainInterface extends javax.swing.JFrame {
         
        this.folders.table.clear();
         
-        //scan unsorted folders
+        //get unsorted folders
         try {
             Object[] tempUnsortedArr = getDefaultListModel(unsortedFolderList).toArray();
             String[] unsortedPathArr = Arrays.copyOf(tempUnsortedArr, tempUnsortedArr.length, String[].class);

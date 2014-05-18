@@ -41,13 +41,14 @@ public class SortedFileTable {
 
     private void iterateAllSubfolder(File rootFolder) {
         try {
+            
             //iterate through each author's folder
             for (File f : rootFolder.listFiles()) {
+                
                 //...and find author name, save into  ealist
                 if (f.isDirectory() && (!f.isHidden())) {
                     String directoryName = f.getName();
                     
-
                     AuthorInfo entry = new AuthorInfo();
                     entry.names = NameParser.getAuthorNameEntry(directoryName);
                     entry.directory = f;
@@ -56,6 +57,7 @@ public class SortedFileTable {
                 }
             }
         } catch (Exception e) {
+            e.printStackTrace();
             System.err.println(e);
         }
     }
@@ -70,7 +72,7 @@ public class SortedFileTable {
 
         Collections.sort(arr);
         for (String s : arr) {
-            System.out.println(s + "     " + table.get(s).names);
+            System.out.println("|"+s + "|     " + table.get(s).names );
         }
     }
 }
