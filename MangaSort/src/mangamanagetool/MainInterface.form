@@ -46,7 +46,9 @@
                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                       <Component id="oneLevelCheckBox" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-                                      <Component id="FileOnlyCheckBox" min="-2" max="-2" attributes="0"/>
+                                      <Component id="scanFileBox" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                      <Component id="scanFolderBox" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <Component id="jScrollPane1" alignment="0" min="-2" pref="745" max="-2" attributes="0"/>
                               </Group>
@@ -80,7 +82,8 @@
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="oneLevelCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="FileOnlyCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="scanFileBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="scanFolderBox" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="jScrollPane1" pref="216" max="32767" attributes="0"/>
@@ -196,10 +199,10 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="oneLevelCheckBoxActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JCheckBox" name="FileOnlyCheckBox">
+    <Component class="javax.swing.JCheckBox" name="scanFileBox">
       <Properties>
         <Property name="selected" type="boolean" value="true"/>
-        <Property name="text" type="java.lang.String" value="File Only"/>
+        <Property name="text" type="java.lang.String" value="Scan File"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JSpinner" name="createDirSpinter">
@@ -227,6 +230,13 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="text" type="java.lang.String" value="# of Files before mkdir"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="scanFolderBox">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="Scan Folder"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
     </Component>
   </SubComponents>

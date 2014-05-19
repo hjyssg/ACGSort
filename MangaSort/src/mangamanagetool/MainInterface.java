@@ -33,7 +33,8 @@ public class MainInterface extends javax.swing.JFrame {
     private final String SORTED_FOLDER_PATH_PROPERTY = "sort folder path";
     private final String SETTING_FILE = "property.xml";
     private final String UNSORTED_FOLDER_SEARCH_ONE_LEVEL_ONLY_PROPERTY = "unsorted folder search one level only property";
-    private final String UNSORTED_FOLDER_SEARCH_FILE_ONLY_PROPERTY = "unsorted folder search file only property";
+    private final String UNSORTED_FOLDER_SEARCH_FILE_ON_PROPERTY = "unsorted folder search file on property";
+    private final String UNSORTED_FOLDER_SEARCH_FOLDER_ON_PROPERTY = "unsorted folder search foldere on property";
     private final String NUMBER_BEFORE_MKDIR_PROPERTY = "number before mkdir property";
     private final String BLUR_SEARCH_PROPETY = "blur search proprty";
 
@@ -62,7 +63,8 @@ public class MainInterface extends javax.swing.JFrame {
             //xml parser
             XStream xstream = new XStream(new DomDriver());
 
-            this.FileOnlyCheckBox.setSelected(userSetting.getProperty(UNSORTED_FOLDER_SEARCH_FILE_ONLY_PROPERTY).equals("yes") ? true : false);
+            this.scanFileBox.setSelected(userSetting.getProperty(UNSORTED_FOLDER_SEARCH_FILE_ON_PROPERTY).equals("yes") ? true : false);
+            this.scanFolderBox.setSelected(userSetting.getProperty(UNSORTED_FOLDER_SEARCH_FOLDER_ON_PROPERTY).equals("yes") ? true : false);
             this.oneLevelCheckBox.setSelected(userSetting.getProperty(UNSORTED_FOLDER_SEARCH_ONE_LEVEL_ONLY_PROPERTY).equals("yes") ? true : false);
             this.blurMatchingCheckBox.setSelected(userSetting.getProperty(BLUR_SEARCH_PROPETY).equals("yes") ? true : false);
 
@@ -70,6 +72,7 @@ public class MainInterface extends javax.swing.JFrame {
 
             this.createDirSpinner.setValue(tempI);
 
+            //get path and add to jlist
             if (userSetting.getProperty(UNSORTED_FOLDER_PATH_PROPERTY) != null) {
                 String[] unsortedPathArr = (String[]) xstream.fromXML(userSetting.getProperty(UNSORTED_FOLDER_PATH_PROPERTY));
                 for (String s : unsortedPathArr) {
@@ -79,6 +82,7 @@ public class MainInterface extends javax.swing.JFrame {
                 }
             }
 
+            //get path and add to jlist
             if (userSetting.getProperty(SORTED_FOLDER_PATH_PROPERTY) != null) {
                 String[] sortedPathArr = (String[]) xstream.fromXML(userSetting.getProperty(SORTED_FOLDER_PATH_PROPERTY));
                 for (String s : sortedPathArr) {
@@ -121,7 +125,8 @@ public class MainInterface extends javax.swing.JFrame {
             userSetting.setProperty(UNSORTED_FOLDER_PATH_PROPERTY, unsortedPath);
             userSetting.setProperty(SORTED_FOLDER_PATH_PROPERTY, sortedPath);
 
-            userSetting.setProperty(UNSORTED_FOLDER_SEARCH_FILE_ONLY_PROPERTY, (this.FileOnlyCheckBox.isSelected() ? "yes" : "no"));
+            userSetting.setProperty(UNSORTED_FOLDER_SEARCH_FILE_ON_PROPERTY, (this.scanFileBox.isSelected() ? "yes" : "no"));
+            userSetting.setProperty(UNSORTED_FOLDER_SEARCH_FOLDER_ON_PROPERTY, (this.scanFolderBox.isSelected() ? "yes" : "no"));
             userSetting.setProperty(UNSORTED_FOLDER_SEARCH_ONE_LEVEL_ONLY_PROPERTY, (this.oneLevelCheckBox.isSelected() ? "yes" : "no"));
             userSetting.setProperty(BLUR_SEARCH_PROPETY, this.blurMatchingCheckBox.isSelected() ? "yes" : "no");
             userSetting.setProperty(NUMBER_BEFORE_MKDIR_PROPERTY, this.createDirSpinner.getValue().toString());
@@ -155,10 +160,11 @@ public class MainInterface extends javax.swing.JFrame {
         sortedFolderList = new javax.swing.JList();
         blurMatchingCheckBox = new javax.swing.JCheckBox();
         oneLevelCheckBox = new javax.swing.JCheckBox();
-        FileOnlyCheckBox = new javax.swing.JCheckBox();
+        scanFileBox = new javax.swing.JCheckBox();
         createDirSpinter = new javax.swing.JSpinner();
         createDirSpinner = new javax.swing.JSpinner();
         jLabel1 = new javax.swing.JLabel();
+        scanFolderBox = new javax.swing.JCheckBox();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -226,8 +232,8 @@ public class MainInterface extends javax.swing.JFrame {
             }
         });
 
-        FileOnlyCheckBox.setSelected(true);
-        FileOnlyCheckBox.setText("File Only");
+        scanFileBox.setSelected(true);
+        scanFileBox.setText("Scan File");
 
         createDirSpinter.setPreferredSize(new java.awt.Dimension(1, 30));
 
@@ -238,6 +244,10 @@ public class MainInterface extends javax.swing.JFrame {
         createDirSpinner.setValue(2);
 
         jLabel1.setText("# of Files before mkdir");
+
+        scanFolderBox.setSelected(true);
+        scanFolderBox.setText("Scan Folder");
+        scanFolderBox.setToolTipText("");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -258,7 +268,9 @@ public class MainInterface extends javax.swing.JFrame {
                                         .addGap(18, 18, 18)
                                         .addComponent(oneLevelCheckBox)
                                         .addGap(41, 41, 41)
-                                        .addComponent(FileOnlyCheckBox))
+                                        .addComponent(scanFileBox)
+                                        .addGap(34, 34, 34)
+                                        .addComponent(scanFolderBox))
                                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 745, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                         .addGap(96, 96, 96)
@@ -283,7 +295,8 @@ public class MainInterface extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(oneLevelCheckBox)
-                    .addComponent(FileOnlyCheckBox))
+                    .addComponent(scanFileBox)
+                    .addComponent(scanFolderBox))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 216, Short.MAX_VALUE)
                 .addGap(22, 22, 22)
@@ -449,11 +462,11 @@ public class MainInterface extends javax.swing.JFrame {
         usrtFiles.oneLevel = this.oneLevelCheckBox.isSelected();
         //usrtFiles.oneLevel = false;
         usrtFiles.fileOn = true;
-        //usrtFiles.folderOn = false;
-        usrtFiles.folderOn = !this.FileOnlyCheckBox.isSelected();
+        usrtFiles.folderOn = this.scanFolderBox.isSelected();;
+        usrtFiles.folderOn = this.scanFileBox.isSelected();
         usrtFiles.compressedFileOnly = true;
         
-           srtFiles = new MangaFileTable();
+        srtFiles = new MangaFileTable();
         srtFiles.fileOn = false;
         srtFiles.folderOn = true;
         srtFiles.oneLevel = true;
@@ -711,7 +724,6 @@ public class MainInterface extends javax.swing.JFrame {
         });
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JCheckBox FileOnlyCheckBox;
     private javax.swing.JCheckBox blurMatchingCheckBox;
     private javax.swing.JSpinner createDirSpinner;
     private javax.swing.JSpinner createDirSpinter;
@@ -723,6 +735,8 @@ public class MainInterface extends javax.swing.JFrame {
     private javax.swing.JCheckBox oneLevelCheckBox;
     private javax.swing.JCheckBox rememberBox;
     private javax.swing.JButton runButton;
+    private javax.swing.JCheckBox scanFileBox;
+    private javax.swing.JCheckBox scanFolderBox;
     private javax.swing.JList sortedFolderList;
     private javax.swing.JList unsortedFolderList;
     // End of variables declaration//GEN-END:variables

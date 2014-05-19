@@ -6,8 +6,8 @@ a program to sort anison folders
 
 
 
-![screenshot1](./screenshots/1.png?raw=true) 
-起始画面
+![screenshot1](./screenshots/1.png?raw=true)   
+ 起始画面
 When the program starts 
 
 
@@ -23,3 +23,5 @@ Choose the the folder that has unsorted anison folders.
 Click Run. This program will scan the **<u>first level</u>** of  a folder. Match filenames with anime title. And generate a script file about how to make folders and moves files.
 
 
+###anime_list.txt
+这个程序读取anime_list.txt来判断。你修改他来支持更多动画音乐整理。
