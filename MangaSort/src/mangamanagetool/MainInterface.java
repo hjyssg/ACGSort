@@ -184,7 +184,7 @@ public class MainInterface extends javax.swing.JFrame {
             }
         });
 
-        jButton2.setText("Add Folders Where Sorted Files Are (Opitional)");
+        jButton2.setText("Add Folders Where Sorted Folders Are (Opitional)");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ChooseWhereSortedFIlesAre(evt);
@@ -368,6 +368,10 @@ public class MainInterface extends javax.swing.JFrame {
         } finally {
             this.runButton.setEnabled(true);
         }
+        
+        
+      
+        
     }//GEN-LAST:event_run
 
     /*
@@ -435,16 +439,7 @@ public class MainInterface extends javax.swing.JFrame {
         return (DefaultListModel) list.getModel();
     }
 
-    private boolean isTwoNamesEqual(ArrayList<String> l1, ArrayList<String> l2) {
-        for (String n1 : l1) {
-            for (String n2 : l2) {
-                if (n1.equals(n2)) {
-                    return true;
-                }
-            }
-        }
-        return false;
-    }
+
 
 
     private void scan_folders()
@@ -454,7 +449,7 @@ public class MainInterface extends javax.swing.JFrame {
        // usrtFiles.oneLevel = this.oneLevelCheckBox.isSelected();
         usrtFiles.oneLevel = false;
         usrtFiles.fileOn = true;
-        usrtFiles.folderOn = true;
+        usrtFiles.folderOn = false;
         //usrtFiles.folderOn = !this.FileOnlyCheckBox.isSelected();
         usrtFiles.compressedFileOnly = true;
         
@@ -470,9 +465,11 @@ public class MainInterface extends javax.swing.JFrame {
             usrtFiles.addFolders(unsortedPathArr);
             System.out.println("unsorted folders scanning: done");
             
+               
+            
               //write result into text file
            if (LOG1){
-               usrtFiles.debugDisplay();
+               //usrtFiles.debugDisplay();
                 PrintWriter out;
                 String saveFolder = System.getProperty("user.dir");
                 out = new PrintWriter(saveFolder + "\\" + "usrtFiles_debug_log.txt");
@@ -483,6 +480,9 @@ public class MainInterface extends javax.swing.JFrame {
             String[] sortedPathArr = getPathes(sortedFolderList);
             srtFiles.addFolders(sortedPathArr);
             System.out.println("sorted folders scanning: done");
+            
+         
+            
             if (LOG1){ 
 
                 //srtFiles.debugDisplay();
@@ -513,6 +513,9 @@ public class MainInterface extends javax.swing.JFrame {
 
         //get the author of unsorted files     
         ArrayList<String> unsortedAuthorNames = new ArrayList(usrtFiles.keySet());
+        
+          
+        
         //sort them for more readable output
         Collections.sort(unsortedAuthorNames);
 
@@ -536,19 +539,30 @@ public class MainInterface extends javax.swing.JFrame {
         int numBeforeMkdir = (Integer) this.createDirSpinner.getValue();
 
         HashSet<String> skip = new HashSet<String>();
+        
+        
+         // System.out.println("hehre"+ unsortedAuthorNames.size());
 
         for (String unsortedAuthorName : unsortedAuthorNames) {
 
             if (skip.contains(unsortedAuthorName)) {continue; }
 
+            
+            
+            
             //check if there already exist a folder for the file
             AuthorInfo entry = usrtFiles.get(unsortedAuthorName);
-            if (entry == null) { continue; }
+            if (entry == null) { 
+                System.out.println("!!!"+unsortedAuthorName+" HAS NO ENTRY");
+                continue; }
 
             ArrayList<String> names = entry.names;
             File destFolder = getAuthorFolder(unsortedAuthorName, names);
 
             if (destFolder != null) {
+
+                //System.out.println("FOUND MATHCH"+ unsortedAuthorName + destFolder);
+
                 //tell user to move the file
                 ArrayList<File> sourceFiles = usrtFiles.get(unsortedAuthorName).files;
                 for (File sourceFile : sourceFiles) {
@@ -558,7 +572,7 @@ public class MainInterface extends javax.swing.JFrame {
                     mvStr.append(sourceFile.getName()).append("    ").append(destFolder.getName()).append("\n\r");
                     mvCounter++;
                 }
-                continue;
+                //continue;
             }
 
             //calculate the files the author has 
@@ -605,26 +619,46 @@ public class MainInterface extends javax.swing.JFrame {
         java.awt.Desktop.getDesktop().open(new File(saveFolder));
     }
 
+
+    private boolean isTwoNamesEqual(ArrayList<String> l1, ArrayList<String> l2) {
+        for (String n1 : l1) {
+            for (String n2 : l2) {
+                if (n1.equals(n2)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
     /**
+     * @param sourceName
+     * @param sourceNames
      * @brief [brief description]
      * @details [long description]
-     *
-     * @param s: author name
      * @return the folder url, null if no exitence
-     * @return [description]
      */
     public File getAuthorFolder(String sourceName, ArrayList<String> sourceNames) {
+        
+       // System.out.println("hehre");
+        
         //if we can find directly, nice
-        if (srtFiles.contains(sourceName)) {
+        if (srtFiles.containsKey(sourceName)) {
+         // System.out.println("FOUND"+  srtFiles.get(sourceName));
             return srtFiles.get(sourceName).directory;
         }
 
         File result = null;
+        
+        
+        
 
         //if not, compare all authors names
         for (AuthorInfo entry : srtFiles.values()) {
             for (String n1 : entry.names) {
                 for (String n2 : sourceNames) {
+                    
+                    
 
                     // System.out.println(n2 + "  "+ name);
                     int strDistance = NameParser.stringDistance(n2, n1);

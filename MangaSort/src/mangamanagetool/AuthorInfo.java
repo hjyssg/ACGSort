@@ -32,6 +32,11 @@ public class AuthorInfo
      * Where you put the author's file
      */
      public File directory;
+
+    @Override
+    public String toString() {
+        return "AuthorInfo{" + "names=" + names + ", files=" + files + ", directory=" + directory + '}';
+    }
      
      
      

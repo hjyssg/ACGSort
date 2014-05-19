@@ -52,6 +52,8 @@ public class MangaFileTable extends Hashtable<String, AuthorInfo> {
                 fileEntry.add(f);
                 entry.files = fileEntry;
                 entry.names = NameParser.getAuthorNameEntry(authorName);
+                
+                if (f.isDirectory()) {entry.directory = f;}
 
                 put(authorName, entry);
             }
@@ -139,7 +141,7 @@ public class MangaFileTable extends Hashtable<String, AuthorInfo> {
 
         Collections.sort(arr);
         for (String s : arr) {
-            str.append("|").append(s).append("|     ").append(get(s).names).append(" | ").append(get(s).files).append("\n\r");
+            str.append("|").append(s).append("|:     ").append(get(s).names).append(" | ").append(get(s).files).append("\n\r");
         }
         
         return str.toString();

@@ -128,7 +128,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="jButton2">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Add Folders Where Sorted Files Are (Opitional)"/>
+        <Property name="text" type="java.lang.String" value="Add Folders Where Sorted Folders Are (Opitional)"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ChooseWhereSortedFIlesAre"/>

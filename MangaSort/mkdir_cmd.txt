@@ -1,331 +1,0 @@
-#Need to create 328 new folders
-
-mkdir "(C80) (同人誌)   [屋代スペース少年団] 東方どろぬま劇場 キョンシーパラダイス (東方) (非エロ)"
-mkdir "+14"
-mkdir "-三百六十度-"
-mkdir "04U"
-mkdir "23.4ド (イチリ)"
-mkdir "2号"
-mkdir "65535あべぬー (赤人)"
-mkdir "A.C.Gアーツ (TID, 小僧)"
-mkdir "AION"
-mkdir "AREYOUHAPPY (あさいいちこ)"
-mkdir "Alice Garden"
-mkdir "Awareness (藍川とうま)"
-mkdir "A・L・L (アズマサワヨシ)"
-mkdir "B.B.T.T. (山本善々)"
-mkdir "BERRY BAGEL (兼清みわ)"
-mkdir "BitchMaker"
-mkdir "Bitch牧場"
-mkdir "BlackBox (海海月・福々餡)"
-mkdir "CIRCLE ENERGY (新 春夏秋冬)"
-mkdir "CITRON (山田あこ)"
-mkdir "CUTEG"
-mkdir "CYC NO-NOS"
-mkdir "Cloud Palette"
-mkdir "Cool Palace"
-mkdir "Count2.4 (弐肆)"
-mkdir "Cradle(深崎暮人)"
-mkdir "C：／／A.D.D／"
-mkdir "D.N.A.Lab. (ミヤスリサ)"
-mkdir "DECOッパチ"
-mkdir "DRAGON PANDA"
-mkdir "DSB Style"
-mkdir "DUAL BEAT (柚木貴)"
-mkdir "Da Hootch (新堂エル)"
-mkdir "Digital Accel Works"
-mkdir "Digital Flyer"
-mkdir "ELEGY SYNDROME (なもり)"
-mkdir "EX35"
-mkdir "Evo.R.B (宇行日和)"
-mkdir "FOOL's ART GALLERY (誉)"
-mkdir "FRAC (もとみやみつき)"
-mkdir "Forest Village(あゆっこ)"
-mkdir "Forever and ever (英戦)"
-mkdir "Fountain's Square"
-mkdir "GALVAS (神吉)"
-mkdir "GOD緑茶 (ぶーちゃん)"
-mkdir "GOLD RUSH"
-mkdir "GOUACHE BLUE (水島空彦)"
-mkdir "Garimpeiro (まめでんきゅう)"
-mkdir "Gift (渚乃兎)"
-mkdir "Gold Rush (鈴木あどれす)"
-mkdir "H-SQUAD (ぐりえるも)"
-mkdir "HANAYA"
-mkdir "HJUKISM (彦馬ヒロユキ)"
-mkdir "HONEY QP (命わずか)"
-mkdir "Hn.03 (だんちょ)"
-mkdir "Hなほん。やさん。 (あっきー)"
-mkdir "INNOCENT CHAPEL"
-mkdir "Icicle"
-mkdir "Ink Complex (智弘カイ)"
-mkdir "K-てん"
-mkdir "KOJIROU！"
-mkdir "L.G.C."
-mkdir "Lagrangian-POINT (暁てとら)"
-mkdir "Lily Lily Rose(みぶなつき)"
-mkdir "LilyLilyRose"
-mkdir "Luft Forst"
-mkdir "MAPLER"
-mkdir "MILK STANDARD"
-mkdir "MIMIPULL(桜井雫)"
-mkdir "MINAMOON (みなづきふたご)"
-mkdir "MINT BLUE"
-mkdir "MOZUCHICHI (もずや紫)"
-mkdir "MeltdoWN COmet (雪雨こん)"
-mkdir "Milk Pudding (emily)"
-mkdir "N.Scraft (さいもん)"
-mkdir "NEEDLE GARDEN (かんとり)"
-mkdir "NOSEBLEED (宮元一佐)"
-mkdir "No Mercy"
-mkdir "ONEGROSS"
-mkdir "ORC SOFT"
-mkdir "P! (クルクル, 我野)"
-mkdir "P-POINT (Pikazo)"
-mkdir "PATRICIDE"
-mkdir "PIえろ"
-mkdir "PX-REAL (くもいたかし)"
-mkdir "Planet Matier (クサダ、神崎むゆ、やまもとかんぽに)"
-mkdir "Princess Heart (天海雪乃)"
-mkdir "R-WORKS (ROS)"
-mkdir "RED CROWN  (石神一威)"
-mkdir "Runway"
-mkdir "SHRINE (人丸)"
-mkdir "SLASH"
-mkdir "STUDIOあんしん (どんこ)"
-mkdir "TEMPLE (天籟)"
-mkdir "TEX-MEX (広江礼威)"
-mkdir "TWINBOX (草草饅)"
-mkdir "Take Out"
-mkdir "Take out (是露巣)"
-mkdir "Tengallonhat"
-mkdir "Time-Leap (あお色一号)"
-mkdir "Vパン'sエクスタシー"
-mkdir "W@nd (天駕)"
-mkdir "Waterfall (嵩乃朔)"
-mkdir "Wicked Heart (ZooTAN)"
-mkdir "Yellow avantgard"
-mkdir "Z-FRONT (加画都)"
-mkdir "_冷藏库"
-mkdir "atSD (つねよし)"
-mkdir "bolze. (rit.)"
-mkdir "eapo-zu (豆)"
-mkdir "grand-nauts (広瀬まどか)"
-mkdir "honey lounge"
-mkdir "inspi. (和泉凛)"
-mkdir "kanemasita (かねた)"
-mkdir "mexe.jp"
-mkdir "micro page (黒本君)"
-mkdir "milk hall"
-mkdir "moco chouchou (ひさまくまこ)"
-mkdir "niesox"
-mkdir "pooca (乃良紳二)"
-mkdir "roam (stem)"
-mkdir "sin-maniax (真)"
-mkdir "sobaworks (秋蕎麦)"
-mkdir "studio A (稲鳴四季)"
-mkdir "sys3.6.3 (ザンクロー)"
-mkdir "sys3.6.3."
-mkdir "totoMAX (てりてりお)"
-mkdir "zen9"
-mkdir "Σ-Arts (神毛物由宇)"
-mkdir "あぁどうしよう (ぴーこ)"
-mkdir "あいがも堂 (あやかわりく)"
-mkdir "あここ。"
-mkdir "あさつき堂"
-mkdir "あちゅむち"
-mkdir "あっぷるきゃっと"
-mkdir "あとりえ雅"
-mkdir "あひる山脈"
-mkdir "あぶぶ"
-mkdir "あまりにセンパク！ (ヨッコラ)"
-mkdir "あめしょー"
-mkdir "ありぃすいべりぃ"
-mkdir "あんあんわんこ"
-mkdir "いざなぎ"
-mkdir "いちごさいず"
-mkdir "いぶきち"
-mkdir "いまいずみあつし"
-mkdir "うに蔵"
-mkdir "うぱ小屋 (えんどり)"
-mkdir "かすみりょう"
-mkdir "かるま龍狼"
-mkdir "かんむりとかげ (つん)"
-mkdir "がちゃぴんむっく。"
-mkdir "がめんはじ (ノジ)"
-mkdir "ぎゃんぐ工房 (78RR)"
-mkdir "くりおね社 (YU-RI)"
-mkdir "こっそり隠れ処"
-mkdir "こはねと (桐野いつき)"
-mkdir "こーひーめーかー (TEL)"
-mkdir "さいやずみ"
-mkdir "しいなかずき"
-mkdir "しらたまこ (しらたま)"
-mkdir "じどー筆記"
-mkdir "すいか時計 (酔花)"
-mkdir "せとらん (イトウせと、タンノらん)"
-mkdir "そろのさん家"
-mkdir "たくわん"
-mkdir "たんぽぽ水産 (INAGO)"
-mkdir "とっとととめきち (とめきち)"
-mkdir "とろしお"
-mkdir "にじいろ桜 (こうたろ)"
-mkdir "にゃご丸"
-mkdir "にゃ～にゃ～興信所 (海原圭哉)"
-mkdir "ぬきどころ。"
-mkdir "ねこまっしぐら"
-mkdir "のぶきちひろ"
-mkdir "ばくはつBRS."
-mkdir "ばな奈工房"
-mkdir "ばみゅーだ★絶対領域(HamunoHei)"
-mkdir "ひねもすのたり"
-mkdir "ふみひろ"
-mkdir "ふるはいきっく"
-mkdir "ぶた小屋 (検見川もんど)"
-mkdir "ぷりん横丁"
-mkdir "ほむら屋"
-mkdir "ぽち小屋。"
-mkdir "ぽよぱちょ (うみうし)"
-mkdir "まったりハウス (アイツ)"
-mkdir "まりぴょん"
-mkdir "みくろぺえじ"
-mkdir "みつるぎあおい"
-mkdir "もちもちCarnevale (池咲ミサ)"
-mkdir "やきもろこし (真秀)"
-mkdir "やみなべ"
-mkdir "よわみどり (佐伯)"
-mkdir "りくる～と (ウリボぅ)"
-mkdir "ろ～たり～Engine"
-mkdir "わくわく動物園 (天王寺きつね)"
-mkdir "アジシオ"
-mkdir "アビオン村F"
-mkdir "アルゴラグニア (みこしろ本人)"
-mkdir "アーカイブ (へち, 真田カナ)"
-mkdir "エイトビート (伊藤エイト)"
-mkdir "エクセシオ"
-mkdir "オオハシタカユキ"
-mkdir "オシャバン (笹弘)"
-mkdir "カスガ,新"
-mkdir "ガッタマイザー (がっため)"
-mkdir "キツネノテブクロ(逢坂ミナミ)"
-mkdir "グリーンケチャップ (珍緑)"
-mkdir "ゲンツキオキバ (ゲンツキ,ケム)"
-mkdir "コードギアス"
-mkdir "コーヒーカレー (AKIRA)"
-mkdir "サブスカ"
-mkdir "サプリメンタル(上石ニーニー)"
-mkdir "サークルENERGY"
-mkdir "シュガーミルク"
-mkdir "シロタクロタ"
-mkdir "シンプリル (来須眠)"
-mkdir "ジャックとニコルソン"
-mkdir "ジョン湿地王"
-mkdir "スカポン堂 (矢野たくみ)"
-mkdir "スタジオた～"
-mkdir "ストライクウィッチーズ"
-mkdir "ズッキーニ"
-mkdir "タカトビヤ"
-mkdir "チョコレートLv.5"
-mkdir "ディープバレー"
-mkdir "デッドアングル (かみみや)"
-mkdir "ドバト"
-mkdir "ヒデボウハウス"
-mkdir "ヒルスタ"
-mkdir "フルーツジャム (水鏡想)"
-mkdir "プリン海ヨーグルト(chiri)"
-mkdir "ボボボ"
-mkdir "マックズハート"
-mkdir "マラビアンズ"
-mkdir "マンガスーパー"
-mkdir "ミュンヒハウゼン症候群 (珠月まや)"
-mkdir "ムラムラPocky (カスミ)"
-mkdir "メルヘンBOX"
-mkdir "リリーマルレーン"
-mkdir "七色御伽草子 (宫瀬まひろ)"
-mkdir "七転八起"
-mkdir "下月重吾"
-mkdir "不決断"
-mkdir "丸和太郎"
-mkdir "介錯"
-mkdir "何処までも蒼い空に浮かぶ肉。(肉そうきゅー。)"
-mkdir "俺たちミスノン一家 (須原シイナ)"
-mkdir "冬野みかん"
-mkdir "割り箸効果"
-mkdir "割れ目 (こっぺ)"
-mkdir "南端へ (絹田コウジ)"
-mkdir "合衆国ネタメコル"
-mkdir "和六里ハル"
-mkdir "喫茶(同人)"
-mkdir "四方山"
-mkdir "塩屋虻通信 (シオロク)"
-mkdir "夢先案内回覧版"
-mkdir "大人の幼恥園"
-mkdir "大忍者帝国"
-mkdir "奥森ボウイ"
-mkdir "妄想時計"
-mkdir "少女交錯 (eltole)"
-mkdir "川崎直孝"
-mkdir "左橋レンヤ"
-mkdir "平行四辺形"
-mkdir "御姉狂"
-mkdir "志峨丘トウキ"
-mkdir "恋の断面図 (色糸)"
-mkdir "成宮"
-mkdir "推定部員 (明音そーいち)"
-mkdir "断鉄"
-mkdir "星野竜一"
-mkdir "昭和重工"
-mkdir "最果て空間 (緋乃ひの)"
-mkdir "有齒女陰 (廣田眞胤)"
-mkdir "村田電磁"
-mkdir "松波留美"
-mkdir "板場広し"
-mkdir "桂あいり"
-mkdir "桜吹雪ねる"
-mkdir "森宮正幸"
-mkdir "楠木りん"
-mkdir "欠損少女"
-mkdir "水滴屋"
-mkdir "汉化"
-mkdir "清紗流蘇 (貓崎葵)"
-mkdir "滝美梨香"
-mkdir "焼肉キング"
-mkdir "琴乃舎"
-mkdir "琴慈"
-mkdir "生徒会室 (あきもと大)"
-mkdir "畠山桃哉"
-mkdir "異郷"
-mkdir "白羽まと"
-mkdir "白髪教団"
-mkdir "白髮教団 (三嶋くろね)"
-mkdir "眞嶋堂 (まとう)"
-mkdir "石野鐘音"
-mkdir "神坂さんとマキノ事務所"
-mkdir "福猫モフモフ"
-mkdir "秒殺狸団 (佐伯達也)"
-mkdir "篤屋工業"
-mkdir "純銀星 (たかしな浅妃)"
-mkdir "絵にかいた餅"
-mkdir "老眼"
-mkdir "脳軟化世代"
-mkdir "茶菓子裁判 (山吹ムック)"
-mkdir "草葉式"
-mkdir "行方ふみあき"
-mkdir "誘蛾党 (mogg)"
-mkdir "超あるまじろくらぶ"
-mkdir "超平板小娘電視台 (ほっけうるふ)"
-mkdir "超時空要塞カチューシャ (電気将軍)"
-mkdir "遺伝子の舟"
-mkdir "都氏"
-mkdir "鈴根らい"
-mkdir "閃乱カグラ"
-mkdir "雨山電信社 (雨山電信)"
-mkdir "雪陽炎"
-mkdir "電萌"
-mkdir "青い点"
-mkdir "魔法少女 5 (なのは)"
-mkdir "魔法少女まどか☆マギカ"
-mkdir "鳩小屋 (駿河りぬ)"
-mkdir "黄泉比良坂 (bbsacon)"
-mkdir "黒錦"
-
