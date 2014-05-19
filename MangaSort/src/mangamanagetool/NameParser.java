@@ -5,6 +5,7 @@
 package mangamanagetool;
 
 import java.util.ArrayList;
+import java.util.regex.*;
 
 /**
  *
@@ -23,16 +24,22 @@ public class NameParser {
      * @return an array of author names
      */
     public static ArrayList<String> getAuthorNameEntry(String s) {
-       // String[] names = s.split("\\[|\\]|\\(|\\)|,|、|&");
-        String[] names = s.split("\\[|\\]|\\(|\\)|,");
+        String[] names = s.split("\\[|\\]|\\(|\\)|,|、|&");
+        //String[] names = s.split("\\[|\\]|\\(|\\)|,");
         ArrayList<String> result = new ArrayList<String>(names.length);
         for (String tempS : names) {
+            
+            if (tempS.length()<1){continue;}
+            
             //trim and only allow one space internally
             result.add(tempS.trim().replaceAll(" {2,}", " "));
         }
         return result;
     }
 
+    
+   static Pattern brktPattern = Pattern.compile("\\[.*?\\]");
+    
     /**
      * return author name from a file name e.g "(COMIC1☆7) [DUAL BEAT (柚木貴)]
      * LONESOME DUMMY (ザ·キング·オブ·ファイターズ).zip" will give "DUAL BEAT (柚木貴)"
@@ -43,41 +50,23 @@ public class NameParser {
      * @return author name
      */
     public static String getStringFromBrackets(String fn) {
-        boolean t1 = false, t2 = false;
-        int index1 = 0, index2 = 0;
-
-        int ii = 0;
-
-        //check char by char
-        while (ii < fn.length()) {
-            if (fn.charAt(ii) == '[') {
-                index1 = ii;
-                t1 = true;
-            } else if (fn.charAt(ii) == ']') {
-                index2 = ii;
-                t2 = true;
+        // System.out.println(fn);
+       
+         Matcher matcher = brktPattern.matcher(fn);
+        while(matcher.find())
+        {
+           String ss = matcher.group();
+        
+            //System.out.println(ss));
+            if (!containWrongWord(ss)) {
+                return ss;
             }
-
-            if (t1 && t2 && index1 < index2) {
-                //if "[foo]" followed by "." extension, it is invalid
-                if (index2 < fn.length() - 1 && fn.charAt(index2 + 1) == '.') {
-                    ii++;
-                    continue;
-                }
-
-                String temp = fn.substring(index1 + 1, index2);
-
-                if (!containWrongWord(temp)) {
-                    return temp.trim();
-                }
-            }
-            ii++;
         }
-
         return null;
     }
+        
     //exclude non-author name 
-    public static final String[] wrongWords = {
+    private static final String[] wrongWords = {
         "汉化", "漢化", "English", "Chinese", "Korean", "中文", "한국",
         "アニメ", "anime", "Anime",
         "雑誌", "杂志",
@@ -110,7 +99,7 @@ public class NameParser {
         "zip", "rar", "7zip", "pdf"
     };
 
-    /*
+    /**
      * decide if file is compressed file based on its extension
      */
     public static boolean isCompressionFile(String fileExtension) {
@@ -127,7 +116,6 @@ public class NameParser {
     }
 
     /**
-     * \
      * compare two strings and calculate their string distance
      *
      * @param s1
