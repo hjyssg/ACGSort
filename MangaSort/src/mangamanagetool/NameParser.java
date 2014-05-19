@@ -19,8 +19,8 @@ import java.util.regex.*;
 public class NameParser {
 
     /**
-     * input an author name string and return an array of author names 
-     * e.g "生徒会室(あきもと大)" will return [生徒会室, あきもと大] abgrund (さいかわゆさ) will return
+     * input an author name string and return an array of author names e.g
+     * "生徒会室(あきもと大)" will return [生徒会室, あきもと大] abgrund (さいかわゆさ) will return
      * [abgrund,さいかわゆさ]
      *
      * @param the author name
@@ -31,18 +31,19 @@ public class NameParser {
         //String[] names = s.split("\\[|\\]|\\(|\\)|,");
         ArrayList<String> result = new ArrayList<String>(names.length);
         for (String tempS : names) {
-            
-            if (tempS.length()<1){continue;}
-            
+
+            if (tempS.length() < 1) {
+                continue;
+            }
+
             //trim and only allow one space internally
             result.add(tempS.trim().replaceAll(" {2,}", " "));
         }
         return result;
     }
 
-    
-   static Pattern brktPattern = Pattern.compile("\\[(.*?)\\]");
-    
+    static Pattern brktPattern = Pattern.compile("\\[(.*?)\\]");
+
     /**
      * return author name from a file name e.g "(COMIC1☆7) [DUAL BEAT (柚木貴)]
      * LONESOME DUMMY (ザ·キング·オブ·ファイターズ).zip" will give "DUAL BEAT (柚木貴)"
@@ -54,16 +55,15 @@ public class NameParser {
      */
     public static String getStringFromBrackets(String fn) {
         // System.out.println(fn);
-       
-         Matcher matcher = brktPattern.matcher(fn);
-        while(matcher.find())
-        {
-           String ss = matcher.group();
-           //remove [ and ]
-           ss =  ss.replaceAll("\\[", "").replaceAll("\\]","");
-          
+
+        Matcher matcher = brktPattern.matcher(fn);
+        while (matcher.find()) {
+            String ss = matcher.group();
+            //remove [ and ]
+            ss = ss.replaceAll("\\[", "").replaceAll("\\]", "");
+
             if (!containWrongWord(ss)) {
-                 // System.out.println(ss.charAt(0));
+                // System.out.println(ss.charAt(0));
                 return ss;
             }
         }
@@ -72,23 +72,23 @@ public class NameParser {
 
     /**
      * http://stackoverflow.com/questions/1515437/java-function-for-arrays-like-phps-join
+     *
      * @param s
      * @param delimiter
-     * @return 
+     * @return
      */
     public static String join(Collection s, String delimiter) {
-    StringBuilder buffer = new StringBuilder();
-    Iterator iter = s.iterator();
-    while (iter.hasNext()) {
-        buffer.append(iter.next());
-        if (iter.hasNext()) {
-            buffer.append(delimiter);
+        StringBuilder buffer = new StringBuilder();
+        Iterator iter = s.iterator();
+        while (iter.hasNext()) {
+            buffer.append(iter.next());
+            if (iter.hasNext()) {
+                buffer.append(delimiter);
+            }
         }
+        return buffer.toString();
     }
-    return buffer.toString();
-    }
-    
-    
+
     //exclude non-author name 
     private static final String[] wrongWords = {
         "汉化", "漢化", "English", "Chinese", "Korean", "中文", "한국",
@@ -97,34 +97,33 @@ public class NameParser {
         "Anthology", "アンソロジー", "Various", "よろず", "original", "オリジナル",
         "Artist", "アーティスト",
         "成年コミック", "コミック", "一般コミック", "COMIC",
-        "Doujinshi", "Doujin", "同人", "同人","doujin",
+        "Doujinshi", "Doujin", "同人", "同人", "doujin",
         "DL版",
         "Artbook", "画集",
-        "COMIC1☆", "サンクリ"
+        "COMIC1☆", "サンクリ", "[Digital]"
     };
-    
-     public static final Pattern wrongWordsPatten = Pattern.compile(NameParser.join(new ArrayList(Arrays.asList(wrongWords)), "|"));
+
+    public static final Pattern wrongWordsPatten = Pattern.compile(NameParser.join(new ArrayList(Arrays.asList(wrongWords)), "|"));
 
     //exclude certain string
     public static boolean containWrongWord(String s) {
         //comiket (e.g c79, c82) is not an authour name
-        
+
         //pure number is not an anthour e.g 101012
-        if (s == null || (s.matches("[Cc][0-9]{2}|[0-9]+|[0-9\\-]+"))  ) {
+        if (s == null || (s.matches("[Cc][0-9]{2}|[0-9]+|[0-9\\-]+"))) {
             return true;
         }
-        
+
 //        Matcher m = wrongWordsPatten.matcher(s);
 //        return m.matches();
-        
-            //should not contain any wrong word
+        //should not contain any wrong word
         for (String w : wrongWords) {
             if (s.contains(w)) {
                 return true;
             }
         }
         return false;
-        
+
     }
     private static final String[] CompressionType = {
         "zip", "rar", "7zip", "pdf"
@@ -180,4 +179,37 @@ public class NameParser {
         }
         return costs[s2.length()];
     }
+
+    public static boolean isTwoNamesEqual(ArrayList<String> l1, ArrayList<String> l2, boolean blur) {
+
+        if (!blur) {
+            for (String n1 : l1) {
+                for (String n2 : l2) {
+                    if (n1.equals(n2)) {
+                        return true;
+                    }
+                }
+            }
+            return false;
+
+        } else {
+            for (String n1 : l1) {
+                for (String n2 : l2) {
+
+                    // System.out.println(n2 + "  "+ name);
+                    int strDistance = NameParser.stringDistance(n2, n1);
+
+                    if (strDistance == 0 || n1.equals(n2)) {
+
+                        return true;
+                    } else if (strDistance == 1 && n2.length() > 2 && n1.length() > 2) {
+                        return true;
+                    }
+                }
+            }
+        }
+
+        return false;
+    }
+
 }

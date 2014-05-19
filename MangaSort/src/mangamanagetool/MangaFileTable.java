@@ -121,23 +121,22 @@ public class MangaFileTable extends Hashtable<String, AuthorInfo> {
         }
     }
 
-
-    
     public String toString()
     {
         StringBuilder str= new StringBuilder();
+        
+        int fileNum = 0;
        
         ArrayList<String> arr = new ArrayList();
         for (String s : keySet()) {
             arr.add(s);
+            fileNum += get(s).files.size();
         }
 
-        str.append("oneLevel=").append(oneLevel).append(", fileOn=").append(fileOn).append(", folderOn=").append(folderOn).append(", compressedFileOnly=").append(compressedFileOnly).append( '\n');
+       str.append("oneLevel=").append(oneLevel).append(", fileOn=").append(fileOn).append(", folderOn=").append(folderOn).append(", compressedFileOnly=").append(compressedFileOnly).append( '\n');
+       str.append("number of files ").append(fileNum).append("\n\r");
        str.append("number of keys ").append(arr.size()).append("\n\r");
       
-       
-       
-
         Collections.sort(arr);
         for (String s : arr) {
             str.append("|").append(s).append("|:     ").append(get(s).names).append(" | ").append(get(s).files).append("\n\r");

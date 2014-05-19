@@ -6,6 +6,7 @@ package mangamanagetool;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import junit.framework.TestCase;
 /**
  *
@@ -41,7 +42,7 @@ public class NameParserTest extends TestCase {
     }
 
     
-    public void testcontainWrongWord()
+    public void testContainWrongWord()
     {
          System.out.println("testcontainWrongWord");
          
@@ -75,7 +76,7 @@ public class NameParserTest extends TestCase {
 
     }
     
-    public void testjoin()
+    public void testJoin()
     {
        System.out.println("join");
         String [] t = {"apple", "cake", "php"};
@@ -172,5 +173,23 @@ public class NameParserTest extends TestCase {
         expResult = 0;
         result = NameParser.stringDistance(s1, s2);
         assertEquals(expResult, result);
+    }
+
+    /**
+     * Test of isTwoNamesEqual method, of class NameParser.
+     */
+    public void testIsTwoNamesEqual() {
+        System.out.println("isTwoNamesEqual");
+        
+        String[] a1 = {"a", "b"};
+        String[] b2 = {"b", "1"};
+         
+        ArrayList<String> l1 = new ArrayList<String>(Arrays.asList(a1));
+        ArrayList<String> l2 =new ArrayList<String>(Arrays.asList(b2));
+        boolean blur = false;
+        boolean expResult = true;
+        boolean result = NameParser.isTwoNamesEqual(l1, l2, blur);
+        assertEquals(expResult, result);
+
     }
 }

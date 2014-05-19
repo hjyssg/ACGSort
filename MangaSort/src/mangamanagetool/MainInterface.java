@@ -371,7 +371,7 @@ public class MainInterface extends javax.swing.JFrame {
 
         //run the matching algo
         try {
-            MatchAndPrintTheCommand();
+            matchAndPrintTheCommand();
             System.out.println("calculation: done");
             // JOptionPane.showMessageDialog(this, "Please check the project. Command files are created successfully");
         } catch (Exception e) {
@@ -522,7 +522,7 @@ public class MainInterface extends javax.swing.JFrame {
      *
      * @throws Exception
      */
-    private void MatchAndPrintTheCommand() throws Exception {
+    private void matchAndPrintTheCommand() throws Exception {
 
         //get the author of unsorted files     
         ArrayList<String> unsortedAuthorNames = new ArrayList(usrtFiles.keySet());
@@ -560,9 +560,6 @@ public class MainInterface extends javax.swing.JFrame {
 
             if (skip.contains(unsortedAuthorName)) {continue; }
 
-            
-            
-            
             //check if there already exist a folder for the file
             AuthorInfo entry = usrtFiles.get(unsortedAuthorName);
             if (entry == null) { 
@@ -585,16 +582,15 @@ public class MainInterface extends javax.swing.JFrame {
                     mvStr.append(sourceFile.getName()).append("    ").append(destFolder.getName()).append("\n\r");
                     mvCounter++;
                 }
-                //continue;
+                continue;
             }
 
             //calculate the files the author has 
             int occurence = 0;
             for (String key : usrtFiles.keySet()) {
                 AuthorInfo tempE = usrtFiles.get(key);
-                if (isTwoNamesEqual(names, tempE.names)) {
+                if (NameParser.isTwoNamesEqual(names, tempE.names,this.blurMatchingCheckBox.isSelected())) {
                     occurence += entry.files.size();
-
                     //only counter once
                     skip.add(key);
                 }
@@ -604,6 +600,7 @@ public class MainInterface extends javax.swing.JFrame {
                 //if folder  does not exist and this author have more than two book
                 //tell user to create one
                 mkdirCmd.append("mkdir \"").append(unsortedAuthorName).append("\"\n\r");
+                
                 mkdirCounter++;
             }
         }
@@ -612,37 +609,28 @@ public class MainInterface extends javax.swing.JFrame {
         PrintWriter out;
 
         String saveFolder = System.getProperty("user.dir");
+        
+        mkdirCmd.insert(0, "#Need to create " + mkdirCounter + " new folders\n\r");
+        mvWinCmd.insert(0, "\n\r\n\rNeed to move files " + mvCounter + " times\n\r");
+        mvMacCmd.insert(0, "\n\r\n\rNeed to move files " + mvCounter + " times\n\r");
 
-        out = new PrintWriter(saveFolder + "\\" + "mv_win_cmd.txt");
-        mvWinCmd.insert(0, "Need to move files " + mvCounter + " times\n\r\n\r");
+        out = new PrintWriter(saveFolder + "\\" + "win_cmd.txt");
+        out.print(mkdirCmd.toString());
         out.print(mvWinCmd.toString());
         out.close();
 
-        out = new PrintWriter(saveFolder + "\\" + "mv_mac_cmd.txt");
-        mvMacCmd.insert(0, "Need to move files " + mvCounter + " times\n\r\n\r");
+        out = new PrintWriter(saveFolder + "\\" + "mac_cmd.txt");
+         out.print(mkdirCmd.toString());   
         out.print(mvMacCmd.toString());
         out.close();
 
-        out = new PrintWriter(saveFolder + "\\" + "mkdir_cmd.txt");
-        mkdirCmd.insert(0, "#Need to create " + mkdirCounter + " new folders\n\r\n\r");
-        out.print(mkdirCmd.toString());
-        out.close();
 
         //open the folder in the file exploer
         java.awt.Desktop.getDesktop().open(new File(saveFolder));
     }
 
 
-    private boolean isTwoNamesEqual(ArrayList<String> l1, ArrayList<String> l2) {
-        for (String n1 : l1) {
-            for (String n2 : l2) {
-                if (n1.equals(n2)) {
-                    return true;
-                }
-            }
-        }
-        return false;
-    }
+
 
     /**
      * @param sourceName
@@ -661,32 +649,15 @@ public class MainInterface extends javax.swing.JFrame {
             return srtFiles.get(sourceName).directory;
         }
 
-        File result = null;
         
-        
-        
-
         //if not, compare all authors names
-        for (AuthorInfo entry : srtFiles.values()) {
-            for (String n1 : entry.names) {
-                for (String n2 : sourceNames) {
-                    
-                    
-
-                    // System.out.println(n2 + "  "+ name);
-                    int strDistance = NameParser.stringDistance(n2, n1);
-
-                    if (strDistance == 0 || n1.equals(n2)) {
-                        result = entry.directory;
-                        return result;
-                    } else if (this.blurMatchingCheckBox.isSelected() && strDistance == 1 && n2.length() > 2 && n1.length() > 2) {
-                        result = entry.directory;
-                    }
-                }
-            }
-
+        for (AuthorInfo entry : srtFiles.values()) {     
+           if ( NameParser.isTwoNamesEqual(entry.names,sourceNames,this.blurMatchingCheckBox.isSelected()))
+           {
+                return entry.directory;
+           }
         }
-        return result;
+        return null;
     }
 
     /**
