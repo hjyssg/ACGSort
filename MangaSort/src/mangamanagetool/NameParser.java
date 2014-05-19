@@ -5,6 +5,9 @@
 package mangamanagetool;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Iterator;
 import java.util.regex.*;
 
 /**
@@ -38,7 +41,7 @@ public class NameParser {
     }
 
     
-   static Pattern brktPattern = Pattern.compile("\\[.*?\\]");
+   static Pattern brktPattern = Pattern.compile("\\[(.*?)\\]");
     
     /**
      * return author name from a file name e.g "(COMIC1☆7) [DUAL BEAT (柚木貴)]
@@ -56,15 +59,36 @@ public class NameParser {
         while(matcher.find())
         {
            String ss = matcher.group();
-        
-            //System.out.println(ss));
+           //remove [ and ]
+           ss =  ss.replaceAll("\\[", "").replaceAll("\\]","");
+          
             if (!containWrongWord(ss)) {
+                 // System.out.println(ss.charAt(0));
                 return ss;
             }
         }
         return null;
     }
-        
+
+    /**
+     * http://stackoverflow.com/questions/1515437/java-function-for-arrays-like-phps-join
+     * @param s
+     * @param delimiter
+     * @return 
+     */
+    public static String join(Collection s, String delimiter) {
+    StringBuilder buffer = new StringBuilder();
+    Iterator iter = s.iterator();
+    while (iter.hasNext()) {
+        buffer.append(iter.next());
+        if (iter.hasNext()) {
+            buffer.append(delimiter);
+        }
+    }
+    return buffer.toString();
+    }
+    
+    
     //exclude non-author name 
     private static final String[] wrongWords = {
         "汉化", "漢化", "English", "Chinese", "Korean", "中文", "한국",
@@ -73,27 +97,34 @@ public class NameParser {
         "Anthology", "アンソロジー", "Various", "よろず", "original", "オリジナル",
         "Artist", "アーティスト",
         "成年コミック", "コミック", "一般コミック", "COMIC",
-        "Doujinshi", "Doujin", "同人", "同人",
+        "Doujinshi", "Doujin", "同人", "同人","doujin",
         "DL版",
         "Artbook", "画集",
         "COMIC1☆", "サンクリ"
     };
+    
+     public static final Pattern wrongWordsPatten = Pattern.compile(NameParser.join(new ArrayList(Arrays.asList(wrongWords)), "|"));
 
     //exclude certain string
-    private static boolean containWrongWord(String s) {
+    public static boolean containWrongWord(String s) {
         //comiket (e.g c79, c82) is not an authour name
+        
         //pure number is not an anthour e.g 101012
-        if (s == null || (s.matches("[Cc][0-9]{2}|[0-9]+"))) {
+        if (s == null || (s.matches("[Cc][0-9]{2}|[0-9]+|[0-9\\-]+"))  ) {
             return true;
         }
-
-        //should not contain any wrong word
+        
+//        Matcher m = wrongWordsPatten.matcher(s);
+//        return m.matches();
+        
+            //should not contain any wrong word
         for (String w : wrongWords) {
             if (s.contains(w)) {
                 return true;
             }
         }
         return false;
+        
     }
     private static final String[] CompressionType = {
         "zip", "rar", "7zip", "pdf"

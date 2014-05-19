@@ -5,6 +5,7 @@
 package mangamanagetool;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import junit.framework.TestCase;
 /**
  *
@@ -31,25 +32,82 @@ public class NameParserTest extends TestCase {
      */
     public void testGetAuthorNameEntry() {
         System.out.println("getAuthorNameEntry");
-        String s = "";
-        ArrayList expResult = null;
+        String s = "apple[pear]";
+        ArrayList expResult = new ArrayList();
+        expResult.add("apple");
+        expResult.add("pear");
         ArrayList result = NameParser.getAuthorNameEntry(s);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
+
+    
+    public void testcontainWrongWord()
+    {
+         System.out.println("testcontainWrongWord");
+         
+         //System.out.println(NameParser.wrongWordsPatten);
+         
+          String s = "[成年コミック]komic eros";
+         boolean  expResult = true;
+          boolean result = NameParser.containWrongWord(s);
+          assertEquals(expResult, result);
+         
+          s = "[doujin asdasfdaskomic eros";
+          expResult = true;
+          result = NameParser.containWrongWord(s);
+          assertEquals(expResult, result);
+
+          s = "10-10-1123";
+          expResult = true;
+          result = NameParser.containWrongWord(s);
+          assertEquals(expResult, result);
+
+            s = "104654564101123";
+          expResult = true;
+          result = NameParser.containWrongWord(s);
+          assertEquals(expResult, result);
+       
+
+          s = "リリム";
+          expResult = false;
+          result = NameParser.containWrongWord(s);
+          assertEquals(expResult, result);
+
+    }
+    
+    public void testjoin()
+    {
+       System.out.println("join");
+        String [] t = {"apple", "cake", "php"};
+        ArrayList<String> ss = new ArrayList<String>(Arrays.asList(t));
+        String delimeter = "|";
+        String expResult = "apple|cake|php";
+        String result = NameParser.join(ss, delimeter);
+        
+         assertEquals(expResult, result); 
+    }
+
 
     /**
      * Test of getStringFromBrackets method, of class NameParser.
      */
-    public void testGetAuthorName() {
+    public void testgetStringFromBrackets() {
         System.out.println("getAuthorName");
-        String fn = "";
-        String expResult = "";
+        String fn = "[ホノカチャン]、]かわい";
+        String expResult = "ホノカチャン";
         String result = NameParser.getStringFromBrackets(fn);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+
+
+        fn = "[101023]、]かわい";
+        expResult = null;
+        result = NameParser.getStringFromBrackets(fn);
+        assertEquals(expResult, result);
+
+        fn = "[14-10-23]、]かわい";
+        expResult = null;
+        result = NameParser.getStringFromBrackets(fn);
+        assertEquals(expResult, result);
     }
 
     /**
@@ -57,12 +115,21 @@ public class NameParserTest extends TestCase {
      */
     public void testIsCompressionFile() {
         System.out.println("isCompressionFile");
-        String fileExtension = "";
+        String fileExtension = "docx";
         boolean expResult = false;
         boolean result = NameParser.isCompressionFile(fileExtension);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+
+        fileExtension = "zip";
+        expResult = true;
+        result = NameParser.isCompressionFile(fileExtension);
+        assertEquals(expResult, result);
+
+        fileExtension = "rar";
+        expResult = true;
+        result = NameParser.isCompressionFile(fileExtension);
+        assertEquals(expResult, result);
+
     }
 
     /**
@@ -70,12 +137,16 @@ public class NameParserTest extends TestCase {
      */
     public void testGetFileExtension() {
         System.out.println("getFileExtension");
-        String fileName = "";
-        String expResult = "";
+        String fileName = "NameParserTest.java";
+        String expResult = "java";
         String result = NameParser.getFileExtension(fileName);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+
+        fileName = " (蒲田鎮守府弐) [日々鳥々 (日鳥)] 大体こんな日常 (艦隊これくしょん -艦これ-).zip";
+        expResult = "zip";
+        result = NameParser.getFileExtension(fileName);
+        assertEquals(expResult, result);
+
     }
 
     /**
@@ -83,12 +154,23 @@ public class NameParserTest extends TestCase {
      */
     public void testStringDistance() {
         System.out.println("stringDistance");
-        String s1 = "";
-        String s2 = "";
-        int expResult = 0;
+        String s1 = "54615616あpp";
+        String s2 = "54115616あkp1";
+        int expResult = 3;
         int result = NameParser.stringDistance(s1, s2);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+
+
+        s1 = "54615616あpp";
+        s2 = "54615616あkp";
+        expResult = 1;
+        result = NameParser.stringDistance(s1, s2);
+        assertEquals(expResult, result);
+
+        s1 = "らぶらいぶ";
+        s2 = "らぶらいぶ";
+        expResult = 0;
+        result = NameParser.stringDistance(s1, s2);
+        assertEquals(expResult, result);
     }
 }
