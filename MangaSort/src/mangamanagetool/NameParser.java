@@ -12,7 +12,7 @@ import java.util.regex.*;
 
 /**
  *
- * @author junyang_huang
+ * @author hjyssg
  * @purpose: get a list of author names from managa files
  *
  */

@@ -10,7 +10,7 @@ import java.util.Collection;
 import junit.framework.TestCase;
 /**
  *
- * @author junyang
+ * @author hjyssg
  */
 public class NameParserTest extends TestCase {
     

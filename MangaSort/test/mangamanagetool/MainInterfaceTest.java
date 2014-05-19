@@ -13,7 +13,7 @@ import junit.framework.TestCase;
 
 /**
  *
- * @author junyang
+ * @authorhjyssg
  */
 public class MainInterfaceTest extends TestCase {
     

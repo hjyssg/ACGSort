@@ -6,7 +6,7 @@ package mangamanagetool;
 
 /**
  *
- * @author junyang
+ * @author hjyssg
  */
 import java.util.*;
 import java.io.*;
@@ -17,7 +17,6 @@ public class AuthorInfo {
      * e.g e.g 有葉と愉快な仲間たち (有葉), Fatalpulse (朝凪)
      * We use hashSet because we do not need the order of name 
      */
-
     public ArrayList<String> names;
 
     /*

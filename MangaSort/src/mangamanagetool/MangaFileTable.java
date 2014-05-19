@@ -6,7 +6,7 @@ package mangamanagetool;
 
 /**
  *
- * @author workingAccount
+ * @author hjyssg
  */
 import java.io.File;
 import java.util.*;
@@ -40,36 +40,30 @@ public class MangaFileTable extends Hashtable<String, AuthorInfo> {
     }
 
     private void add(String authorName, File f) {
-      
-            //System.out.println(authorName+"  " + f);
-
-            if (containsKey(authorName)) {
-                get(authorName).files.add(f);
-            } else {
-               
-                AuthorInfo entry = new AuthorInfo();
-                ArrayList fileEntry = new ArrayList<File>();
-                fileEntry.add(f);
-                entry.files = fileEntry;
-                entry.names = NameParser.getAuthorNameEntry(authorName);
-                
-                if (f.isDirectory()) {entry.directory = f;}
-
-                put(authorName, entry);
-            }
+        //System.out.println(authorName+"  " + f);
+        if (containsKey(authorName)) {
+            get(authorName).files.add(f);
+        } else {
+            AuthorInfo entry = new AuthorInfo(authorName, f);
+            put(authorName, entry);
+        }
     }
 
     private void iterate(File dir) {
         try {
             File[] files = dir.listFiles();
 
-            if (files == null) {   return;   }
-            
+            if (files == null) {
+                return;
+            }
+
             for (File f : files) {
                 String fileName = f.getName();
 
                 //skip hidden file and folder
-                if (f.isHidden()) { continue; }
+                if (f.isHidden()) {
+                    continue;
+                }
 
                 if (f.isFile() && fileOn) {
                     //get file extension
@@ -80,9 +74,9 @@ public class MangaFileTable extends Hashtable<String, AuthorInfo> {
                     }
 
                     String authorName = NameParser.getStringFromBrackets(fileName);
-                    
-                    if (authorName != null){
-                    add(authorName, f);
+
+                    if (authorName != null) {
+                        add(authorName, f);
                     }
 
                 } else if (f.isDirectory()) {
@@ -90,12 +84,11 @@ public class MangaFileTable extends Hashtable<String, AuthorInfo> {
                         //String authorName = NameParser.getStringFromBrackets(fileName);
                         //System.out.println(authorName);
                         add(fileName, f);
-                       // return;
+                        // return;
                     }
-
                     //file hirachy travesal
                     if (!this.oneLevel) {
-                       // System.out.println("__GOING TO "+ f.getName());
+                        // System.out.println("__GOING TO "+ f.getName());
                         iterate(f);
                     }
                 }
@@ -121,27 +114,24 @@ public class MangaFileTable extends Hashtable<String, AuthorInfo> {
         }
     }
 
-    public String toString()
-    {
-        StringBuilder str= new StringBuilder();
-        
+    public String toString() {
+        StringBuilder str = new StringBuilder();
         int fileNum = 0;
-       
+
         ArrayList<String> arr = new ArrayList();
         for (String s : keySet()) {
             arr.add(s);
             fileNum += get(s).files.size();
         }
+        
+        str.append("oneLevel=").append(oneLevel).append(", fileOn=").append(fileOn).append(", folderOn=").append(folderOn).append(", compressedFileOnly=").append(compressedFileOnly).append('\n');
+        str.append("number of files ").append(fileNum).append("\n\r");
+        str.append("number of keys ").append(arr.size()).append("\n\r");
 
-       str.append("oneLevel=").append(oneLevel).append(", fileOn=").append(fileOn).append(", folderOn=").append(folderOn).append(", compressedFileOnly=").append(compressedFileOnly).append( '\n');
-       str.append("number of files ").append(fileNum).append("\n\r");
-       str.append("number of keys ").append(arr.size()).append("\n\r");
-      
         Collections.sort(arr);
         for (String s : arr) {
             str.append("|").append(s).append("|:     ").append(get(s).names).append(" | ").append(get(s).files).append("\n\r");
         }
-        
         return str.toString();
     }
 }
