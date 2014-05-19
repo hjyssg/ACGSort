@@ -1,27 +1,0 @@
-#Need to create 2 new folders
-mkdir "(同人)なのはの爆進！(魔法少女奈叶)(枫色汉化组出品)"
-mkdir "東方"
-
-
-Need to move files 20 times
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\_非工口\東方\(C80) (同人誌)   [屋代スペース少年団] 東方どろぬま劇場 キョンシーパラダイス (東方) (非エロ)" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\とりあえず(仮) (とろろ)"
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\_非工口\東方\(C80) (同人誌)  [ボディマハッタヤ銀河] 輝夜が紅魔館のメイドになるそうです (東方) (非エロ)" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\とりあえず(仮) (とろろ)"
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\_非工口\東方\(C80) (同人誌) [ZED CHOP] ALWAYS (東方) (非エロ)" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\とりあえず(仮) (とろろ)"
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\_非工口\(C80) (同人誌) [まどか屋さん] ティロ フィナーレ本" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\とりあえず(仮) (とろろ)"
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\_非工口\(C80) (同人誌) [ミュンヒハウゼン症候群(珠月まや)] 扶桑の魔女 (ストライクウィッチーズ)" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\とりあえず(仮) (とろろ)"
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\_非工口\東方\(C80) (同人誌) [奴は仮名×PURE] VAMPIRE KISS (東方) (非エロ)" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\とりあえず(仮) (とろろ)"
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\_非工口\(C80) (同人誌) [超あるまじろくらぶ(源久也)] 魔法少女暁美ほむらの〇〇な話。 (魔法少女まどか☆マギカ)" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\とりあえず(仮) (とろろ)"
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\_非工口\(C80) (同人誌)[2-SHOT☆(越智善彦)] マリエリBOOK NO.38 こっちでもよっぱらい (マリーとエリーのアトリエ) (非エロ)" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\とりあえず(仮) (とろろ)"
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\_非工口\(C80) (同人誌)[CALBORN★STAR] P!" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\とりあえず(仮) (とろろ)"
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\_非工口\東方\(C80) (同人誌)[小豆粥(小豆長光)] 東方狸合戦ぽんぽこ (東方)" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\とりあえず(仮) (とろろ)"
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\_非工口\東方\(C80) (同人誌)[雨山電信社] RAINMAKER 第4話 グスコーブドリの伝記 DL版 (東方)" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\とりあえず(仮) (とろろ)"
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\(Reitaisai 9) (Houtengeki) 東方軍服風 (Touhou Project) [Digital].rar" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\Digital"
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\[I-Raf-you (Various)] GIANTESS GIRLS vol.1 [Digital].zip" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\Digital"
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\[I-Raf-you (Various)] GIANTESS GIRLS vol.2   GG 2gou 1 1 KanMusu (Kantai Collection) [Digital].zip" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\Digital"
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\[らぐー] 兄妹ですよ.zip" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\らぐー"
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\(C85) (同人誌) [わくわく動物園 (天王寺キツネ)] 人妻金剛 (艦隊これくしょん -艦これ-).zip" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\わくわく動物園 (天王寺きつね)"
-mv "J:\_Happy_Lesson\Going_to_sort\(成年コミック) [アズマサワヨシ] 先輩はミニマムガール [2013-02-14].zip" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\A・L・L (アズマサワヨシ)"
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\(成年コミック) [シヒラ竜也] ShamelessGirl.zip" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\シヒラ竜也"
-mv "J:\_Happy_Lesson\Going_to_sort\(COMIC1☆8) [チームキハラ (もじゃりん)] エリーンペロペロ小ネタ集 (TERA The Exiled Realm of Arborea).zip" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\チームキハラ (もじゃりん)"
-mv "J:\_Happy_Lesson\Going_to_sort\_Compressed\[塩屋虻通信 (塩604)] 絶望の世界より (新世界より).zip" "J:\_Happy_Lesson\_Manga\Sorted_By_Author\塩屋虻通信 (シオロク)"
-

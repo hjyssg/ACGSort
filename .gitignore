@@ -26,3 +26,6 @@ nb-configuration.xml
 *.jar
 *.war
 *.ear
+
+# text files
+*.txt
