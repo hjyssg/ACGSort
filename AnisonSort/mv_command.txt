@@ -1,0 +1,15 @@
+mkdir "D:\_MUSIC\_Sorted\悪魔のリドル" 
+move "D:\_MUSIC\_Unsorted\ [140514] TVアニメ「悪魔のリドル」キャラクターエンディングテーマ集 黒組曲・序／10年黒組 (320K)" "D:\_MUSIC\_Sorted\悪魔のリドル\ [140514] TVアニメ「悪魔のリドル」キャラクターエンディングテーマ集 黒組曲・序／10年黒組 (320K)"
+
+mkdir "D:\_MUSIC\_Sorted\ブラック・ブレット" 
+move "D:\_MUSIC\_Unsorted\ [140514] TVアニメ「ブラック・ブレット」OPテーマ「black bullet」／fripSide (320K+BK)" "D:\_MUSIC\_Sorted\ブラック・ブレット\ [140514] TVアニメ「ブラック・ブレット」OPテーマ「black bullet」／fripSide (320K+BK)"
+
+mkdir "D:\_MUSIC\_Sorted\魔法科高校の劣等生" 
+move "D:\_MUSIC\_Unsorted\ [140507] TVアニメ「魔法科高校の劣等生」OPテーマ「Rising Hope」／LiSA [アニメ盤] (320K+BK)" "D:\_MUSIC\_Sorted\魔法科高校の劣等生\ [140507] TVアニメ「魔法科高校の劣等生」OPテーマ「Rising Hope」／LiSA [アニメ盤] (320K+BK)"
+
+mkdir "D:\_MUSIC\_Sorted\未確認で進行形" 
+move "D:\_MUSIC\_Unsorted\ [140514] TVアニメ「未確認で進行形」キャラクターソングCD3 (320K+BK)" "D:\_MUSIC\_Sorted\未確認で進行形\ [140514] TVアニメ「未確認で進行形」キャラクターソングCD3 (320K+BK)"
+
+mkdir "D:\_MUSIC\_Sorted\悪魔のリドル" 
+move "D:\_MUSIC\_Unsorted\ [140423] TVアニメ「悪魔のリドル」OPテーマ「創傷イノセンス」／内田真礼 (320K)" "D:\_MUSIC\_Sorted\悪魔のリドル\ [140423] TVアニメ「悪魔のリドル」OPテーマ「創傷イノセンス」／内田真礼 (320K)"
+

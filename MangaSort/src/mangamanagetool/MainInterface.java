@@ -192,7 +192,7 @@ public class MainInterface extends javax.swing.JFrame {
         });
 
         rememberBox.setSelected(true);
-        rememberBox.setText("Remember Folders");
+        rememberBox.setText("Remember Setting");
 
         unsortedFolderList.setModel(new DefaultListModel());
         unsortedFolderList.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
@@ -446,11 +446,11 @@ public class MainInterface extends javax.swing.JFrame {
     {
       
         usrtFiles = new MangaFileTable();
-       // usrtFiles.oneLevel = this.oneLevelCheckBox.isSelected();
-        usrtFiles.oneLevel = false;
+        usrtFiles.oneLevel = this.oneLevelCheckBox.isSelected();
+        //usrtFiles.oneLevel = false;
         usrtFiles.fileOn = true;
-        usrtFiles.folderOn = false;
-        //usrtFiles.folderOn = !this.FileOnlyCheckBox.isSelected();
+        //usrtFiles.folderOn = false;
+        usrtFiles.folderOn = !this.FileOnlyCheckBox.isSelected();
         usrtFiles.compressedFileOnly = true;
         
            srtFiles = new MangaFileTable();

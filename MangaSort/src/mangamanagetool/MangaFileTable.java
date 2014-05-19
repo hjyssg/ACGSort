@@ -90,13 +90,12 @@ public class MangaFileTable extends Hashtable<String, AuthorInfo> {
                         //String authorName = NameParser.getStringFromBrackets(fileName);
                         //System.out.println(authorName);
                         add(fileName, f);
+                       // return;
                     }
 
                     //file hirachy travesal
                     if (!this.oneLevel) {
-                        
                        // System.out.println("__GOING TO "+ f.getName());
-                        
                         iterate(f);
                     }
                 }

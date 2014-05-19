@@ -137,7 +137,7 @@
     <Component class="javax.swing.JCheckBox" name="rememberBox">
       <Properties>
         <Property name="selected" type="boolean" value="true"/>
-        <Property name="text" type="java.lang.String" value="Remember Folders"/>
+        <Property name="text" type="java.lang.String" value="Remember Setting"/>
       </Properties>
     </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane1">
