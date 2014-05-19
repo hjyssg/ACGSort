@@ -32,4 +32,8 @@ public class AuthorInfo
      * Where you put the author's file
      */
      public File directory;
+     
+     
+     
+     
 }

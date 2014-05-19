@@ -25,6 +25,9 @@ import java.util.Iterator;
  * @author jhuang
  */
 public class MainInterface extends javax.swing.JFrame {
+    
+    //private boolean LOG1 = false;
+    private boolean LOG1 = true;
 
     private final String UNSORTED_FOLDER_PATH_PROPERTY = "unsorted folder path";
     private final String SORTED_FOLDER_PATH_PROPERTY = "sort folder path";
@@ -33,6 +36,10 @@ public class MainInterface extends javax.swing.JFrame {
     private final String UNSORTED_FOLDER_SEARCH_FILE_ONLY_PROPERTY = "unsorted folder search file only property";
     private final String NUMBER_BEFORE_MKDIR_PROPERTY = "number before mkdir property";
     private final String BLUR_SEARCH_PROPETY = "blur search proprty";
+
+    //sorted -> str
+    private MangaFileTable srtFiles;
+    private MangaFileTable usrtFiles;
 
     /**
      * Creates new form MainInterface
@@ -327,6 +334,15 @@ public class MainInterface extends javax.swing.JFrame {
         }
     }
 
+    String[] getPathes(JList l) {
+        Object[] tempArr = getDefaultListModel(l).toArray();
+        return Arrays.copyOf(tempArr, tempArr.length, String[].class);
+    }
+
+
+
+
+
     /*
      * the most important method of this class
      * read folder and then do the matching
@@ -337,65 +353,12 @@ public class MainInterface extends javax.swing.JFrame {
         this.runButton.setEnabled(false);
         //this.runButton.setText("Running...");
 
-        UnsortedFileTable unsortedFileList = new UnsortedFileTable();
-        SortedFileTable authorList = new SortedFileTable();
-
-        //apply user setting
-        unsortedFileList.oneLevel = this.oneLevelCheckBox.isSelected();
-        unsortedFileList.fileOnly = this.FileOnlyCheckBox.isSelected();
-
-        //scan unsorted folders
-        try {
-
-            //get folder pathes
-            Object[] tempUnsortedArr = getDefaultListModel(unsortedFolderList).toArray();
-            String[] unsortedPathArr = Arrays.copyOf(tempUnsortedArr, tempUnsortedArr.length, String[].class);
-
-            //read one by one
-            for (String path : unsortedPathArr) {
-                unsortedFileList.addFolder(path.trim());
-            }
-
-             System.out.println("unsorted folders scanning: done");
-
-            //display content
-            //unsortedFileList.debugDisplay();
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.err.println(e.getStackTrace() + " during scanning unsorted files");
-            JOptionPane.showMessageDialog(this, e + " during scanning unsorted files");
-            this.runButton.setEnabled(true);
-            return;
-        }
-
-        //scan sorted folders
-        try {
-
-            //get folder pathes
-            Object[] tempSortedArr = getDefaultListModel(sortedFolderList).toArray();
-            String[] sortedPathArr = Arrays.copyOf(tempSortedArr, tempSortedArr.length, String[].class);
-
-            //read one by one
-            for (String path : sortedPathArr) {
-                authorList.addFolder(path.trim());
-            }
-
-            System.out.println("sorted folders scanning: done");
-
-            //display content
-            //authorList.debugDisplay();
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.err.println(e + "during scanning Sorted folder");
-            JOptionPane.showMessageDialog(this, e + "during scanning Sorted folder");
-            this.runButton.setEnabled(true);
-            //this.runButton.setText("Run");
-            return;
-        }
+        scan_folders();
+       
 
         //run the matching algo
         try {
-            MatchAndPrintTheCommand(authorList, unsortedFileList);
+            MatchAndPrintTheCommand();
             System.out.println("calculation: done");
             // JOptionPane.showMessageDialog(this, "Please check the project. Command files are created successfully");
         } catch (Exception e) {
@@ -404,7 +367,6 @@ public class MainInterface extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, e + "during matching calculation");
         } finally {
             this.runButton.setEnabled(true);
-            //this.runButton.setText("Run");
         }
     }//GEN-LAST:event_run
 
@@ -484,25 +446,60 @@ public class MainInterface extends javax.swing.JFrame {
         return false;
     }
 
-    private int getAuthorNameOccurenceCounter(UnsortedFileTable unsortedFileList, ArrayList<String> sourceNames, String sourceName) {
-        int result = 0;
 
-        ArrayList<String> goingToRemove = new ArrayList<String>();
+    private void scan_folders()
+    {
+      
+        usrtFiles = new MangaFileTable();
+       // usrtFiles.oneLevel = this.oneLevelCheckBox.isSelected();
+        usrtFiles.oneLevel = false;
+        usrtFiles.fileOn = true;
+        usrtFiles.folderOn = true;
+        //usrtFiles.folderOn = !this.FileOnlyCheckBox.isSelected();
+        usrtFiles.compressedFileOnly = true;
+        
+           srtFiles = new MangaFileTable();
+        srtFiles.fileOn = false;
+        srtFiles.folderOn = true;
+        srtFiles.oneLevel = true;
 
-        for (String key : unsortedFileList.table.keySet()) {
-            AuthorInfo entry = unsortedFileList.table.get(key);
-            if (isTwoNamesEqual(sourceNames, entry.names)) {
-                result += entry.files.size();
-                goingToRemove.add(key);
+        
+        //scan unsorted folders
+        try {
+            String[] unsortedPathArr = getPathes(unsortedFolderList);
+            usrtFiles.addFolders(unsortedPathArr);
+            System.out.println("unsorted folders scanning: done");
+            
+              //write result into text file
+           if (LOG1){
+               usrtFiles.debugDisplay();
+                PrintWriter out;
+                String saveFolder = System.getProperty("user.dir");
+                out = new PrintWriter(saveFolder + "\\" + "usrtFiles_debug_log.txt");
+                out.print(usrtFiles.toString());
+                out.close();
             }
-        }
 
-        for (String key : goingToRemove) {
-            unsortedFileList.table.remove(key);
-        }
+            String[] sortedPathArr = getPathes(sortedFolderList);
+            srtFiles.addFolders(sortedPathArr);
+            System.out.println("sorted folders scanning: done");
+            if (LOG1){ 
 
-        //unsortedFileList.table.remove(sourceName);
-        return result;
+                //srtFiles.debugDisplay();
+                PrintWriter out;
+                String saveFolder = System.getProperty("user.dir");
+                out = new PrintWriter(saveFolder + "\\" + "srtFiles_debug_log.txt");
+                out.print(srtFiles.toString());
+                out.close();
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.err.println(e.getStackTrace() + " during scanning");
+            JOptionPane.showMessageDialog(this, e + " during scanning");
+            this.runButton.setEnabled(true);
+            return;
+        }
     }
 
     /**
@@ -510,14 +507,12 @@ public class MainInterface extends javax.swing.JFrame {
      * out instruction about how to move file from unsortedFolder to
      * sortedFolder You need to move file manually to make sure no any problem
      *
-     * @param AuthorList
-     * @param unsortedFileList
      * @throws Exception
      */
-    private void MatchAndPrintTheCommand(SortedFileTable AuthorList, UnsortedFileTable unsortedFileList) throws Exception {
+    private void MatchAndPrintTheCommand() throws Exception {
 
         //get the author of unsorted files     
-        ArrayList<String> unsortedAuthorNames = new ArrayList(unsortedFileList.table.keySet());
+        ArrayList<String> unsortedAuthorNames = new ArrayList(usrtFiles.keySet());
         //sort them for more readable output
         Collections.sort(unsortedAuthorNames);
 
@@ -533,55 +528,47 @@ public class MainInterface extends javax.swing.JFrame {
 
         //command to move file on mac and linux
         StringBuilder mvMacCmd = new StringBuilder();
-
         StringBuilder mkdirCmd = new StringBuilder();
 
         //a non-shell version for human to read
         StringBuilder mvStr = new StringBuilder();
-        StringBuilder mkdirStr = new StringBuilder();
 
         int numBeforeMkdir = (Integer) this.createDirSpinner.getValue();
 
-        // System.err.println(numBeforeMkdir + "  is the number before mkdir");
         HashSet<String> skip = new HashSet<String>();
 
         for (String unsortedAuthorName : unsortedAuthorNames) {
 
-            if (skip.contains(unsortedAuthorName)) {
-                continue;
-            }
+            if (skip.contains(unsortedAuthorName)) {continue; }
 
             //check if there already exist a folder for the file
-            AuthorInfo entry = unsortedFileList.table.get(unsortedAuthorName);
-            if (entry == null) {
-                continue;
-            }
+            AuthorInfo entry = usrtFiles.get(unsortedAuthorName);
+            if (entry == null) { continue; }
 
             ArrayList<String> names = entry.names;
-
-            File destFolder = getAuthorFolder(AuthorList, unsortedAuthorName, names);
+            File destFolder = getAuthorFolder(unsortedAuthorName, names);
 
             if (destFolder != null) {
                 //tell user to move the file
-                ArrayList<File> sourceFiles = unsortedFileList.table.get(unsortedAuthorName).files;
+                ArrayList<File> sourceFiles = usrtFiles.get(unsortedAuthorName).files;
                 for (File sourceFile : sourceFiles) {
-                    mvMacCmd.append("mv \"").append(sourceFile.getPath()).append("\" \"").append(destFolder.getPath()).append("\"\n\r");
-                    mvWinCmd.append("move \"").append(sourceFile.getPath()).append("\" \"").append(destFolder.getPath()).append("\"\n\r");
-
+                    StringBuilder line = new StringBuilder();
+                    line.append(sourceFile.getPath()).append("\" \"").append(destFolder.getPath()).append("\"\n\r");
+                    mvMacCmd.append("mv \"").append(line);  mvWinCmd.append("move \"").append(line);
                     mvStr.append(sourceFile.getName()).append("    ").append(destFolder.getName()).append("\n\r");
-
                     mvCounter++;
                 }
-
                 continue;
             }
 
+            //calculate the files the author has 
             int occurence = 0;
-
-            for (String key : unsortedFileList.table.keySet()) {
-                AuthorInfo tempE = unsortedFileList.table.get(key);
+            for (String key : usrtFiles.keySet()) {
+                AuthorInfo tempE = usrtFiles.get(key);
                 if (isTwoNamesEqual(names, tempE.names)) {
                     occurence += entry.files.size();
+
+                    //only counter once
                     skip.add(key);
                 }
             }
@@ -589,10 +576,7 @@ public class MainInterface extends javax.swing.JFrame {
             if (occurence >= numBeforeMkdir) {
                 //if folder  does not exist and this author have more than two book
                 //tell user to create one
-
                 mkdirCmd.append("mkdir \"").append(unsortedAuthorName).append("\"\n\r");
-                mkdirStr.append(unsortedAuthorName).append("\n\r");
-
                 mkdirCounter++;
             }
         }
@@ -617,6 +601,7 @@ public class MainInterface extends javax.swing.JFrame {
         out.print(mkdirCmd.toString());
         out.close();
 
+        //open the folder in the file exploer
         java.awt.Desktop.getDesktop().open(new File(saveFolder));
     }
 
@@ -628,16 +613,16 @@ public class MainInterface extends javax.swing.JFrame {
      * @return the folder url, null if no exitence
      * @return [description]
      */
-    public File getAuthorFolder(SortedFileTable sortedtable, String sourceName, ArrayList<String> sourceNames) {
+    public File getAuthorFolder(String sourceName, ArrayList<String> sourceNames) {
         //if we can find directly, nice
-        if (sortedtable.table.contains(sourceName)) {
-            return sortedtable.table.get(sourceName).directory;
+        if (srtFiles.contains(sourceName)) {
+            return srtFiles.get(sourceName).directory;
         }
 
         File result = null;
 
         //if not, compare all authors names
-        for (AuthorInfo entry : sortedtable.table.values()) {
+        for (AuthorInfo entry : srtFiles.values()) {
             for (String n1 : entry.names) {
                 for (String n2 : sourceNames) {
 

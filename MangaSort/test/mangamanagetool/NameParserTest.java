@@ -27,7 +27,7 @@ public class NameParserTest extends TestCase {
     }
 
     /**
-     * Test of getAuthorNameEntry method, of class NameParser.
+     * Test of getStringFromBracketsEntry method, of class NameParser.
      */
     public void testGetAuthorNameEntry() {
         System.out.println("getAuthorNameEntry");
@@ -40,13 +40,13 @@ public class NameParserTest extends TestCase {
     }
 
     /**
-     * Test of getAuthorName method, of class NameParser.
+     * Test of getStringFromBrackets method, of class NameParser.
      */
     public void testGetAuthorName() {
         System.out.println("getAuthorName");
         String fn = "";
         String expResult = "";
-        String result = NameParser.getAuthorName(fn);
+        String result = NameParser.getStringFromBrackets(fn);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");

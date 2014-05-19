@@ -23,7 +23,8 @@ public class NameParser {
      * @return an array of author names
      */
     public static ArrayList<String> getAuthorNameEntry(String s) {
-        String[] names = s.split("\\[|\\]|\\(|\\)|,|、|&");
+       // String[] names = s.split("\\[|\\]|\\(|\\)|,|、|&");
+        String[] names = s.split("\\[|\\]|\\(|\\)|,");
         ArrayList<String> result = new ArrayList<String>(names.length);
         for (String tempS : names) {
             //trim and only allow one space internally
@@ -41,7 +42,7 @@ public class NameParser {
      * @param fn fileName
      * @return author name
      */
-    public static String getAuthorName(String fn) {
+    public static String getStringFromBrackets(String fn) {
         boolean t1 = false, t2 = false;
         int index1 = 0, index2 = 0;
 

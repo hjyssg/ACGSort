@@ -1,0 +1,1079 @@
+oneLevel=true, fileOn=false, folderOn=true, compressedFileOnly=false
+number of keys 1076
+|100円外務省|     [100円外務省] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\100円外務省]
+|14ロリータ (でこちんハンマー)|     [14ロリータ, でこちんハンマー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\14ロリータ (でこちんハンマー)]
+|16軒目 (さとーさとる)|     [16軒目, さとーさとる] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\16軒目 (さとーさとる)]
+|20+1|     [20+1] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\20+1]
+|22w|     [22w] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\22w]
+|23.4ド (イチリ)|     [23.4ド, イチリ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\23.4ド (イチリ)]
+|3 colors cat (みけ田みい吉)|     [3 colors cat, みけ田みい吉] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\3 colors cat (みけ田みい吉)]
+|4%Liar (A・Loveる)|     [4%Liar, A・Loveる] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\4%Liar (A・Loveる)]
+|40010壱号 (40010試作型)|     [40010壱号, 40010試作型] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\40010壱号 (40010試作型)]
+|47sp & SSB|     [47sp & SSB] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\47sp & SSB]
+|4season (彩季なお)|     [4season, 彩季なお] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\4season (彩季なお)]
+|54BURGER (まるごし)|     [54BURGER, まるごし] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\54BURGER (まるごし)]
+|640km／h over|     [640km／h over] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\640km／h over]
+|65535あべぬー。 (赤人)|     [65535あべぬー。, 赤人] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\65535あべぬー。 (赤人)]
+|666プロテクト(甚六)|     [666プロテクト, 甚六] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\666プロテクト(甚六)]
+|ACTIVA|     [ACTIVA] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ACTIVA]
+|AGOI亭 (三九呂)|     [AGOI亭, 三九呂] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\AGOI亭 (三九呂)]
+|AKACIA (銀一)|     [AKACIA, 銀一] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\AKACIA (銀一)]
+|ALLIANCE (Mitsukasa Mitsuki)|     [ALLIANCE, Mitsukasa Mitsuki] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ALLIANCE (Mitsukasa Mitsuki)]
+|ALMISM (水月あるみ)|     [ALMISM, 水月あるみ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ALMISM (水月あるみ)]
+|AMBIVALENCE (水無月露葉)|     [AMBIVALENCE, 水無月露葉] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\AMBIVALENCE (水無月露葉)]
+|AMH|     [AMH] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\AMH]
+|AMP(野良黒ネロ)|     [AMP, 野良黒ネロ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\AMP(野良黒ネロ)]
+|ANAPOM (あなぽん)|     [ANAPOM, あなぽん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ANAPOM (あなぽん)]
+|ARCH (ぷらむ)|     [ARCH, ぷらむ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ARCH (ぷらむ)]
+|ARCHETYPE (あかざ)|     [ARCHETYPE, あかざ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ARCHETYPE (あかざ)]
+|ARCHF (利木)|     [ARCHF, 利木] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ARCHF (利木)]
+|ARE (華師)|     [ARE, 華師] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ARE (華師)]
+|ASGO (暫時)|     [ASGO, 暫時] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ASGO (暫時)]
+|ASTRO CREEP (松竜)|     [ASTRO CREEP, 松竜] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ASTRO CREEP (松竜)]
+|AXZ(九手児)|     [AXZ, 九手児] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\AXZ(九手児)]
+|AYUEST (万国あゆや)|     [AYUEST, 万国あゆや] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\AYUEST (万国あゆや)]
+|ActiveMover・迷-めいず-|     [ActiveMover・迷-めいず-] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ActiveMover・迷-めいず-]
+|Aeba Fukashi|     [Aeba Fukashi] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Aeba Fukashi]
+|Air Hike|     [Air Hike] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Air Hike]
+|Airily Steps|     [Airily Steps] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Airily Steps]
+|Alice.milk (蒔田真記)|     [Alice.milk, 蒔田真記] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Alice.milk (蒔田真記)]
+|Ark Emerald(七瀬瑞穂)|     [Ark Emerald, 七瀬瑞穂] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Ark Emerald(七瀬瑞穂)]
+|Art Jam (osm)|     [Art Jam, osm] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Art Jam (osm)]
+|Ash wing (まくろ)|     [Ash wing, まくろ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Ash wing (まくろ)]
+|Aspergillus|     [Aspergillus] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Aspergillus]
+|Atsushiya Kogyo (Kaisen Chuui)|     [Atsushiya Kogyo, Kaisen Chuui] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Atsushiya Kogyo (Kaisen Chuui)]
+|A極振り (しあん)|     [A極振り, しあん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\A極振り (しあん)]
+|BABEL|     [BABEL] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\BABEL]
+|BB (きすぎ)|     [BB, きすぎ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\BB (きすぎ)]
+|BKG|     [BKG] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\BKG]
+|BLACK LISTOFF (火浦R, OKINA)|     [BLACK LISTOFF, 火浦R, OKINA] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\BLACK LISTOFF (火浦R, OKINA)]
+|BLAZE (スコチ)|     [BLAZE, スコチ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\BLAZE (スコチ)]
+|Blue Devil|     [Blue Devil] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Blue Devil]
+|BlueMage(あおいまなぶ)|     [BlueMage, あおいまなぶ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\BlueMage(あおいまなぶ)]
+|Buffalow Propaganda|     [Buffalow Propaganda] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Buffalow Propaganda]
+|B・O・M|     [B・O・M] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\B・O・M]
+|C.R's NEST (しーあーる, 雅川佐倉)|     [C.R's NEST, しーあーる, 雅川佐倉] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\C.R's NEST (しーあーる, 雅川佐倉)]
+|CARNELIAN|     [CARNELIAN] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\CARNELIAN]
+|CAZA MAYOR (つつみあかり)|     [CAZA MAYOR, つつみあかり] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\CAZA MAYOR (つつみあかり)]
+|CDPA (Moonzero, Milkcow, ANICD, etc)|     [CDPA, Moonzero, Milkcow, ANICD, etc] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\CDPA (Moonzero, Milkcow, ANICD, etc)]
+|CHANCE_MAKER|     [CHANCE_MAKER] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\CHANCE_MAKER]
+|CHIBIKKO KINGDOM (けこちゃ)|     [CHIBIKKO KINGDOM, けこちゃ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\CHIBIKKO KINGDOM (けこちゃ)]
+|CREAYUS (嵐月)|     [CREAYUS, 嵐月] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\CREAYUS (嵐月)]
+|CROSS HEARTS (綾瀬はづき)|     [CROSS HEARTS, 綾瀬はづき] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\CROSS HEARTS (綾瀬はづき)]
+|CUNICULUS (ヨシタマ)|     [CUNICULUS, ヨシタマ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\CUNICULUS (ヨシタマ)]
+|Candy Paddle(ネムネム)|     [Candy Paddle, ネムネム] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Candy Paddle(ネムネム)]
+|Candy Pop (いとうえい)|     [Candy Pop, いとうえい] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Candy Pop (いとうえい)]
+|Cat FooD (なぱた)|     [Cat FooD, なぱた] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Cat FooD (なぱた)]
+|Cior(Ken-1)|     [Cior, Ken-1] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Cior(Ken-1)]
+|Circle-FIORE (えかきびと)|     [Circle-FIORE, えかきびと] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Circle-FIORE (えかきびと)]
+|Clesta (Masahiro Cle)|     [Clesta, Masahiro Cle] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Clesta (Masahiro Cle)]
+|Cothurnus|     [Cothurnus] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Cothurnus]
+|Crazy9 (いちたか)|     [Crazy9, いちたか] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Crazy9 (いちたか)]
+|Current Storage (momi, ぴょん吉)|     [Current Storage, momi, ぴょん吉] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Current Storage (momi, ぴょん吉)]
+|Cuvie|     [Cuvie] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Cuvie]
+|D.N.A.Lab|     [D.N.A.Lab] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\D.N.A.Lab]
+|D.P|     [D.P] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\D.P]
+|D2 Algorithm (六壱)|     [D2 Algorithm, 六壱] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\D2 Algorithm (六壱)]
+|DIEPPE FACTORY (あるぴーぬ)|     [DIEPPE FACTORY, あるぴーぬ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\DIEPPE FACTORY (あるぴーぬ)]
+|DROP DEAD!! (水瀬修)|     [DROP DEAD!!, 水瀬修] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\DROP DEAD!! (水瀬修)]
+|Da Hootch (新堂エル)|     [Da Hootch, 新堂エル] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Da Hootch (新堂エル)]
+|Digital Lover (なかじまゆか)|     [Digital Lover, なかじまゆか] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Digital Lover (なかじまゆか)]
+|Dr.VERMILION (ペテン師)|     [Dr.VERMILION, ペテン師] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Dr.VERMILION (ペテン師)]
+|Dragon Kitchen|     [Dragon Kitchen] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Dragon Kitchen]
+|Draw Go (ワタナベソウイチ)|     [Draw Go, ワタナベソウイチ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Draw Go (ワタナベソウイチ)]
+|Dream Halls! (綴り)|     [Dream Halls!, 綴り] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Dream Halls! (綴り)]
+|Dystopia Story|     [Dystopia Story] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Dystopia Story]
+|E61芸能プロ (わかめ、中曽根ハイジ、つっつ)|     [E61芸能プロ, わかめ、中曽根ハイジ、つっつ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\E61芸能プロ (わかめ、中曽根ハイジ、つっつ)]
+|EAR-POP (みさぎ和)|     [EAR-POP, みさぎ和] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\EAR-POP (みさぎ和)]
+|EBA|     [EBA] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\EBA]
+|ED|     [ED] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ED]
+|ELHEARTS|     [ELHEARTS] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ELHEARTS]
+|EROQUIS! (ブッチャーU)|     [EROQUIS!, ブッチャーU] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\EROQUIS! (ブッチャーU)]
+|ESSENTIA (藤真拓哉)|     [ESSENTIA, 藤真拓哉] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ESSENTIA (藤真拓哉)]
+|ETC x ETC (Hazuki)|     [ETC x ETC, Hazuki] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ETC x ETC (Hazuki)]
+|ETC×ETC (はづき)|     [ETC×ETC, はづき] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ETC×ETC (はづき)]
+|EXtage (水上広樹)|     [EXtage, 水上広樹] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\EXtage (水上広樹)]
+|Es_Lab|     [Es_Lab] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Es_Lab]
+|Evork Festa|     [Evork Festa] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Evork Festa]
+|F4 company(MIN-NARAKEN)|     [F4 company, MIN-NARAKEN] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\F4 company(MIN-NARAKEN)]
+|FAKESTAR (美春)|     [FAKESTAR, 美春] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\FAKESTAR (美春)]
+|FANTASY WIND (しなのゆら,水無月サトシ)|     [FANTASY WIND, しなのゆら, 水無月サトシ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\FANTASY WIND (しなのゆら,水無月サトシ)]
+|FULLMETAL MADNESS (旭)|     [FULLMETAL MADNESS, 旭] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\FULLMETAL MADNESS (旭)]
+|Fatalpulse (朝凪)|     [Fatalpulse, 朝凪] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Fatalpulse (朝凪)]
+|Finecraft69 (6ro-)|     [Finecraft69, 6ro-] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Finecraft69 (6ro-)]
+|Forbidden Lips (りょう)|     [Forbidden Lips, りょう] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Forbidden Lips (りょう)]
+|French letter (藤崎ひかり)|     [French letter, 藤崎ひかり] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\French letter (藤崎ひかり)]
+|G-Power！(SASAYUKi)|     [G-Power！, SASAYUKi] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\G-Power！(SASAYUKi)]
+|G500 (おんせんなかや)|     [G500, おんせんなかや] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\G500 (おんせんなかや)]
+|GABALL SCREEN|     [GABALL SCREEN] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\GABALL SCREEN]
+|GALAXIST (BLADE)|     [GALAXIST, BLADE] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\GALAXIST (BLADE)]
+|GEGERA STANDARD(げげら俊和)|     [GEGERA STANDARD, げげら俊和] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\GEGERA STANDARD(げげら俊和)]
+|GENETRIX (GEN)|     [GENETRIX, GEN] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\GENETRIX (GEN)]
+|GRAPEFRUIT (しんたろー)|     [GRAPEFRUIT, しんたろー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\GRAPEFRUIT (しんたろー)]
+|GREAT芥 (tokyo)|     [GREAT芥, tokyo] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\GREAT芥 (tokyo)]
+|GUILTY HEARTS (FLO)|     [GUILTY HEARTS, FLO] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\GUILTY HEARTS (FLO)]
+|GUST(春風ソヨグ)|     [GUST, 春風ソヨグ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\GUST(春風ソヨグ)]
+|Galley(ryoma)|     [Galley, ryoma] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Galley(ryoma)]
+|Gate of XIII (Kloah)|     [Gate of XIII, Kloah] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Gate of XIII (Kloah)]
+|Grace (よこやまなおき)|     [Grace, よこやまなおき] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Grace (よこやまなおき)]
+|HAMMER_HEAD (真壁吾朗)|     [HAMMER_HEAD, 真壁吾朗] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\HAMMER_HEAD (真壁吾朗)]
+|HAPPY WATER (樹崎祐里)|     [HAPPY WATER, 樹崎祐里] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\HAPPY WATER (樹崎祐里)]
+|HB|     [HB] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\HB]
+|HEART-WORK(鈴平ひろ)|     [HEART-WORK, 鈴平ひろ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\HEART-WORK(鈴平ひろ)]
+|HG茶川|     [HG茶川] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\HG茶川]
+|HIGH RISK REVOLUTION (あいざわひろし)|     [HIGH RISK REVOLUTION, あいざわひろし] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\HIGH RISK REVOLUTION (あいざわひろし)]
+|Happy Birthday (丸ちゃん。)|     [Happy Birthday, 丸ちゃん。] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Happy Birthday (丸ちゃん。)]
+|Heaven's Gate (安藤智也)|     [Heaven's Gate, 安藤智也] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Heaven's Gate (安藤智也)]
+|HellDevice (nalvas)|     [HellDevice, nalvas] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\HellDevice (nalvas)]
+|High-Spirit|     [High-Spirit] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\High-Spirit]
+|Hisasi|     [Hisasi] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Hisasi]
+|Homura's R Comics (結城焔)|     [Homura's R Comics, 結城焔] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Homura's R Comics (結城焔)]
+|Homuraya (Homura Subaru)|     [Homuraya, Homura Subaru] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Homuraya (Homura Subaru)]
+|I-Raf-you|     [I-Raf-you] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\I-Raf-you]
+|ICE COFFIN (蒼月しのぶ)|     [ICE COFFIN, 蒼月しのぶ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ICE COFFIN (蒼月しのぶ)]
+|INSERT (KEN)|     [INSERT, KEN] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\INSERT (KEN)]
+|IP|     [IP] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\IP]
+|IV VA SHIN (みくに瑞貴)|     [IV VA SHIN, みくに瑞貴] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\IV VA SHIN (みくに瑞貴)]
+|IVORY|     [IVORY] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\IVORY]
+|Ice Sugar (うた乃)|     [Ice Sugar, うた乃] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Ice Sugar (うた乃)]
+|In The Sky (中乃空)|     [In The Sky, 中乃空] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\In The Sky (中乃空)]
+|Initial G|     [Initial G] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Initial G]
+|J.O.C★e.go!!|     [J.O.C★e.go!!] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\J.O.C★e.go!!]
+|JACK-POT|     [JACK-POT] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\JACK-POT]
+|Jacklake (越村)|     [Jacklake, 越村] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Jacklake (越村)]
+|Jin (MTSP)|     [Jin, MTSP] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Jin (MTSP)]
+|Jun|     [Jun] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Jun]
+|KAROMIX (karory)|     [KAROMIX, karory] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\KAROMIX (karory)]
+|KEY TRASH(緋鍵龍彦)|     [KEY TRASH, 緋鍵龍彦] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\KEY TRASH(緋鍵龍彦)]
+|KOKIKKO (せせなやう)|     [KOKIKKO, せせなやう] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\KOKIKKO (せせなやう)]
+|Kindandowa|     [Kindandowa] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Kindandowa]
+|L.L.MILK(すめらぎ琥珀)|     [L.L.MILK, すめらぎ琥珀] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\L.L.MILK(すめらぎ琥珀)]
+|L.P.E.G. (まる寝子)|     [L.P.E.G., まる寝子] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\L.P.E.G. (まる寝子)]
+|LAMINARIA (しおこんぶ)|     [LAMINARIA, しおこんぶ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\LAMINARIA (しおこんぶ)]
+|LEYMEI|     [LEYMEI] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\LEYMEI]
+|LINDa|     [LINDa] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\LINDa]
+|Lagarto(英田舞)|     [Lagarto, 英田舞] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Lagarto(英田舞)]
+|Lapis Lazuli|     [Lapis Lazuli] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Lapis Lazuli]
+|LemonMaiden (蒼海)|     [LemonMaiden, 蒼海] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\LemonMaiden (蒼海)]
+|LockerRoom (100円ロッカー)|     [LockerRoom, 100円ロッカー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\LockerRoom (100円ロッカー)]
+|Lolita Channel|     [Lolita Channel] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Lolita Channel]
+|Long Horn Train (ちょちょ)|     [Long Horn Train, ちょちょ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Long Horn Train (ちょちょ)]
+|Lv.X+(柚木N')|     [Lv.X+, 柚木N'] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Lv.X+(柚木N')]
+|MAIDOLL (飛燕)|     [MAIDOLL, 飛燕] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\MAIDOLL (飛燕)]
+|MANITOU (中島零)|     [MANITOU, 中島零] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\MANITOU (中島零)]
+|MARUTA|     [MARUTA] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\MARUTA]
+|MEAN MACHINE (三船誠二郎)|     [MEAN MACHINE, 三船誠二郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\MEAN MACHINE (三船誠二郎)]
+|MGジョー|     [MGジョー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\MGジョー]
+|MISS BLACK OFFLINE (MISS BLACK)|     [MISS BLACK OFFLINE, MISS BLACK] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\MISS BLACK OFFLINE (MISS BLACK)]
+|MONEけしごむ|     [MONEけしごむ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\MONEけしごむ]
+|MUSHIRINGO (アシオミマサト)|     [MUSHIRINGO, アシオミマサト] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\MUSHIRINGO (アシオミマサト)]
+|Maniac Street|     [Maniac Street] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Maniac Street]
+|Marked-two|     [Marked-two] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Marked-two]
+|Marvelous Grace (立羽)|     [Marvelous Grace, 立羽] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Marvelous Grace (立羽)]
+|Milk Tank (しろみかずひさ)|     [Milk Tank, しろみかずひさ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Milk Tank (しろみかずひさ)]
+|MilkyBox, The Saturn (Qoopie)|     [MilkyBox, The Saturn, Qoopie] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\MilkyBox, The Saturn (Qoopie)]
+|Million beast from DIANA (チサトレイリ)|     [Million beast from DIANA, チサトレイリ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Million beast from DIANA (チサトレイリ)]
+|Mink EGO|     [Mink EGO] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Mink EGO]
+|MinusArtWorks|     [MinusArtWorks] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\MinusArtWorks]
+|Misty Isle (そりむらようじ,反村幼児)|     [Misty Isle, そりむらようじ, 反村幼児] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Misty Isle (そりむらようじ,反村幼児)]
+|N2地雷 (ニム)|     [N2地雷, ニム] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\N2地雷 (ニム)]
+|NABURU|     [NABURU] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\NABURU]
+|NANIMOSHINAI (笹森トモエ)|     [NANIMOSHINAI, 笹森トモエ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\NANIMOSHINAI (笹森トモエ)]
+|NAZ|     [NAZ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\NAZ]
+|NEKO WORKs (さより)|     [NEKO WORKs, さより] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\NEKO WORKs (さより)]
+|NF121 (みどり葵)|     [NF121, みどり葵] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\NF121 (みどり葵)]
+|NO.ゴメス|     [NO.ゴメス] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\NO.ゴメス]
+|Nightmare Express-悪夢の宅配便-|     [Nightmare Express-悪夢の宅配便-] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Nightmare Express-悪夢の宅配便-]
+|Noantica|     [Noantica] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Noantica]
+|Norn／Miel／Cybele|     [Norn／Miel／Cybele] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Norn／Miel／Cybele]
+|NtyPe(溝口ケージ)|     [NtyPe, 溝口ケージ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\NtyPe(溝口ケージ)]
+|Null|     [Null] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Null]
+|OTA OFFICE (みけぽん)|     [OTA OFFICE, みけぽん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\OTA OFFICE (みけぽん)]
+|OVACAS (広川浩一郎)|     [OVACAS, 広川浩一郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\OVACAS (広川浩一郎)]
+|OVing (おぶい)|     [OVing, おぶい] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\OVing (おぶい)]
+|OXG (天野大気)|     [OXG, 天野大気] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\OXG (天野大気)]
+|P-FOREST(穂積貴志)|     [P-FOREST, 穂積貴志] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\P-FOREST(穂積貴志)]
+|P-collection|     [P-collection] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\P-collection]
+|PINK (あらいぐま)|     [PINK, あらいぐま] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\PINK (あらいぐま)]
+|PINK☆DORAGON|     [PINK☆DORAGON] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\PINK☆DORAGON]
+|PLANT (鶴井)|     [PLANT, 鶴井] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\PLANT (鶴井)]
+|POETTO|     [POETTO] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\POETTO]
+|PONDEMIX|     [PONDEMIX] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\PONDEMIX]
+|PONPON|     [PONPON] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\PONPON]
+|Part K (羊羽忍)|     [Part K, 羊羽忍] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Part K (羊羽忍)]
+|Past Gadget|     [Past Gadget] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Past Gadget]
+|Pazzo S.P. (秋風白雲)|     [Pazzo S.P., 秋風白雲] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Pazzo S.P. (秋風白雲)]
+|Petite＊Cerisier (桜はんぺん)|     [Petite＊Cerisier, 桜はんぺん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Petite＊Cerisier (桜はんぺん)]
+|Peθ (もず)|     [Peθ, もず] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Peθ (もず)]
+|Pink Chuchu (みけおう)|     [Pink Chuchu, みけおう] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Pink Chuchu (みけおう)]
+|Pixiv|     [Pixiv] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Pixiv]
+|Popcorn Lamp|     [Popcorn Lamp] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Popcorn Lamp]
+|Primal Gym (河瀬 セイキ)|     [Primal Gym, 河瀬 セイキ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Primal Gym (河瀬 セイキ)]
+|Private Garden (鶴崎貴大)|     [Private Garden, 鶴崎貴大] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Private Garden (鶴崎貴大)]
+|P：P (おりょう)|     [P：P, おりょう] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\P：P (おりょう)]
+|QP：FLAPPER|     [QP：FLAPPER] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\QP：FLAPPER]
+|QUDA (Qudamomo)|     [QUDA, Qudamomo] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\QUDA (Qudamomo)]
+|QUIET SLEEPER (アンミツ)|     [QUIET SLEEPER, アンミツ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\QUIET SLEEPER (アンミツ)]
+|RED Paprika|     [RED Paprika] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\RED Paprika]
+|RED-RUM|     [RED-RUM] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\RED-RUM]
+|REDLIGHT|     [REDLIGHT] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\REDLIGHT]
+|RIBI堂 (陽方暁)|     [RIBI堂, 陽方暁] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\RIBI堂 (陽方暁)]
+|RIN(モチ)|     [RIN, モチ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\RIN(モチ)]
+|ROUTE1(平つくね)|     [ROUTE1, 平つくね] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ROUTE1(平つくね)]
+|ROYAL CROWN (如月瑞)|     [ROYAL CROWN, 如月瑞] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ROYAL CROWN (如月瑞)]
+|Rabbit House (秋元カルマ)|     [Rabbit House, 秋元カルマ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Rabbit House (秋元カルマ)]
+|Reak (TAKTO)|     [Reak, TAKTO] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Reak (TAKTO)]
+|RiceCandy(米)|     [RiceCandy, 米] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\RiceCandy(米)]
+|Rico|     [Rico] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Rico]
+|Rico-ba (Rico)|     [Rico-ba, Rico] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Rico-ba (Rico)]
+|Rip@Lip (水原優)|     [Rip@Lip, 水原優] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Rip@Lip (水原優)]
+|SAS|     [SAS] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\SAS]
+|SAZ|     [SAZ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\SAZ]
+|SEM;COLON (蜜キング)]|     [SEM;COLON, 蜜キング] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\SEM;COLON (蜜キング)]]
+|SEPIA (Ogata)|     [SEPIA, Ogata] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\SEPIA (Ogata)]
+|SHD (部長ちんけ, ひろみ)|     [SHD, 部長ちんけ, ひろみ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\SHD (部長ちんけ, ひろみ)]
+|SHINING (しゃいあん)|     [SHINING, しゃいあん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\SHINING (しゃいあん)]
+|SIMPLE HOUSE|     [SIMPLE HOUSE] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\SIMPLE HOUSE]
+|SKlabel (skpresents)|     [SKlabel, skpresents] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\SKlabel (skpresents)]
+|SOLOIST (Riv)|     [SOLOIST, Riv] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\SOLOIST (Riv)]
+|STORM HAMMER (RAMDAC 300)|     [STORM HAMMER, RAMDAC 300] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\STORM HAMMER (RAMDAC 300)]
+|STUDIO TIAMAT(TANABE)|     [STUDIO TIAMAT, TANABE] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\STUDIO TIAMAT(TANABE)]
+|SaberFish(セイバーフィッシュ)|     [SaberFish, セイバーフィッシュ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\SaberFish(セイバーフィッシュ)]
+|Sage|     [Sage] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Sage]
+|Satellites (サテツ)|     [Satellites, サテツ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Satellites (サテツ)]
+|Shin-S|     [Shin-S] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Shin-S]
+|Sniff Dogs (氏家もく)|     [Sniff Dogs, 氏家もく] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Sniff Dogs (氏家もく)]
+|Soundz of Bell (島風)|     [Soundz of Bell, 島風] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Soundz of Bell (島風)]
+|Special☆Week (藤城成騎)|     [Special☆Week, 藤城成騎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Special☆Week (藤城成騎)]
+|Stapspats (翡翠石)|     [Stapspats, 翡翠石] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Stapspats (翡翠石)]
+|Studio★ParM (寿宴)|     [Studio★ParM, 寿宴] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Studio★ParM (寿宴)]
+|Studioふあん(来鈍)|     [Studioふあん, 来鈍] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Studioふあん(来鈍)]
+|Sugar (S)pot|     [Sugar, S, pot] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Sugar (S)pot]
+|Sugar＊Berry＊Syrup (クロエ)|     [Sugar＊Berry＊Syrup, クロエ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Sugar＊Berry＊Syrup (クロエ)]
+|Sweet Avenue (カヅチ)|     [Sweet Avenue, カヅチ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Sweet Avenue (カヅチ)]
+|Sweet Pea & COCOA BREAK (Ooshima Tomo)|     [Sweet Pea & COCOA BREAK, Ooshima Tomo] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Sweet Pea & COCOA BREAK (Ooshima Tomo)]
+|Synthetic Garden|     [Synthetic Garden] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Synthetic Garden]
+|TIES (タケイオーキ)|     [TIES, タケイオーキ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\TIES (タケイオーキ)]
+|TIMTIM Machine|     [TIMTIM Machine] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\TIMTIM Machine]
+|TONY|     [TONY] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\TONY]
+|TRANSIENT MELODY|     [TRANSIENT MELODY] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\TRANSIENT MELODY]
+|TRI-MOON!|     [TRI-MOON!] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\TRI-MOON!]
+|TRIBO(野口摩擦)|     [TRIBO, 野口摩擦] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\TRIBO(野口摩擦)]
+|TROD＊H|     [TROD＊H] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\TROD＊H]
+|TTT|     [TTT] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\TTT]
+|TUKIBUTO|     [TUKIBUTO] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\TUKIBUTO]
+|TYPE-57 (ふらんべる)|     [TYPE-57, ふらんべる] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\TYPE-57 (ふらんべる)]
+|TYPE.90|     [TYPE.90] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\TYPE.90]
+|Tiny＊King (沢城ケイ)|     [Tiny＊King, 沢城ケイ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Tiny＊King (沢城ケイ)]
+|Tiramisu|     [Tiramisu] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Tiramisu]
+|Traumatize(籠目)|     [Traumatize, 籠目] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Traumatize(籠目)]
+|Turning Point (うえひろ)|     [Turning Point, うえひろ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Turning Point (うえひろ)]
+|Type-G (イシガキタカシ)|     [Type-G, イシガキタカシ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Type-G (イシガキタカシ)]
+|U.M.E.Project (ukyo_rst)|     [U.M.E.Project, ukyo_rst] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\U.M.E.Project (ukyo_rst)]
+|UCHINON|     [UCHINON] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\UCHINON]
+|UNIQUE Cz|     [UNIQUE Cz] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\UNIQUE Cz]
+|URAN-FACTORY (URAN)|     [URAN-FACTORY, URAN] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\URAN-FACTORY (URAN)]
+|UROBOROS (うたたねひろゆき)|     [UROBOROS, うたたねひろゆき] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\UROBOROS (うたたねひろゆき)]
+|Underwhite|     [Underwhite] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Underwhite]
+|V-SLASH (夕霧)|     [V-SLASH, 夕霧] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\V-SLASH (夕霧)]
+|VARIABLE- (雪国エリンギ)]|     [VARIABLE-, 雪国エリンギ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\VARIABLE- (雪国エリンギ)]]
+|VENOM (或十せねか,Rusty Soul)|     [VENOM, 或十せねか, Rusty Soul] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\VENOM (或十せねか,Rusty Soul)]
+|VISTA (オダワラハコネ)|     [VISTA, オダワラハコネ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\VISTA (オダワラハコネ)]
+|VM500 (こめ)|     [VM500, こめ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\VM500 (こめ)]
+|Various|     [Various] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Various]
+|WASABI (畳)|     [WASABI, 畳] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\WASABI (畳)]
+|WIREFRAME (憂姫はぐれ)|     [WIREFRAME, 憂姫はぐれ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\WIREFRAME (憂姫はぐれ)]
+|WNB (館川まこ)|     [WNB, 館川まこ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\WNB (館川まこ)]
+|Werk (安藤周記)|     [Werk, 安藤周記] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Werk (安藤周記)]
+|Wish～希望の翼～ (櫻野露)|     [Wish～希望の翼～, 櫻野露] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Wish～希望の翼～ (櫻野露)]
+|Xration|     [Xration] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Xration]
+|YA-ZY (ゆにおし)|     [YA-ZY, ゆにおし] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\YA-ZY (ゆにおし)]
+|Z-Less (白浜コータ)|     [Z-Less, 白浜コータ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Z-Less (白浜コータ)]
+|Zた袋猫はうす|     [Zた袋猫はうす] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\Zた袋猫はうす]
+|abgrund (さいかわゆさ)|     [abgrund, さいかわゆさ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\abgrund (さいかわゆさ)]
+|angelphobia|     [angelphobia] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\angelphobia]
+|baroQue (J村)|     [baroQue, J村] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\baroQue (J村)]
+|bolze|     [bolze] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\bolze]
+|brilliant thunder (夢乃狸)|     [brilliant thunder, 夢乃狸] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\brilliant thunder (夢乃狸)]
+|campanula (akihazama)|     [campanula, akihazama] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\campanula (akihazama)]
+|chaccu|     [chaccu] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\chaccu]
+|chocolate Lv.5 (ダイナマイトmoca)|     [chocolate Lv.5, ダイナマイトmoca] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\chocolate Lv.5 (ダイナマイトmoca)]
+|ciaociao (あらきかなお)|     [ciaociao, あらきかなお] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ciaociao (あらきかなお)]
+|circle six (緑青黒羽)|     [circle six, 緑青黒羽] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\circle six (緑青黒羽)]
+|club54 (いちごまぁく)|     [club54, いちごまぁく] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\club54 (いちごまぁく)]
+|e4|     [e4] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\e4]
+|firstspear(野上武志)|     [firstspear, 野上武志] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\firstspear(野上武志)]
+|flowerchild植田|     [flowerchild植田] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\flowerchild植田]
+|goo-paaa (おちゃ)|     [goo-paaa, おちゃ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\goo-paaa (おちゃ)]
+|hlz (鎖ノム)|     [hlz, 鎖ノム] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\hlz (鎖ノム)]
+|inkey|     [inkey] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\inkey]
+|kuma-puro (小路あゆむ)|     [kuma-puro, 小路あゆむ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\kuma-puro (小路あゆむ)]
+|minori|     [minori] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\minori]
+|odds&ends|     [odds&ends] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\odds&ends]
+|odin (黒川IZUMI)|     [odin, 黒川IZUMI] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\odin (黒川IZUMI)]
+|orange peels (Ore P1 Gou)|     [orange peels, Ore P1 Gou] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\orange peels (Ore P1 Gou)]
+|orz (3u)|     [orz, 3u] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\orz (3u)]
+|overall|     [overall] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\overall]
+|p-館 (pの字)|     [p-館, pの字] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\p-館 (pの字)]
+|pantwo (ZIZ)|     [pantwo, ZIZ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\pantwo (ZIZ)]
+|pinvise (涼月くらら)|     [pinvise, 涼月くらら] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\pinvise (涼月くらら)]
+|pixel phantom|     [pixel phantom] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\pixel phantom]
+|redrop|     [redrop] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\redrop]
+|roof-top (馴染しん)|     [roof-top, 馴染しん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\roof-top (馴染しん)]
+|satomachine. (佐藤36)|     [satomachine., 佐藤36] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\satomachine. (佐藤36)]
+|seventh zest (六ツ野へきさ)|     [seventh zest, 六ツ野へきさ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\seventh zest (六ツ野へきさ)]
+|shakestyle (ShAKe)|     [shakestyle, ShAKe] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\shakestyle (ShAKe)]
+|super：nova|     [super：nova] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\super：nova]
+|tete a tete fragile (佐々原憂樹)|     [tete a tete fragile, 佐々原憂樹] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\tete a tete fragile (佐々原憂樹)]
+|tosh|     [tosh] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\tosh]
+|urotan(uropyon)|     [urotan, uropyon] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\urotan(uropyon)]
+|uruten (urute)|     [uruten, urute] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\uruten (urute)]
+|valssu(茶琉)|     [valssu, 茶琉] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\valssu(茶琉)]
+|viento campanilla (すずはねすず)|     [viento campanilla, すずはねすず] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\viento campanilla (すずはねすず)]
+|vyowolf (べぃお)|     [vyowolf, べぃお] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\vyowolf (べぃお)]
+|waterwheel|     [waterwheel] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\waterwheel]
+|zero戦 (xxzero)|     [zero戦, xxzero] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\zero戦 (xxzero)]
+|†NIL† (フジバヤシ春)|     [†NIL†, フジバヤシ春] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\†NIL† (フジバヤシ春)]
+|〆切り3分前 (月見大福)|     [〆切り3分前, 月見大福] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\〆切り3分前 (月見大福)]
+|ああ愛してる (たいしょう田中)|     [ああ愛してる, たいしょう田中] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ああ愛してる (たいしょう田中)]
+|あいてむぼっくす (ぽ～しょん)|     [あいてむぼっくす, ぽ～しょん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\あいてむぼっくす (ぽ～しょん)]
+|あかざわRED|     [あかざわRED] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\あかざわRED]
+|あきのそら|     [あきのそら] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\あきのそら]
+|あきやまけんた|     [あきやまけんた] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\あきやまけんた]
+|あくしず|     [あくしず] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\あくしず]
+|あさひあげ(ポコ)|     [あさひあげ, ポコ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\あさひあげ(ポコ)]
+|あしたから頑張る (止田卓史)|     [あしたから頑張る, 止田卓史] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\あしたから頑張る (止田卓史)]
+|あずまゆき(Singleton)|     [あずまゆき, Singleton] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\あずまゆき(Singleton)]
+|あっかんBi~ (柳ひろひこ)|     [あっかんBi~, 柳ひろひこ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\あっかんBi~ (柳ひろひこ)]
+|あったまろ。|     [あったまろ。] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\あったまろ。]
+|あつあつむちむち (久川ちん)|     [あつあつむちむち, 久川ちん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\あつあつむちむち (久川ちん)]
+|あまぞねす|     [あまぞねす] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\あまぞねす]
+|あまとう (よう太)|     [あまとう, よう太] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\あまとう (よう太)]
+|あめ のち ゆき (あめとゆき)|     [あめ のち ゆき, あめとゆき] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\あめ のち ゆき (あめとゆき)]
+|ありすの宝箱(水龍敬)|     [ありすの宝箱, 水龍敬] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ありすの宝箱(水龍敬)]
+|いくじなしのフェティシスト|     [いくじなしのフェティシスト] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\いくじなしのフェティシスト]
+|いちこ|     [いちこ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\いちこ]
+|いちごぱんつ (カグユヅ)|     [いちごぱんつ, カグユヅ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\いちごぱんつ (カグユヅ)]
+|いにゅ小屋|     [いにゅ小屋] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\いにゅ小屋]
+|いぬぶろ|     [いぬぶろ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\いぬぶろ]
+|いのまる|     [いのまる] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\いのまる]
+|いトう|     [いトう] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\いトう]
+|いーむす・アキ|     [いーむす・アキ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\いーむす・アキ]
+|うぉーたーどろっぷ|     [うぉーたーどろっぷ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\うぉーたーどろっぷ]
+|うつらうららか (えれっと)|     [うつらうららか, えれっと] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\うつらうららか (えれっと)]
+|うどんや(鬼月あるちゅ)|     [うどんや, 鬼月あるちゅ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\うどんや(鬼月あるちゅ)]
+|うにに組 (うにに☆せぶん)|     [うにに組, うにに☆せぶん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\うにに組 (うにに☆せぶん)]
+|うにの種|     [うにの種] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\うにの種]
+|うるう島 (うるう島呼音)|     [うるう島, うるう島呼音] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\うるう島 (うるう島呼音)]
+|えくりぷす (朧月)|     [えくりぷす, 朧月] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\えくりぷす (朧月)]
+|えろ豆|     [えろ豆] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\えろ豆]
+|おおた堂 (おおたたけし)|     [おおた堂, おおたたけし] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\おおた堂 (おおたたけし)]
+|おおとりりゅうじ|     [おおとりりゅうじ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\おおとりりゅうじ]
+|おかりな (ぢょんたいらん,野々原幹)|     [おかりな, ぢょんたいらん, 野々原幹] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\おかりな (ぢょんたいらん,野々原幹)]
+|おしるこ缶 (ぴりりねぎ)|     [おしるこ缶, ぴりりねぎ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\おしるこ缶 (ぴりりねぎ)]
+|おたうT-R|     [おたうT-R] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\おたうT-R]
+|おたべ★ダイナマイツ (おたべさくら)|     [おたべ★ダイナマイツ, おたべさくら] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\おたべ★ダイナマイツ (おたべさくら)]
+|おでんや|     [おでんや] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\おでんや]
+|おとひめ|     [おとひめ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\おとひめ]
+|おーるどうぇぽん (古代兵器)|     [おーるどうぇぽん, 古代兵器] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\おーるどうぇぽん (古代兵器)]
+|かいづか|     [かいづか] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\かいづか]
+|かしわ屋 (ひよひよ)|     [かしわ屋, ひよひよ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\かしわ屋 (ひよひよ)]
+|かたまり屋 (しなま)|     [かたまり屋, しなま] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\かたまり屋 (しなま)]
+|かに家 (かにゃぴぃ)|     [かに家, かにゃぴぃ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\かに家 (かにゃぴぃ)]
+|かぶったりかぶらなかったり(せいほうけい)|     [かぶったりかぶらなかったり, せいほうけい] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\かぶったりかぶらなかったり(せいほうけい)]
+|かみか堂|     [かみか堂] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\かみか堂]
+|かめねじ|     [かめねじ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\かめねじ]
+|かわいそうな子 (いちの & YU-YU)|     [かわいそうな子, いちの & YU-YU] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\かわいそうな子 (いちの & YU-YU)]
+|かわもりみさき|     [かわもりみさき] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\かわもりみさき]
+|きあのもりびと (ひみづきかずさ|     [きあのもりびと, ひみづきかずさ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\きあのもりびと (ひみづきかずさ]
+|きくらげ屋 (きくらげ|     [きくらげ屋, きくらげ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\きくらげ屋 (きくらげ]
+|きのこのみ|     [きのこのみ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\きのこのみ]
+|きゃろっとワークス (灰雷兎)|     [きゃろっとワークス, 灰雷兎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\きゃろっとワークス (灰雷兎)]
+|くまこう|     [くまこう] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\くまこう]
+|くまたんFlash！|     [くまたんFlash！] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\くまたんFlash！]
+|くりもも (つかこ)|     [くりもも, つかこ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\くりもも (つかこ)]
+|くるみ並木 (みたくるみ)|     [くるみ並木, みたくるみ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\くるみ並木 (みたくるみ)]
+|くるめにゃん吉|     [くるめにゃん吉] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\くるめにゃん吉]
+|くろにくる (YUKITO)|     [くろにくる, YUKITO] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\くろにくる (YUKITO)]
+|ぐらヴィ団 (コバヤシテツヤ)|     [ぐらヴィ団, コバヤシテツヤ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ぐらヴィ団 (コバヤシテツヤ)]
+|けもこも屋|     [けもこも屋] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\けもこも屋]
+|けんたろう|     [けんたろう] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\けんたろう]
+|けんろー工房 (おりもとみまな)|     [けんろー工房, おりもとみまな] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\けんろー工房 (おりもとみまな)]
+|こうたろう|     [こうたろう] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\こうたろう]
+|このは (保汀一葉)|     [このは, 保汀一葉] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\このは (保汀一葉)]
+|こもれびのーと|     [こもれびのーと] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\こもれびのーと]
+|こりすや(こりす)|     [こりすや, こりす] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\こりすや(こりす)]
+|ころころころんぴ (藤原々々)|     [ころころころんぴ, 藤原々々] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ころころころんぴ (藤原々々)]
+|ごばん|     [ごばん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ごばん]
+|さどっこ|     [さどっこ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\さどっこ]
+|さめだ小判|     [さめだ小判] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\さめだ小判]
+|さわらの五庵(ボリビ屋)|     [さわらの五庵, ボリビ屋] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\さわらの五庵(ボリビ屋)]
+|しぐにゃん|     [しぐにゃん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\しぐにゃん]
+|しぐれえび (レフトハンド)|     [しぐれえび, レフトハンド] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\しぐれえび (レフトハンド)]
+|しのぎ鋭介|     [しのぎ鋭介] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\しのぎ鋭介]
+|しまぱん|     [しまぱん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\しまぱん]
+|しもやけ堂 (逢魔刻壱)|     [しもやけ堂, 逢魔刻壱] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\しもやけ堂 (逢魔刻壱)]
+|しらんたかし|     [しらんたかし] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\しらんたかし]
+|しんきゃら (YO-JIN)|     [しんきゃら, YO-JIN] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\しんきゃら (YO-JIN)]
+|しーらかんす|     [しーらかんす] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\しーらかんす]
+|じゃらや (森嶋プチ)|     [じゃらや, 森嶋プチ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\じゃらや (森嶋プチ)]
+|すぱぃしあ (霧巴ころは)|     [すぱぃしあ, 霧巴ころは] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\すぱぃしあ (霧巴ころは)]
+|せざちーむ|     [せざちーむ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\せざちーむ]
+|せみもぐら (由家)|     [せみもぐら, 由家] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\せみもぐら (由家)]
+|そらみみ (Mytyl)|     [そらみみ, Mytyl] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\そらみみ (Mytyl)]
+|たかねのはな（たかねの花園）|     [たかねのはな（たかねの花園）] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\たかねのはな（たかねの花園）]
+|たかやKi(じぇのばけーき)|     [たかやKi, じぇのばけーき] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\たかやKi(じぇのばけーき)]
+|たくみなむち|     [たくみなむち] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\たくみなむち]
+|たけさと (たけのこ星人)|     [たけさと, たけのこ星人] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\たけさと (たけのこ星人)]
+|たこりーな画伯|     [たこりーな画伯] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\たこりーな画伯]
+|たたらば(蔓木鋼音)|     [たたらば, 蔓木鋼音] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\たたらば(蔓木鋼音)]
+|たつひこ(PTD)|     [たつひこ, PTD] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\たつひこ(PTD)]
+|たぶちさんち|     [たぶちさんち] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\たぶちさんち]
+|たまらんち (神保玉蘭)|     [たまらんち, 神保玉蘭] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\たまらんち (神保玉蘭)]
+|たもくてきほーる (もけ太)|     [たもくてきほーる, もけ太] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\たもくてきほーる (もけ太)]
+|たれハム|     [たれハム] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\たれハム]
+|たろプン|     [たろプン] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\たろプン]
+|だらぶち堂 (だらぶち)|     [だらぶち堂, だらぶち] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\だらぶち堂 (だらぶち)]
+|ちみはうす (たかぴ)|     [ちみはうす, たかぴ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ちみはうす (たかぴ)]
+|てぃらみすたると (一弘)|     [てぃらみすたると, 一弘] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\てぃらみすたると (一弘)]
+|てっちゃんハト (みなすきぽぷり)|     [てっちゃんハト, みなすきぽぷり] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\てっちゃんハト (みなすきぽぷり)]
+|てるおはるお|     [てるおはるお] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\てるおはるお]
+|でぃれ～だー (まきのん™)|     [でぃれ～だー, まきのん™] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\でぃれ～だー (まきのん™)]
+|ですの!! (冬和こたつ)|     [ですの!!, 冬和こたつ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ですの!! (冬和こたつ)]
+|とらいあんぐる！|     [とらいあんぐる！] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\とらいあんぐる！]
+|とりあえず(仮) (とろろ)|     [とりあえず, 仮, , とろろ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\とりあえず(仮) (とろろ)]
+|とりのおいしいところ (鳥三)|     [とりのおいしいところ, 鳥三] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\とりのおいしいところ (鳥三)]
+|とりぷるぴんち！ (ひかみいずと)|     [とりぷるぴんち！, ひかみいずと] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\とりぷるぴんち！ (ひかみいずと)]
+|ななつ組 (七宮つぐ実)|     [ななつ組, 七宮つぐ実] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ななつ組 (七宮つぐ実)]
+|なまもななせ|     [なまもななせ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\なまもななせ]
+|なると研究社 (久壁おと)|     [なると研究社, 久壁おと] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\なると研究社 (久壁おと)]
+|にのこや (にの子)|     [にのこや, にの子] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\にのこや (にの子)]
+|にびなも凸面体(アイソトニクス)|     [にびなも凸面体, アイソトニクス] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\にびなも凸面体(アイソトニクス)]
+|ねこまた屋 (ねこまたなおみ)|     [ねこまた屋, ねこまたなおみ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ねこまた屋 (ねこまたなおみ)]
+|ねじまきこうげん (きりさわときと)|     [ねじまきこうげん, きりさわときと] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ねじまきこうげん (きりさわときと)]
+|のうないカノジョ|     [のうないカノジョ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\のうないカノジョ]
+|はぐるまん|     [はぐるまん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\はぐるまん]
+|はじまりとおわり (コリック)|     [はじまりとおわり, コリック] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\はじまりとおわり (コリック)]
+|はじめまして。(あさのますみ&畑健二郎)|     [はじめまして。, あさのますみ&畑健二郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\はじめまして。(あさのますみ&畑健二郎)]
+|はぽい処 (岡崎武士)|     [はぽい処, 岡崎武士] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\はぽい処 (岡崎武士)]
+|はらぺこ定食|     [はらぺこ定食] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\はらぺこ定食]
+|はるるん|     [はるるん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\はるるん]
+|はんざきじろう|     [はんざきじろう] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\はんざきじろう]
+|はんなま (添い寝)|     [はんなま, 添い寝] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\はんなま (添い寝)]
+|はんぺら|     [はんぺら] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\はんぺら]
+|ぱいんとさいず (和尚吹,TKS）|     [ぱいんとさいず, 和尚吹, TKS）] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ぱいんとさいず (和尚吹,TKS）]
+|ぱふぇ|     [ぱふぇ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ぱふぇ]
+|ぱむの巣 (こっぱむ)|     [ぱむの巣, こっぱむ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ぱむの巣 (こっぱむ)]
+|ひぐちいさみ|     [ひぐちいさみ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ひぐちいさみ]
+|ひぐま屋|     [ひぐま屋] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ひぐま屋]
+|ひげなむち|     [ひげなむち] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ひげなむち]
+|ひとのふんどし (ゆきよし真水)|     [ひとのふんどし, ゆきよし真水] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ひとのふんどし (ゆきよし真水)]
+|ひとまろん(瀬戸内須磨子)|     [ひとまろん, 瀬戸内須磨子] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ひとまろん(瀬戸内須磨子)]
+|ひなはら屋敷|     [ひなはら屋敷] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ひなはら屋敷]
+|ひなプリン (いくたたかのん)|     [ひなプリン, いくたたかのん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ひなプリン (いくたたかのん)]
+|ひめはち|     [ひめはち] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ひめはち]
+|ひょこ道 (ひょころー )|     [ひょこ道, ひょころー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ひょこ道 (ひょころー )]
+|ひよりみのソラ (陽寄瑞貴)|     [ひよりみのソラ, 陽寄瑞貴] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ひよりみのソラ (陽寄瑞貴)]
+|ふぁんとむ|     [ふぁんとむ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ふぁんとむ]
+|ふかふか天職 (ポプラン)|     [ふかふか天職, ポプラン] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ふかふか天職 (ポプラン)]
+|ふなのりはうす (水兵きき)|     [ふなのりはうす, 水兵きき] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ふなのりはうす (水兵きき)]
+|ふらいぱん大魔王 (提灯暗光)|     [ふらいぱん大魔王, 提灯暗光] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ふらいぱん大魔王 (提灯暗光)]
+|ふるるきゅぷり (北原エイジ)|     [ふるるきゅぷり, 北原エイジ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ふるるきゅぷり (北原エイジ)]
+|ふれでぃわーくす (坂崎ふれでぃ)|     [ふれでぃわーくす, 坂崎ふれでぃ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ふれでぃわーくす (坂崎ふれでぃ)]
+|ぶらっくしゃど～ (さっち)|     [ぶらっくしゃど～, さっち] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ぶらっくしゃど～ (さっち)]
+|へらぶな (いるまかみり)|     [へらぶな, いるまかみり] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\へらぶな (いるまかみり)]
+|ほむほむ製作所 (井垣野あげなす)|     [ほむほむ製作所, 井垣野あげなす] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ほむほむ製作所 (井垣野あげなす)]
+|ほりとも|     [ほりとも] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ほりとも]
+|ほんだありま|     [ほんだありま] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ほんだありま]
+|ぼっしぃ(Askray)|     [ぼっしぃ, Askray] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ぼっしぃ(Askray)]
+|ぽてとさらだ|     [ぽてとさらだ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ぽてとさらだ]
+|ぽぽちち (八尋ぽち)|     [ぽぽちち, 八尋ぽち] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ぽぽちち (八尋ぽち)]
+|ぽんこつわーくす|     [ぽんこつわーくす] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ぽんこつわーくす]
+|ぽんずアメ (飴沢狛)|     [ぽんずアメ, 飴沢狛] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ぽんずアメ (飴沢狛)]
+|まぐろ帝國|     [まぐろ帝國] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\まぐろ帝國]
+|まごの亭 (夏庵)|     [まごの亭, 夏庵] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\まごの亭 (夏庵)]
+|まざらし|     [まざらし] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\まざらし]
+|ましら堂 (猿駕アキ)|     [ましら堂, 猿駕アキ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ましら堂 (猿駕アキ)]
+|また明日。|     [また明日。] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\また明日。]
+|まっさら島|     [まっさら島] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\まっさら島]
+|まの屋(渚まのあ)|     [まの屋, 渚まのあ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\まの屋(渚まのあ)]
+|まるあらい (新井和崎)|     [まるあらい, 新井和崎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\まるあらい (新井和崎)]
+|みずきちゃんくらぶ|     [みずきちゃんくらぶ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\みずきちゃんくらぶ]
+|みたらし倶楽部 (みたらし侯成)|     [みたらし倶楽部, みたらし侯成] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\みたらし倶楽部 (みたらし侯成)]
+|みっくすふらい (たくろう)|     [みっくすふらい, たくろう] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\みっくすふらい (たくろう)]
+|みつや|     [みつや] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\みつや]
+|みならい本舗|     [みならい本舗] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\みならい本舗]
+|みやはらみみかき|     [みやはらみみかき] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\みやはらみみかき]
+|みやもとゆう|     [みやもとゆう] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\みやもとゆう]
+|みやんち (宮越良月)|     [みやんち, 宮越良月] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\みやんち (宮越良月)]
+|みりおんばんく|     [みりおんばんく] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\みりおんばんく]
+|みるく-SIZE (花琳晶)|     [みるく-SIZE, 花琳晶] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\みるく-SIZE (花琳晶)]
+|みるこみ (PRIMAL)|     [みるこみ, PRIMAL] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\みるこみ (PRIMAL)]
+|むげん＠WORKS (秋月秋名)|     [むげん＠WORKS, 秋月秋名] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\むげん＠WORKS (秋月秋名)]
+|むしゃぶる (武者サブ)|     [むしゃぶる, 武者サブ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\むしゃぶる (武者サブ)]
+|むちむに町|     [むちむに町] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\むちむに町]
+|むにゅう|     [むにゅう] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\むにゅう]
+|もすまん(へんりいだ)|     [もすまん, へんりいだ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\もすまん(へんりいだ)]
+|もっちー王国 (もっちー)|     [もっちー王国, もっちー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\もっちー王国 (もっちー)]
+|もつ料理 (もつ)|     [もつ料理, もつ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\もつ料理 (もつ)]
+|もなかうどん (モニカノ)|     [もなかうどん, モニカノ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\もなかうどん (モニカノ)]
+|もものぺーじ|     [もものぺーじ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\もものぺーじ]
+|ゆずぽん酢|     [ゆずぽん酢] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ゆずぽん酢]
+|ようかい玉の輿(CHIRO)|     [ようかい玉の輿, CHIRO] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ようかい玉の輿(CHIRO)]
+|よしろん|     [よしろん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\よしろん]
+|らくじん|     [らくじん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\らくじん]
+|らぐー|     [らぐー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\らぐー]
+|らっこ|     [らっこ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\らっこ]
+|らんち(TNC)|     [らんち, TNC] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\らんち(TNC)]
+|らんぱく工房|     [らんぱく工房] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\らんぱく工房]
+|りゅうき夕海|     [りゅうき夕海] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\りゅうき夕海]
+|りーず工房 (王者之風)|     [りーず工房, 王者之風] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\りーず工房 (王者之風)]
+|るきるきEXISS (文月晦日)|     [るきるきEXISS, 文月晦日] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\るきるきEXISS (文月晦日)]
+|るまん堂|     [るまん堂] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\るまん堂]
+|ろくもんせん|     [ろくもんせん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ろくもんせん]
+|わくわく動物園 (天王寺きつね)|     [わくわく動物園, 天王寺きつね] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\わくわく動物園 (天王寺きつね)]
+|わざきた|     [わざきた] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\わざきた]
+|わたい|     [わたい] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\わたい]
+|わつき屋 (わつきるみ)|     [わつき屋, わつきるみ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\わつき屋 (わつきるみ)]
+|わらしべ|     [わらしべ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\わらしべ]
+|わるきゅ～れ|     [わるきゅ～れ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\わるきゅ～れ]
+|わんちょ家 (わんちょ)|     [わんちょ家, わんちょ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\わんちょ家 (わんちょ)]
+|アオミドロ (夕凪セシナ)|     [アオミドロ, 夕凪セシナ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\アオミドロ (夕凪セシナ)]
+|アカタマ|     [アカタマ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\アカタマ]
+|アガタ|     [アガタ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\アガタ]
+|アジサイデンデン|     [アジサイデンデン] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\アジサイデンデン]
+|アトリエ丸和|     [アトリエ丸和] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\アトリエ丸和]
+|アビオン村 (ジョニー)|     [アビオン村, ジョニー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\アビオン村 (ジョニー)]
+|アルセノテリス(Rebis)|     [アルセノテリス, Rebis] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\アルセノテリス(Rebis)]
+|アルパカ|     [アルパカ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\アルパカ]
+|アレクササンダー (荒草まほん)|     [アレクササンダー, 荒草まほん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\アレクササンダー (荒草まほん)]
+|アレマテオレマ (小林由高)|     [アレマテオレマ, 小林由高] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\アレマテオレマ (小林由高)]
+|アレム画館 (桐島サトシ)|     [アレム画館, 桐島サトシ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\アレム画館 (桐島サトシ)]
+|アンアーク|     [アンアーク] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\アンアーク]
+|アーセナル|     [アーセナル] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\アーセナル]
+|イニシャルG|     [イニシャルG] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\イニシャルG]
+|インペリアルチキン (藤坂空樹)|     [インペリアルチキン, 藤坂空樹] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\インペリアルチキン (藤坂空樹)]
+|ウミナリ (ナルみ)|     [ウミナリ, ナルみ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ウミナリ (ナルみ)]
+|ウメ吉|     [ウメ吉] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ウメ吉]
+|エス書店 (さんい)|     [エス書店, さんい] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\エス書店 (さんい)]
+|エトワール侍|     [エトワール侍] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\エトワール侍]
+|エリア14|     [エリア14] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\エリア14]
+|エルデライド (音音丸)|     [エルデライド, 音音丸] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\エルデライド (音音丸)]
+|エレクトさわる|     [エレクトさわる] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\エレクトさわる]
+|エロマズン (まー九郎)|     [エロマズン, まー九郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\エロマズン (まー九郎)]
+|オザケン|     [オザケン] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\オザケン]
+|オノメシン (フリークス)|     [オノメシン, フリークス] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\オノメシン (フリークス)]
+|オレンジピールズ (俺P1号)|     [オレンジピールズ, 俺P1号] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\オレンジピールズ (俺P1号)]
+|オロリヤ鉛筆堂 (無有利安)|     [オロリヤ鉛筆堂, 無有利安] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\オロリヤ鉛筆堂 (無有利安)]
+|カストリ|     [カストリ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\カストリ]
+|カタセミナミ|     [カタセミナミ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\カタセミナミ]
+|カミタニ(ライカロイド)|     [カミタニ, ライカロイド] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\カミタニ(ライカロイド)]
+|カンナビス (しまじ)|     [カンナビス, しまじ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\カンナビス (しまじ)]
+|カーテンウォールの家 (鈴宮きりは)|     [カーテンウォールの家, 鈴宮きりは] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\カーテンウォールの家 (鈴宮きりは)]
+|キズノチカラ (サルムQ)|     [キズノチカラ, サルムQ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\キズノチカラ (サルムQ)]
+|キングリボルバー (菊田高次)|     [キングリボルバー, 菊田高次] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\キングリボルバー (菊田高次)]
+|ギャラ☆クター (bee)|     [ギャラ☆クター, bee] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ギャラ☆クター (bee)]
+|ギロチン銀座|     [ギロチン銀座] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ギロチン銀座]
+|クジラックス|     [クジラックス] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\クジラックス]
+|クリムゾン (カーマイン)|     [クリムゾン, カーマイン] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\クリムゾン (カーマイン)]
+|クレイトス (龍之介)|     [クレイトス, 龍之介] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\クレイトス (龍之介)]
+|クレスタ (呉マサヒロ)|     [クレスタ, 呉マサヒロ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\クレスタ (呉マサヒロ)]
+|ケンソウオガワ(フクダーダ)|     [ケンソウオガワ, フクダーダ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ケンソウオガワ(フクダーダ)]
+|ゲルピン(水無月十三)|     [ゲルピン, 水無月十三] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ゲルピン(水無月十三)]
+|ココアホリック (ユイザキカズヤ)|     [ココアホリック, ユイザキカズヤ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ココアホリック (ユイザキカズヤ)]
+|コテラバイト|     [コテラバイト] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\コテラバイト]
+|コテング|     [コテング] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\コテング]
+|コトシキ (むこうじまてんろ)|     [コトシキ, むこうじまてんろ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\コトシキ (むこうじまてんろ)]
+|コボシノニワ|     [コボシノニワ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\コボシノニワ]
+|コマイズム (ワス)|     [コマイズム, ワス] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\コマイズム (ワス)]
+|コワレ田ラジ男 (ヒーローキィ)|     [コワレ田ラジ男, ヒーローキィ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\コワレ田ラジ男 (ヒーローキィ)]
+|ゴンざぶろー|     [ゴンざぶろー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ゴンざぶろー]
+|サイクロン (和泉, れいぜい, 冷泉)|     [サイクロン, 和泉, れいぜい, 冷泉] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\サイクロン (和泉, れいぜい, 冷泉)]
+|サウンドステッカー (なるさわ景)|     [サウンドステッカー, なるさわ景] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\サウンドステッカー (なるさわ景)]
+|サークル浪漫飛行(太平天極)|     [サークル浪漫飛行, 太平天極] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\サークル浪漫飛行(太平天極)]
+|サービスヘブン (カレイ, 亀魚派)|     [サービスヘブン, カレイ, 亀魚派] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\サービスヘブン (カレイ, 亀魚派)]
+|シオマネキ|     [シオマネキ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\シオマネキ]
+|シノ|     [シノ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\シノ]
+|シヒラ竜也|     [シヒラ竜也] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\シヒラ竜也]
+|シュート・ザ・ムーン (フエタキシ)|     [シュート・ザ・ムーン, フエタキシ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\シュート・ザ・ムーン (フエタキシ)]
+|シンヤんち|     [シンヤんち] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\シンヤんち]
+|ジェームスほたて|     [ジェームスほたて] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ジェームスほたて]
+|ジョウ・レン騎士団 (kiasa)|     [ジョウ・レン騎士団, kiasa] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ジョウ・レン騎士団 (kiasa)]
+|ジンガイマキョウ (犬江しんすけ)|     [ジンガイマキョウ, 犬江しんすけ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ジンガイマキョウ (犬江しんすけ)]
+|スクランブル養老院 (はにわはお)|     [スクランブル養老院, はにわはお] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\スクランブル養老院 (はにわはお)]
+|スタジオBIG-X (ありのひろし)|     [スタジオBIG-X, ありのひろし] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\スタジオBIG-X (ありのひろし)]
+|スタジオ☆ひまわり|     [スタジオ☆ひまわり] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\スタジオ☆ひまわり]
+|スタジオ☆ひまわり (日向恭介)|     [スタジオ☆ひまわり, 日向恭介] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\スタジオ☆ひまわり (日向恭介)]
+|スタジオヌンチャク (こめつぶ)|     [スタジオヌンチャク, こめつぶ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\スタジオヌンチャク (こめつぶ)]
+|スタジオポーク|     [スタジオポーク] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\スタジオポーク]
+|スタジオ・ワラビー (深紫'72)|     [スタジオ・ワラビー, 深紫'72] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\スタジオ・ワラビー (深紫'72)]
+|スパイシーラブスヘブン|     [スパイシーラブスヘブン] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\スパイシーラブスヘブン]
+|スパイラルブレーン|     [スパイラルブレーン] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\スパイラルブレーン]
+|スミカラスミマデ|     [スミカラスミマデ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\スミカラスミマデ]
+|スミヤ|     [スミヤ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\スミヤ]
+|セブンデイズホリディ (古我望, 篠川あるみ)|     [セブンデイズホリディ, 古我望, 篠川あるみ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\セブンデイズホリディ (古我望, 篠川あるみ)]
+|セルビッチ水産|     [セルビッチ水産] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\セルビッチ水産]
+|ゼラチンユートピア|     [ゼラチンユートピア] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ゼラチンユートピア]
+|ゼロの者|     [ゼロの者] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ゼロの者]
+|ソフトさ～くるクレージュ|     [ソフトさ～くるクレージュ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ソフトさ～くるクレージュ]
+|ソメジマ|     [ソメジマ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ソメジマ]
+|ソーラレイ|     [ソーラレイ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ソーラレイ]
+|ダイオキシン|     [ダイオキシン] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ダイオキシン]
+|ダイジョビ研究所|     [ダイジョビ研究所] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ダイジョビ研究所]
+|チバトシロウ|     [チバトシロウ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\チバトシロウ]
+|チャーリーにしなか|     [チャーリーにしなか] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\チャーリーにしなか]
+|チョキの神さま & わんわん堂|     [チョキの神さま & わんわん堂] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\チョキの神さま & わんわん堂]
+|チョコレートショップ(麥谷興一）|     [チョコレートショップ, 麥谷興一）] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\チョコレートショップ(麥谷興一）]
+|チームキハラ (もじゃりん)|     [チームキハラ, もじゃりん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\チームキハラ (もじゃりん)]
+|ツマサキレーベル (山崎かずま,左カゲトラ)|     [ツマサキレーベル, 山崎かずま, 左カゲトラ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ツマサキレーベル (山崎かずま,左カゲトラ)]
+|ツン研 (Men's)|     [ツン研, Men's] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ツン研 (Men's)]
+|ディオゲネスクラブ (灰川ヘムレン)|     [ディオゲネスクラブ, 灰川ヘムレン] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ディオゲネスクラブ (灰川ヘムレン)]
+|ディーゼルマイン|     [ディーゼルマイン] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ディーゼルマイン]
+|トキサナ|     [トキサナ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\トキサナ]
+|トランジスタベイビィ (波多)|     [トランジスタベイビィ, 波多] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\トランジスタベイビィ (波多)]
+|トーティシェル (きんく)|     [トーティシェル, きんく] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\トーティシェル (きんく)]
+|ドウガネブイブイ (あぶりだしざくろ)|     [ドウガネブイブイ, あぶりだしざくろ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ドウガネブイブイ (あぶりだしざくろ)]
+|ドウモウ|     [ドウモウ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ドウモウ]
+|ドレポール (レオパルド)|     [ドレポール, レオパルド] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ドレポール (レオパルド)]
+|ナイロン100％(ナイロン)|     [ナイロン100％, ナイロン] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ナイロン100％(ナイロン)]
+|ナギヤマスギ (那岐山)|     [ナギヤマスギ, 那岐山] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ナギヤマスギ (那岐山)]
+|ナギヤマスギ|     [ナギヤマスギ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ナギヤマスギ]
+|ナハバル (前)|     [ナハバル, 前] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ナハバル (前)]
+|ニリツハイハン (ニリツ)|     [ニリツハイハン, ニリツ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ニリツハイハン (ニリツ)]
+|ネガぽじーぶ (悠木しん, ぶーち)|     [ネガぽじーぶ, 悠木しん, ぶーち] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ネガぽじーぶ (悠木しん, ぶーち)]
+|ネクロリンサー (きもとかなた)|     [ネクロリンサー, きもとかなた] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ネクロリンサー (きもとかなた)]
+|ネコかブリ|     [ネコかブリ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ネコかブリ]
+|ノア (大谷みこと)|     [ノア, 大谷みこと] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ノア (大谷みこと)]
+|ノビタグラフ (いしがな)|     [ノビタグラフ, いしがな] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ノビタグラフ (いしがな)]
+|ノラネコノタマ (雪野みなと)|     [ノラネコノタマ, 雪野みなと] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ノラネコノタマ (雪野みなと)]
+|ノラ猫工房|     [ノラ猫工房] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ノラ猫工房]
+|ハイパーピンチ (clover)|     [ハイパーピンチ, clover] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ハイパーピンチ (clover)]
+|ハラタマ (majoccoid)|     [ハラタマ, majoccoid] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ハラタマ (majoccoid)]
+|ハルミチヒロ|     [ハルミチヒロ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ハルミチヒロ]
+|ハンサム兄貴 (アスヒロ)|     [ハンサム兄貴, アスヒロ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ハンサム兄貴 (アスヒロ)]
+|ハースニール(みさくらなんこつ)|     [ハースニール, みさくらなんこつ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ハースニール(みさくらなんこつ)]
+|バス停シャワー(桂井よしあき)|     [バス停シャワー, 桂井よしあき] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\バス停シャワー(桂井よしあき)]
+|バー・ぴぃちぴっと|     [バー・ぴぃちぴっと] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\バー・ぴぃちぴっと]
+|パルテノン|     [パルテノン] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\パルテノン]
+|パンダニク(大熊猫介)|     [パンダニク, 大熊猫介] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\パンダニク(大熊猫介)]
+|パンツァーズ|     [パンツァーズ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\パンツァーズ]
+|ヒツジ一番搾り (日辻ハコ)|     [ヒツジ一番搾り, 日辻ハコ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ヒツジ一番搾り (日辻ハコ)]
+|ヒトリタワーブリッジ|     [ヒトリタワーブリッジ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ヒトリタワーブリッジ]
+|ビタミンごはん (はせがわけいた)|     [ビタミンごはん, はせがわけいた] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ビタミンごはん (はせがわけいた)]
+|ピアニッシモ (ピジャ)|     [ピアニッシモ, ピジャ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ピアニッシモ (ピジャ)]
+|ピシュ☆ラバ (甘竹朱郎)|     [ピシュ☆ラバ, 甘竹朱郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ピシュ☆ラバ (甘竹朱郎)]
+|フクダーダ|     [フクダーダ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\フクダーダ]
+|フニフニラボ (たまごろー)|     [フニフニラボ, たまごろー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\フニフニラボ (たまごろー)]
+|フライングシャイン黒|     [フライングシャイン黒] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\フライングシャイン黒]
+|ホムンクルス|     [ホムンクルス] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ホムンクルス]
+|ホンノーヂヘン (本能血ホノジ)|     [ホンノーヂヘン, 本能血ホノジ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ホンノーヂヘン (本能血ホノジ)]
+|ホーミング|     [ホーミング] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ホーミング]
+|ポポドクトリン|     [ポポドクトリン] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ポポドクトリン]
+|ポルノ★スター (玉置勉強)|     [ポルノ★スター, 玉置勉強] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ポルノ★スター (玉置勉強)]
+|マキニカリス|     [マキニカリス] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\マキニカリス]
+|マキノ事務所|     [マキノ事務所] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\マキノ事務所]
+|マグダラ解放同盟 (月読さじん)|     [マグダラ解放同盟, 月読さじん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\マグダラ解放同盟 (月読さじん)]
+|マジックフォーチュン八王子店( SAKULA)|     [マジックフォーチュン八王子店, SAKULA] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\マジックフォーチュン八王子店( SAKULA)]
+|ミグミグ荘 (みぐみぐ)|     [ミグミグ荘, みぐみぐ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ミグミグ荘 (みぐみぐ)]
+|ムサシマル|     [ムサシマル] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ムサシマル]
+|メタネコ (蒼津ウミヒト)|     [メタネコ, 蒼津ウミヒト] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\メタネコ (蒼津ウミヒト)]
+|メタボ喫茶異臭騒ぎ|     [メタボ喫茶異臭騒ぎ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\メタボ喫茶異臭騒ぎ]
+|メタルタンツ (哲美)|     [メタルタンツ, 哲美] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\メタルタンツ (哲美)]
+|メメ50|     [メメ50] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\メメ50]
+|モグダン(ねこぱんちバシバシ 、ニャンゴロー)]|     [モグダン, ねこぱんちバシバシ 、ニャンゴロー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\モグダン(ねこぱんちバシバシ 、ニャンゴロー)]]
+|モノ×クロ (ここのか)|     [モノ×クロ, ここのか] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\モノ×クロ (ここのか)]
+|モロトフカクテル (大輪田泊)|     [モロトフカクテル, 大輪田泊] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\モロトフカクテル (大輪田泊)]
+|モンド|     [モンド] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\モンド]
+|ヤスイリオスケ(ゴロメンツ)|     [ヤスイリオスケ, ゴロメンツ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ヤスイリオスケ(ゴロメンツ)]
+|ヤスダンチ (YASUDA)|     [ヤスダンチ, YASUDA] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ヤスダンチ (YASUDA)]
+|ヤドクガエル (locon)|     [ヤドクガエル, locon] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ヤドクガエル (locon)]
+|ヤンヤン(Yan-Yam)|     [ヤンヤン, Yan-Yam] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ヤンヤン(Yan-Yam)]
+|ユリルラリカ (小島紗)|     [ユリルラリカ, 小島紗] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ユリルラリカ (小島紗)]
+|ヨロコビの国 (JOY RIDE)|     [ヨロコビの国, JOY RIDE] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ヨロコビの国 (JOY RIDE)]
+|リバ島 (矢島Index)|     [リバ島, 矢島Index] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\リバ島 (矢島Index)]
+|リュナイティア (季月えりか)|     [リュナイティア, 季月えりか] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\リュナイティア (季月えりか)]
+|ロイヤルマウンテン (珈琲貴族)|     [ロイヤルマウンテン, 珈琲貴族] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ロイヤルマウンテン (珈琲貴族)]
+|ロリとら!! (月嶋ゆうこ)|     [ロリとら!!, 月嶋ゆうこ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ロリとら!! (月嶋ゆうこ)]
+|ロリポップコンプリート(恋小いろり)|     [ロリポップコンプリート, 恋小いろり] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ロリポップコンプリート(恋小いろり)]
+|ワッフル同盟犬 (田中竕)|     [ワッフル同盟犬, 田中竕] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ワッフル同盟犬 (田中竕)]
+|ヴェクセルハフト (Kima-gray)|     [ヴェクセルハフト, Kima-gray] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ヴェクセルハフト (Kima-gray)]
+|ヴェロニカの歯 (の歯)|     [ヴェロニカの歯, の歯] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ヴェロニカの歯 (の歯)]
+|七つの鍵穴 (七鍵智志)|     [七つの鍵穴, 七鍵智志] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\七つの鍵穴 (七鍵智志)]
+|三日月音頭 (かっぱ)|     [三日月音頭, かっぱ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\三日月音頭 (かっぱ)]
+|三糸シド|     [三糸シド] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\三糸シド]
+|三血中吐|     [三血中吐] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\三血中吐]
+|上乃龍也(ギリギリ虹色)|     [上乃龍也, ギリギリ虹色] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\上乃龍也(ギリギリ虹色)]
+|上田裕|     [上田裕] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\上田裕]
+|不二河聡|     [不二河聡] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\不二河聡]
+|不可不可 (関谷あさみ)|     [不可不可, 関谷あさみ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\不可不可 (関谷あさみ)]
+|世界革命倶楽部 (小澤零人)|     [世界革命倶楽部, 小澤零人] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\世界革命倶楽部 (小澤零人)]
+|中村卯月|     [中村卯月] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\中村卯月]
+|丸居まる|     [丸居まる] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\丸居まる]
+|久水あるた|     [久水あるた] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\久水あるた]
+|久遠ミチヨシ(パンとケーキ )|     [久遠ミチヨシ, パンとケーキ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\久遠ミチヨシ(パンとケーキ )]
+|乙女気分 (三色網戸)|     [乙女気分, 三色網戸] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\乙女気分 (三色網戸)]
+|九神杏仁|     [九神杏仁] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\九神杏仁]
+|五十嵐電マ|     [五十嵐電マ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\五十嵐電マ]
+|井ノ本リカ子(BENNY'S)|     [井ノ本リカ子, BENNY'S] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\井ノ本リカ子(BENNY'S)]
+|井上よしひさ|     [井上よしひさ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\井上よしひさ]
+|人間モドキ|     [人間モドキ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\人間モドキ]
+|伊東ライフ|     [伊東ライフ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\伊東ライフ]
+|休憩所の東 (あづま煉)|     [休憩所の東, あづま煉] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\休憩所の東 (あづま煉)]
+|何かのあたま (ぴかお)|     [何かのあたま, ぴかお] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\何かのあたま (ぴかお)]
+|余はおかずを所望しておる|     [余はおかずを所望しておる] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\余はおかずを所望しておる]
+|侍 (ひげ政宗)|     [侍, ひげ政宗] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\侍 (ひげ政宗)]
+|俺的十八禁|     [俺的十八禁] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\俺的十八禁]
+|備前式ロロップ (備前)|     [備前式ロロップ, 備前] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\備前式ロロップ (備前)]
+|僕と君と架空世界と (和遥キナ)|     [僕と君と架空世界と, 和遥キナ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\僕と君と架空世界と (和遥キナ)]
+|八寶備仁|     [八寶備仁] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\八寶備仁]
+|八木崎銀座 (八神秋一)|     [八木崎銀座, 八神秋一] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\八木崎銀座 (八神秋一)]
+|八王子海パン突撃騎兵隊 (巻田佳春)|     [八王子海パン突撃騎兵隊, 巻田佳春] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\八王子海パン突撃騎兵隊 (巻田佳春)]
+|六七要塞|     [六七要塞] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\六七要塞]
+|共月亭(宫下未纪　宮下未紀)|     [共月亭, 宫下未纪　宮下未紀] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\共月亭(宫下未纪　宮下未紀)]
+|内々けやき(ブロンコ一人旅)|     [内々けやき, ブロンコ一人旅] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\内々けやき(ブロンコ一人旅)]
+|冬扇草堂 (冬扇)|     [冬扇草堂, 冬扇] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\冬扇草堂 (冬扇)]
+|冷凍しじみ|     [冷凍しじみ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\冷凍しじみ]
+|出席番号26 (にろ)|     [出席番号26, にろ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\出席番号26 (にろ)]
+|前島龍(コンディメントは8分目)|     [前島龍, コンディメントは8分目] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\前島龍(コンディメントは8分目)]
+|前方不注意|     [前方不注意] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\前方不注意]
+|助三郎|     [助三郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\助三郎]
+|十六夜清心|     [十六夜清心] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\十六夜清心]
+|千歳烏山第2出張所(真未たつや)|     [千歳烏山第2出張所, 真未たつや] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\千歳烏山第2出張所(真未たつや)]
+|南北|     [南北] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\南北]
+|南野琴(STUDIO PAL )|     [南野琴, STUDIO PAL] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\南野琴(STUDIO PAL )]
+|単一統合作戦計画 (ニイマル)|     [単一統合作戦計画, ニイマル] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\単一統合作戦計画 (ニイマル)]
+|原茂之|     [原茂之] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\原茂之]
+|厩 (UMA)|     [厩, UMA] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\厩 (UMA)]
+|友毒屋 (友吉)|     [友毒屋, 友吉] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\友毒屋 (友吉)]
+|吉井テック社|     [吉井テック社] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\吉井テック社]
+|吉川かば夫|     [吉川かば夫] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\吉川かば夫]
+|吉川英郎|     [吉川英郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\吉川英郎]
+|吉村竜巻|     [吉村竜巻] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\吉村竜巻]
+|吹溜|     [吹溜] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\吹溜]
+|和(天夢森流彩)|     [和, 天夢森流彩] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\和(天夢森流彩)]
+|和六里ハル|     [和六里ハル] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\和六里ハル]
+|唄飛鳥|     [唄飛鳥] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\唄飛鳥]
+|唐辛子ひでゆ|     [唐辛子ひでゆ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\唐辛子ひでゆ]
+|嘘つき屋(大嘘)|     [嘘つき屋, 大嘘] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\嘘つき屋(大嘘)]
+|四才ブックス|     [四才ブックス] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\四才ブックス]
+|回遊企画 (鈴井ナルミ)|     [回遊企画, 鈴井ナルミ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\回遊企画 (鈴井ナルミ)]
+|土代昭治|     [土代昭治] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\土代昭治]
+|土居坂崎|     [土居坂崎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\土居坂崎]
+|地雷屋|     [地雷屋] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\地雷屋]
+|堀博昭|     [堀博昭] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\堀博昭]
+|堺はまち|     [堺はまち] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\堺はまち]
+|塩屋虻通信 (シオロク)|     [塩屋虻通信, シオロク] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\塩屋虻通信 (シオロク)]
+|塵芥 (破箒芥)|     [塵芥, 破箒芥] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\塵芥 (破箒芥)]
+|壁の彩度 (saitom)|     [壁の彩度, saitom] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\壁の彩度 (saitom)]
+|夏目文花|     [夏目文花] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\夏目文花]
+|夏色少女|     [夏色少女] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\夏色少女]
+|夜★FUCKERS (ミツギ)|     [夜★FUCKERS, ミツギ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\夜★FUCKERS (ミツギ)]
+|夢茶会 (むちゃ)|     [夢茶会, むちゃ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\夢茶会 (むちゃ)]
+|夢見ごこち (御影獏)|     [夢見ごこち, 御影獏] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\夢見ごこち (御影獏)]
+|大友卓二 (Number2,たくじ)|     [大友卓二, Number2, たくじ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\大友卓二 (Number2,たくじ)]
+|大和川|     [大和川] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\大和川]
+|大理石(墓場)|     [大理石, 墓場] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\大理石(墓場)]
+|大石中二|     [大石中二] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\大石中二]
+|大秦国王安敦|     [大秦国王安敦] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\大秦国王安敦]
+|大蔵別館 (大蔵一也)|     [大蔵別館, 大蔵一也] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\大蔵別館 (大蔵一也)]
+|天乃一水|     [天乃一水] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\天乃一水]
+|天城製鉄所 (えびす)|     [天城製鉄所, えびす] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\天城製鉄所 (えびす)]
+|天太郎|     [天太郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\天太郎]
+|天然石 (硯)|     [天然石, 硯] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\天然石 (硯)]
+|天道まさえ|     [天道まさえ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\天道まさえ]
+|奈塚Q弥|     [奈塚Q弥] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\奈塚Q弥]
+|奴隷ジャッキー|     [奴隷ジャッキー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\奴隷ジャッキー]
+|如月群真|     [如月群真] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\如月群真]
+|妖滅堂 (ヤサカニ・アン)|     [妖滅堂, ヤサカニ・アン] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\妖滅堂 (ヤサカニ・アン)]
+|姫屋 (阿部いのり)|     [姫屋, 阿部いのり] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\姫屋 (阿部いのり)]
+|子門竜士郎|     [子門竜士郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\子門竜士郎]
+|安藤裕行|     [安藤裕行] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\安藤裕行]
+|宮原歩|     [宮原歩] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\宮原歩]
+|宮崎摩耶|     [宮崎摩耶] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\宮崎摩耶]
+|宮社惣恭|     [宮社惣恭] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\宮社惣恭]
+|宮野金太郎|     [宮野金太郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\宮野金太郎]
+|宵野コタロー|     [宵野コタロー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\宵野コタロー]
+|寒天|     [寒天] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\寒天]
+|小宮裕太|     [小宮裕太] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\小宮裕太]
+|小悪魔sage派 (sage・ジョー)|     [小悪魔sage派, sage・ジョー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\小悪魔sage派 (sage・ジョー)]
+|小暮マリコ|     [小暮マリコ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\小暮マリコ]
+|小梅けいと|     [小梅けいと] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\小梅けいと]
+|少女月蝕 (嶋尾和)|     [少女月蝕, 嶋尾和] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\少女月蝕 (嶋尾和)]
+|少女騎士団 (大槍葦人)|     [少女騎士団, 大槍葦人] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\少女騎士団 (大槍葦人)]
+|少年×少女 (如月水)|     [少年×少女, 如月水] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\少年×少女 (如月水)]
+|居酒屋よっちゃん|     [居酒屋よっちゃん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\居酒屋よっちゃん]
+|山崎かな|     [山崎かな] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\山崎かな]
+|山本雲居|     [山本雲居] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\山本雲居]
+|山猫BOX|     [山猫BOX] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\山猫BOX]
+|山田ショウジ|     [山田ショウジ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\山田ショウジ]
+|山田一族|     [山田一族] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\山田一族]
+|岡田コウ(おかだ亭 )|     [岡田コウ, おかだ亭] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\岡田コウ(おかだ亭 )]
+|峠桜屋 (Yukian)|     [峠桜屋, Yukian] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\峠桜屋 (Yukian)]
+|巴天舞|     [巴天舞] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\巴天舞]
+|布の家 (むーんらいと)|     [布の家, むーんらいと] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\布の家 (むーんらいと)]
+|希有馬屋|     [希有馬屋] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\希有馬屋]
+|師走の翁(翁計画)|     [師走の翁, 翁計画] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\師走の翁(翁計画)]
+|常時無常 (篠塚醸二)|     [常時無常, 篠塚醸二] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\常時無常 (篠塚醸二)]
+|幸せ共和国(幸せのかたち)|     [幸せ共和国, 幸せのかたち] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\幸せ共和国(幸せのかたち)]
+|幸灯|     [幸灯] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\幸灯]
+|幸田朋弘|     [幸田朋弘] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\幸田朋弘]
+|幸福資源|     [幸福資源] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\幸福資源]
+|幾夜大黒堂|     [幾夜大黒堂] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\幾夜大黒堂]
+|広十練習帖 (広弥)|     [広十練習帖, 広弥] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\広十練習帖 (広弥)]
+|床子屋 (HEIZO 鬼頭えん)|     [床子屋, HEIZO 鬼頭えん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\床子屋 (HEIZO 鬼頭えん)]
+|廻田ぼら|     [廻田ぼら] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\廻田ぼら]
+|弐駆緒|     [弐駆緒] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\弐駆緒]
+|弥美津ヒロ|     [弥美津ヒロ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\弥美津ヒロ]
+|影法師通訊協定|     [影法師通訊協定] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\影法師通訊協定]
+|待っててホトトギス|     [待っててホトトギス] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\待っててホトトギス]
+|後藤晶|     [後藤晶] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\後藤晶]
+|御伽屋 (三月春人)|     [御伽屋, 三月春人] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\御伽屋 (三月春人)]
+|御祓箱 (御札)|     [御祓箱, 御札] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\御祓箱 (御札)]
+|志乃武丹英|     [志乃武丹英] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\志乃武丹英]
+|志望推定時刻 (てへん)|     [志望推定時刻, てへん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\志望推定時刻 (てへん)]
+|性文化研 (柳田史太)|     [性文化研, 柳田史太] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\性文化研 (柳田史太)]
+|怪奇日蝕 (綾野なおと)|     [怪奇日蝕, 綾野なおと] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\怪奇日蝕 (綾野なおと)]
+|恋愛漫画家(鳴瀬ひろふみ)|     [恋愛漫画家, 鳴瀬ひろふみ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\恋愛漫画家(鳴瀬ひろふみ)]
+|恩田チロ|     [恩田チロ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\恩田チロ]
+|悠々亭 (水上凛香)|     [悠々亭, 水上凛香] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\悠々亭 (水上凛香)]
+|悠宇樹|     [悠宇樹] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\悠宇樹]
+|悪性真性物 (糊)|     [悪性真性物, 糊] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\悪性真性物 (糊)]
+|悪転奏進 (黒糖ニッケ)|     [悪転奏進, 黒糖ニッケ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\悪転奏進 (黒糖ニッケ)]
+|悶亭|     [悶亭] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\悶亭]
+|成島ゴドー|     [成島ゴドー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\成島ゴドー]
+|我流痴帯 (TANA)|     [我流痴帯, TANA] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\我流痴帯 (TANA)]
+|抹茶ちゃもも|     [抹茶ちゃもも] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\抹茶ちゃもも]
+|拡張パーツ (YOSHIKI)|     [拡張パーツ, YOSHIKI] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\拡張パーツ (YOSHIKI)]
+|敷島贋具 (敷島天気, 敷島昭太郎)|     [敷島贋具, 敷島天気, 敷島昭太郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\敷島贋具 (敷島天気, 敷島昭太郎)]
+|斬鬼楼|     [斬鬼楼] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\斬鬼楼]
+|新宿狛劇場 (狛形)|     [新宿狛劇場, 狛形] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\新宿狛劇場 (狛形)]
+|新道一|     [新道一] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\新道一]
+|方円軒 (稲瀬信也)|     [方円軒, 稲瀬信也] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\方円軒 (稲瀬信也)]
+|方密堂 (方密)|     [方密堂, 方密] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\方密堂 (方密)]
+|旗幟堂 (旗幟灰星)|     [旗幟堂, 旗幟灰星] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\旗幟堂 (旗幟灰星)]
+|日日楽楽 (青木幹治)|     [日日楽楽, 青木幹治] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\日日楽楽 (青木幹治)]
+|日本ダンディ|     [日本ダンディ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\日本ダンディ]
+|日本ワルワル同盟|     [日本ワルワル同盟] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\日本ワルワル同盟]
+|春城秋介|     [春城秋介] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\春城秋介]
+|昭和最終戦線 (はなうな)|     [昭和最終戦線, はなうな] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\昭和最終戦線 (はなうな)]
+|暗中模索 (まるころんど)|     [暗中模索, まるころんど] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\暗中模索 (まるころんど)]
+|月ノヒカリ計画|     [月ノヒカリ計画] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\月ノヒカリ計画]
+|月下冴喜|     [月下冴喜] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\月下冴喜]
+|月下美刃|     [月下美刃] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\月下美刃]
+|月吉ヒロキ|     [月吉ヒロキ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\月吉ヒロキ]
+|月夜のこねこ (こうきくう）|     [月夜のこねこ, こうきくう）] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\月夜のこねこ (こうきくう）]
+|月華の猫 (おゆき)|     [月華の猫, おゆき] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\月華の猫 (おゆき)]
+|月野定規|     [月野定規] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\月野定規]
+|有葉と愉快な仲間たち|     [有葉と愉快な仲間たち] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\有葉と愉快な仲間たち]
+|有賀冬|     [有賀冬] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\有賀冬]
+|有馬侭|     [有馬侭] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\有馬侭]
+|望月奈々|     [望月奈々] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\望月奈々]
+|朝木貴行|     [朝木貴行] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\朝木貴行]
+|朧&天蓬元帥堂 (天蓬元帥)|     [朧&天蓬元帥堂, 天蓬元帥] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\朧&天蓬元帥堂 (天蓬元帥)]
+|木塚詠路|     [木塚詠路] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\木塚詠路]
+|木星在住|     [木星在住] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\木星在住]
+|木谷椎|     [木谷椎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\木谷椎]
+|木鈴亭 (木鈴カケル)|     [木鈴亭, 木鈴カケル] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\木鈴亭 (木鈴カケル)]
+|李花公主|     [李花公主] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\李花公主]
+|杏咲モラル|     [杏咲モラル] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\杏咲モラル]
+|村上水軍の館 (村上水軍)|     [村上水軍の館, 村上水軍] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\村上水軍の館 (村上水軍)]
+|来つ寝 (立川ねごろ)|     [来つ寝, 立川ねごろ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\来つ寝 (立川ねごろ)]
+|東タイラ|     [東タイラ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\東タイラ]
+|東九線|     [東九線] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\東九線]
+|東鉄神|     [東鉄神] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\東鉄神]
+|東雲太郎|     [東雲太郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\東雲太郎]
+|東雲龍|     [東雲龍] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\東雲龍]
+|東＊南＊東(新米)|     [東＊南＊東, 新米] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\東＊南＊東(新米)]
+|松本ドリル研究所|     [松本ドリル研究所] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\松本ドリル研究所]
+|某零|     [某零] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\某零]
+|株式会社虎の穴|     [株式会社虎の穴] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\株式会社虎の穴]
+|桃屋しょう猫|     [桃屋しょう猫] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\桃屋しょう猫]
+|桜桃|     [桜桃] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\桜桃]
+|森井さんとこの (森井しづき)|     [森井さんとこの, 森井しづき] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\森井さんとこの (森井しづき)]
+|椋蔵|     [椋蔵] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\椋蔵]
+|椿十四郎|     [椿十四郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\椿十四郎]
+|椿屋めぐる|     [椿屋めぐる] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\椿屋めぐる]
+|極彩色 (彩社長）|     [極彩色, 彩社長）] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\極彩色 (彩社長）]
+|櫻井大エネルギー (櫻井エネルギー)|     [櫻井大エネルギー, 櫻井エネルギー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\櫻井大エネルギー (櫻井エネルギー)]
+|歌麿|     [歌麿] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\歌麿]
+|武田弘光(真珠貝)|     [武田弘光, 真珠貝] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\武田弘光(真珠貝)]
+|毒とんこつ肉ドレイ (他の人)|     [毒とんこつ肉ドレイ, 他の人] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\毒とんこつ肉ドレイ (他の人)]
+|比呂カズキ|     [比呂カズキ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\比呂カズキ]
+|比村乳業|     [比村乳業] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\比村乳業]
+|比較的シンプルなパンティ|     [比較的シンプルなパンティ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\比較的シンプルなパンティ]
+|江戸屋ぽち|     [江戸屋ぽち] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\江戸屋ぽち]
+|池上竜矢|     [池上竜矢] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\池上竜矢]
+|沙悟荘 (瀬浦沙悟)|     [沙悟荘, 瀬浦沙悟] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\沙悟荘 (瀬浦沙悟)]
+|没後|     [没後] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\没後]
+|河童屋 (勝手に河童)|     [河童屋, 勝手に河童] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\河童屋 (勝手に河童)]
+|流一本|     [流一本] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\流一本]
+|浪漫書店|     [浪漫書店] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\浪漫書店]
+|海底神殿|     [海底神殿] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\海底神殿]
+|涙穴庵 (涙目)|     [涙穴庵, 涙目] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\涙穴庵 (涙目)]
+|涼屋|     [涼屋] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\涼屋]
+|満足堂|     [満足堂] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\満足堂]
+|滞空ワークス|     [滞空ワークス] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\滞空ワークス]
+|漸速ライダー (天漸雅)|     [漸速ライダー, 天漸雅] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\漸速ライダー (天漸雅)]
+|澤野明|     [澤野明] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\澤野明]
+|瀬奈陽太郎|     [瀬奈陽太郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\瀬奈陽太郎]
+|無望菜志|     [無望菜志] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\無望菜志]
+|無道叡智|     [無道叡智] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\無道叡智]
+|無限地雷 (ムシ)|     [無限地雷, ムシ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\無限地雷 (ムシ)]
+|無限軌道|     [無限軌道] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\無限軌道]
+|焦げました (タコ焼き)|     [焦げました, タコ焼き] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\焦げました (タコ焼き)]
+|焼肉帝国 (めぐみ)|     [焼肉帝国, めぐみ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\焼肉帝国 (めぐみ)]
+|焼酎MAC (ほずみけんじ)|     [焼酎MAC, ほずみけんじ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\焼酎MAC (ほずみけんじ)]
+|片耳豚 (寒衣屋)|     [片耳豚, 寒衣屋] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\片耳豚 (寒衣屋)]
+|牧部かたる|     [牧部かたる] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\牧部かたる]
+|牧野坂シンイチ|     [牧野坂シンイチ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\牧野坂シンイチ]
+|特薬草|     [特薬草] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\特薬草]
+|犬|     [犬] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\犬]
+|犬星|     [犬星] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\犬星]
+|犯罪天国 (ハセイアガナ)|     [犯罪天国, ハセイアガナ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\犯罪天国 (ハセイアガナ)]
+|狼亮輔 (珠秋)|     [狼亮輔, 珠秋] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\狼亮輔 (珠秋)]
+|玩具家電|     [玩具家電] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\玩具家電]
+|珍譜堂 (○ぃ)|     [珍譜堂, ○ぃ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\珍譜堂 (○ぃ)]
+|琴義弓介|     [琴義弓介] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\琴義弓介]
+|環々唯|     [環々唯] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\環々唯]
+|瓢屋 (もみお)|     [瓢屋, もみお] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\瓢屋 (もみお)]
+|瓦屋本舗 (瓦屋A太)|     [瓦屋本舗, 瓦屋A太] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\瓦屋本舗 (瓦屋A太)]
+|甘泉少女 (能都くるみ)|     [甘泉少女, 能都くるみ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\甘泉少女 (能都くるみ)]
+|甘詰留太|     [甘詰留太] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\甘詰留太]
+|甘酒鳩商店 (養酒オヘペ)|     [甘酒鳩商店, 養酒オヘペ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\甘酒鳩商店 (養酒オヘペ)]
+|生クリームびより (ななせめるち)|     [生クリームびより, ななせめるち] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\生クリームびより (ななせめるち)]
+|田中あじ|     [田中あじ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\田中あじ]
+|由雅なおは|     [由雅なおは] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\由雅なおは]
+|甲冑娘|     [甲冑娘] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\甲冑娘]
+|甲斐ひろゆき|     [甲斐ひろゆき] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\甲斐ひろゆき]
+|画々研 (まひるの影郎)|     [画々研, まひるの影郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\画々研 (まひるの影郎)]
+|白ぅ～凪ぃ|     [白ぅ～凪ぃ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\白ぅ～凪ぃ]
+|白ネギ屋|     [白ネギ屋] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\白ネギ屋]
+|白木の小部屋 (榊MAKI)|     [白木の小部屋, 榊MAKI] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\白木の小部屋 (榊MAKI)]
+|百々ふぐり (しんどう)|     [百々ふぐり, しんどう] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\百々ふぐり (しんどう)]
+|直道館 (MARCYどっぐ・ホルモン恋次郎)|     [直道館, MARCYどっぐ・ホルモン恋次郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\直道館 (MARCYどっぐ・ホルモン恋次郎)]
+|真・聖堂☆本舗 (聖☆司)|     [真・聖堂☆本舗, 聖☆司] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\真・聖堂☆本舗 (聖☆司)]
+|真面目屋(isao)|     [真面目屋, isao] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\真面目屋(isao)]
+|睦茸(怨床 )|     [睦茸, 怨床] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\睦茸(怨床 )]
+|瞬間最大風速|     [瞬間最大風速] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\瞬間最大風速]
+|矢来あきら (イナフミン)|     [矢来あきら, イナフミン] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\矢来あきら (イナフミン)]
+|石川シスケ|     [石川シスケ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\石川シスケ]
+|石恵|     [石恵] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\石恵]
+|神保ひとで|     [神保ひとで] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\神保ひとで]
+|神楽武志|     [神楽武志] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\神楽武志]
+|神無さつき|     [神無さつき] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\神無さつき]
+|祭社 (ななろば華)|     [祭社, ななろば華] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\祭社 (ななろば華)]
+|福のれん (ユキヲ)|     [福のれん, ユキヲ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\福のれん (ユキヲ)]
+|私立さくらんぼ小学校|     [私立さくらんぼ小学校] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\私立さくらんぼ小学校]
+|秋神サトル|     [秋神サトル] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\秋神サトル]
+|秘密結社M|     [秘密結社M] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\秘密結社M]
+|稍日向|     [稍日向] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\稍日向]
+|空色まーち (成沢空)|     [空色まーち, 成沢空] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\空色まーち (成沢空)]
+|突風ど～ろ (マッド)|     [突風ど～ろ, マッド] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\突風ど～ろ (マッド)]
+|立花オミナ|     [立花オミナ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\立花オミナ]
+|端末異常|     [端末異常] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\端末異常]
+|笑花偽|     [笑花偽] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\笑花偽]
+|笑顔が一番|     [笑顔が一番] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\笑顔が一番]
+|第6基地 (キチロク)|     [第6基地, キチロク] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\第6基地 (キチロク)]
+|笹倉綾人|     [笹倉綾人] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\笹倉綾人]
+|糸杉柾宏|     [糸杉柾宏] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\糸杉柾宏]
+|紅茶屋|     [紅茶屋] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\紅茶屋]
+|紺のペンケース|     [紺のペンケース] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\紺のペンケース]
+|紺野あずれ|     [紺野あずれ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\紺野あずれ]
+|組換DNA (水上暮菜)|     [組換DNA, 水上暮菜] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\組換DNA (水上暮菜)]
+|絵援隊|     [絵援隊] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\絵援隊]
+|絶対少女 (Raita)|     [絶対少女, Raita] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\絶対少女 (Raita)]
+|絶望しろむじ(しょうさん坊主)|     [絶望しろむじ, しょうさん坊主] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\絶望しろむじ(しょうさん坊主)]
+|続・飛び出し中尉!!|     [続・飛び出し中尉!!] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\続・飛び出し中尉!!]
+|綿120パーセント (めんようじゃん)|     [綿120パーセント, めんようじゃん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\綿120パーセント (めんようじゃん)]
+|緊急回避|     [緊急回避] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\緊急回避]
+|緑のルーペ|     [緑のルーペ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\緑のルーペ]
+|緑の鶏|     [緑の鶏] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\緑の鶏]
+|羊小屋 (橘由宇)|     [羊小屋, 橘由宇] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\羊小屋 (橘由宇)]
+|美里みつみ|     [美里みつみ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\美里みつみ]
+|翡翠亭(和泉つばす)|     [翡翠亭, 和泉つばす] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\翡翠亭(和泉つばす)]
+|聖リオ (キ帝ィ)|     [聖リオ, キ帝ィ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\聖リオ (キ帝ィ)]
+|臨終サーカス (はぐはぐ)|     [臨終サーカス, はぐはぐ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\臨終サーカス (はぐはぐ)]
+|舞原マツゲ(マツゲアンテナ)|     [舞原マツゲ, マツゲアンテナ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\舞原マツゲ(マツゲアンテナ)]
+|色天使 (白猫参謀)|     [色天使, 白猫参謀] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\色天使 (白猫参謀)]
+|色白好|     [色白好] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\色白好]
+|茶否|     [茶否] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\茶否]
+|草津てるにょ|     [草津てるにょ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\草津てるにょ]
+|草野紅壱|     [草野紅壱] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\草野紅壱]
+|華フック|     [華フック] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\華フック]
+|葉賀ユイ|     [葉賀ユイ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\葉賀ユイ]
+|葵ヒトリ|     [葵ヒトリ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\葵ヒトリ]
+|蒲焼屋 (鰻丸)|     [蒲焼屋, 鰻丸] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\蒲焼屋 (鰻丸)]
+|薄荷キャンディー|     [薄荷キャンディー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\薄荷キャンディー]
+|薄荷屋 (篤見唯子)|     [薄荷屋, 篤見唯子] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\薄荷屋 (篤見唯子)]
+|薬味紅生姜|     [薬味紅生姜] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\薬味紅生姜]
+|藤坂リリック|     [藤坂リリック] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\藤坂リリック]
+|藤屋本店 (藤ます)|     [藤屋本店, 藤ます] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\藤屋本店 (藤ます)]
+|虎マシーン (春日部太郎)|     [虎マシーン, 春日部太郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\虎マシーン (春日部太郎)]
+|虹のれん|     [虹のれん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\虹のれん]
+|蛙子丁字|     [蛙子丁字] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\蛙子丁字]
+|蛸壷屋|     [蛸壷屋] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\蛸壷屋]
+|蛹虎次郎(ムチムチ7,A・O・I)|     [蛹虎次郎, ムチムチ7, A・O・I] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\蛹虎次郎(ムチムチ7,A・O・I)]
+|行脚堂|     [行脚堂] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\行脚堂]
+|裏FMO (フミオ)|     [裏FMO, フミオ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\裏FMO (フミオ)]
+|西安|     [西安] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\西安]
+|要 (椎名悠輝)|     [要, 椎名悠輝] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\要 (椎名悠輝)]
+|要青豆|     [要青豆] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\要青豆]
+|谷口さん|     [谷口さん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\谷口さん]
+|赤兎 (復八磨直兎)|     [赤兎, 復八磨直兎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\赤兎 (復八磨直兎)]
+|赤月みゅうと|     [赤月みゅうと] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\赤月みゅうと]
+|踝会|     [踝会] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\踝会]
+|軒下の猫屋 (アルデヒド)|     [軒下の猫屋, アルデヒド] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\軒下の猫屋 (アルデヒド)]
+|近傍租界 (こんもり)|     [近傍租界, こんもり] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\近傍租界 (こんもり)]
+|迷走ジャンキー|     [迷走ジャンキー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\迷走ジャンキー]
+|遊猿堂|     [遊猿堂] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\遊猿堂]
+|達磨さん転んだ|     [達磨さん転んだ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\達磨さん転んだ]
+|遥夢社(源五郎)|     [遥夢社, 源五郎] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\遥夢社(源五郎)]
+|野晒惺|     [野晒惺] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\野晒惺]
+|鈴玉レンリ|     [鈴玉レンリ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\鈴玉レンリ]
+|鋼鉄力企画|     [鋼鉄力企画] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\鋼鉄力企画]
+|鍋石材店|     [鍋石材店] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\鍋石材店]
+|鎖キャタピラ|     [鎖キャタピラ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\鎖キャタピラ]
+|関西オレンジ (荒井啓)|     [関西オレンジ, 荒井啓] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\関西オレンジ (荒井啓)]
+|闇に蠢く (どくろさん)|     [闇に蠢く, どくろさん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\闇に蠢く (どくろさん)]
+|陵辱過激団 (影追い)|     [陵辱過激団, 影追い] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\陵辱過激団 (影追い)]
+|集団暴力 (むらさき朱 )|     [集団暴力, むらさき朱] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\集団暴力 (むらさき朱 )]
+|雑踏景色 (10mo)|     [雑踏景色, 10mo] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\雑踏景色 (10mo)]
+|雪路時愛(んーちゃかむーむー)|     [雪路時愛, んーちゃかむーむー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\雪路時愛(んーちゃかむーむー)]
+|雰囲気組 (ゆりかわ)|     [雰囲気組, ゆりかわ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\雰囲気組 (ゆりかわ)]
+|雷神会|     [雷神会] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\雷神会]
+|青水庵|     [青水庵] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\青水庵]
+|青空少女|     [青空少女] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\青空少女]
+|青豆腐 (ねろましん)|     [青豆腐, ねろましん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\青豆腐 (ねろましん)]
+|音乃夏|     [音乃夏] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\音乃夏]
+|音速うばぐるま (手押し車)|     [音速うばぐるま, 手押し車] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\音速うばぐるま (手押し車)]
+|風のごとく! (風吹ぽに)|     [風のごとく!, 風吹ぽに] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\風のごとく! (風吹ぽに)]
+|風舞結界, Friendly Sky (CHuN)|     [風舞結界, Friendly Sky, CHuN] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\風舞結界, Friendly Sky (CHuN)]
+|風芸WindArTeam (WindArt)|     [風芸WindArTeam, WindArt] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\風芸WindArTeam (WindArt)]
+|風道屋 (まもウィリアムズ)|     [風道屋, まもウィリアムズ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\風道屋 (まもウィリアムズ)]
+|餅屋 (かろちー)|     [餅屋, かろちー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\餅屋 (かろちー)]
+|駄菓子|     [駄菓子] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\駄菓子]
+|高城ごーや|     [高城ごーや] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\高城ごーや]
+|高岡基文|     [高岡基文] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\高岡基文]
+|高津|     [高津] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\高津]
+|高苗床 (高苗京鈴)|     [高苗床, 高苗京鈴] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\高苗床 (高苗京鈴)]
+|鬼ノ漫画設計室 (鬼ノ仁)|     [鬼ノ漫画設計室, 鬼ノ仁] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\鬼ノ漫画設計室 (鬼ノ仁)]
+|鬼脚堂 (カラテカ・バリュー)|     [鬼脚堂, カラテカ・バリュー] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\鬼脚堂 (カラテカ・バリュー)]
+|魔空軍団 (しのづかあつと)|     [魔空軍団, しのづかあつと] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\魔空軍団 (しのづかあつと)]
+|魚肉ん|     [魚肉ん] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\魚肉ん]
+|魚骨工造 (カポ)|     [魚骨工造, カポ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\魚骨工造 (カポ)]
+|鳥居姫|     [鳥居姫] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\鳥居姫]
+|鳳まひろ(弥美津峠)|     [鳳まひろ, 弥美津峠] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\鳳まひろ(弥美津峠)]
+|鳴子ハナハル|     [鳴子ハナハル] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\鳴子ハナハル]
+|鴨ローサーズ|     [鴨ローサーズ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\鴨ローサーズ]
+|鴨川屋(鴨川たぬき)|     [鴨川屋, 鴨川たぬき] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\鴨川屋(鴨川たぬき)]
+|鶯屋|     [鶯屋] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\鶯屋]
+|鶴田文学|     [鶴田文学] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\鶴田文学]
+|黒ねこ赤リボン (神代竜)|     [黒ねこ赤リボン, 神代竜] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\黒ねこ赤リボン (神代竜)]
+|黒ノ御神籤 (御敷仁)|     [黒ノ御神籤, 御敷仁] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\黒ノ御神籤 (御敷仁)]
+|黒澤pict (黒澤清崇)|     [黒澤pict, 黒澤清崇] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\黒澤pict (黒澤清崇)]
+|黒酢堂|     [黒酢堂] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\黒酢堂]
+|黒電池 (茗荷)|     [黒電池, 茗荷] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\黒電池 (茗荷)]
+|龍牙翔|     [龍牙翔] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\龍牙翔]
+|＊Cherish＊(西村にけ)|     [＊Cherish＊, 西村にけ] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\＊Cherish＊(西村にけ)]
+|ＤＬメイト|     [ＤＬメイト] | [J:\_Happy_Lesson\_Manga\Sorted_By_Author\ＤＬメイト]
+
