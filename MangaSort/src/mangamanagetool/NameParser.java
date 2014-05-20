@@ -45,11 +45,10 @@ public class NameParser {
     static Pattern brktPattern = Pattern.compile("\\[(.*?)\\]");
 
     /**
-     * return author name from a file name e.g "(COMIC1☆7) [DUAL BEAT (柚木貴)]
-     * LONESOME DUMMY (ザ·キング·オブ·ファイターズ).zip" will give "DUAL BEAT (柚木貴)"
-     * "(サンクリ60) [abgrund (さいかわゆさ)] やばいと思ったがちー欲を抑えきれなかった・・・! (はたらく魔王さま!).zip"
-     * will give "abgrund (さいかわゆさ)"
-     *
+     * "[sds]dssad"  : sds
+     * by [] should just in front . "dsad[digital].zip will return nothing"
+     * 
+     * 
      * @param fn fileName
      * @return author name
      */
@@ -60,10 +59,19 @@ public class NameParser {
         while (matcher.find()) {
             String ss = matcher.group();
             //remove [ and ]
-            ss = ss.replaceAll("\\[", "").replaceAll("\\]", "");
-
+            
+            int offset = matcher.end()+1;
+            
+            //the next char could not be .
+            if (offset+1 <= ss.length() && ss.charAt(offset+1) == '.')
+            {
+                continue;
+            }
+            
+             ss = ss.replaceAll("\\[", "").replaceAll("\\]", "");
             if (!containWrongWord(ss)) {
                 // System.out.println(ss.charAt(0));
+               
                 return ss;
             }
         }
@@ -100,7 +108,7 @@ public class NameParser {
         "Doujinshi", "Doujin", "同人", "同人", "doujin",
         "DL版",
         "Artbook", "画集",
-        "COMIC1☆", "サンクリ", "[Digital]"
+        "COMIC1☆", "サンクリ"
     };
 
     public static final Pattern wrongWordsPatten = Pattern.compile(NameParser.join(new ArrayList(Arrays.asList(wrongWords)), "|"));

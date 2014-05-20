@@ -478,10 +478,8 @@ public class MainInterface extends javax.swing.JFrame {
     private void scan_folders() {
         usrtFiles = new MangaFileTable();
         usrtFiles.oneLevel = this.oneLevelCheckBox.isSelected();
-        //usrtFiles.oneLevel = false;
-        usrtFiles.fileOn = true;
         usrtFiles.folderOn = this.scanFolderBox.isSelected();
-        usrtFiles.folderOn = this.scanFileBox.isSelected();
+        usrtFiles.fileOn = this.scanFileBox.isSelected();
         usrtFiles.compressedFileOnly = true;
 
         srtFiles = new MangaFileTable();

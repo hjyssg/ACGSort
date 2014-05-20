@@ -38,13 +38,22 @@ public class MangaFileTable extends Hashtable<String, AuthorInfo> {
         mergeSameKeys();
     }
 
-    public void add(String authorName, File f) {
+    public boolean add(String authorName, File f) {
         //System.out.println(authorName+"  " + f);
+        
+        //author can not be that long
+        if (authorName.length() >= 45)
+        {
+            return false;
+        }
+        
         if (containsKey(authorName)) {
             get(authorName).files.add(f);
+            return true;
         } else {
             AuthorInfo entry = new AuthorInfo(authorName, f);
             put(authorName, entry);
+             return true;
         }
     }
     

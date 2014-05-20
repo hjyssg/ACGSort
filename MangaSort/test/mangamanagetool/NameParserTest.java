@@ -39,6 +39,16 @@ public class NameParserTest extends TestCase {
         expResult.add("pear");
         ArrayList result = NameParser.getAuthorNameEntry(s);
         assertEquals(expResult, result);
+        
+        //
+        
+    
+//        expResult = new ArrayList();
+//        expResult.add("apple");
+//        expResult.add("pear");
+//        result = NameParser.getAuthorNameEntry(s);
+//        assertEquals(expResult, result);
+//        
     }
 
     
@@ -109,6 +119,12 @@ public class NameParserTest extends TestCase {
         expResult = null;
         result = NameParser.getStringFromBrackets(fn);
         assertEquals(expResult, result);
+        
+       fn = "(C80) (同人誌)[2-SHOT☆(越智善彦)] マリエリBOOK NO.38 こっちでもよっぱらい (マリーとエリーのアトリエ) (非エロ)";
+        expResult = "2-SHOT☆(越智善彦)";
+        result = NameParser.getStringFromBrackets(fn);
+        assertEquals(expResult, result);
+        
     }
 
     /**
