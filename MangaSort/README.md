@@ -24,7 +24,7 @@ MangaSort
 
  
 ###怎么打开？
-* 右键打开 MangaManageTool.jar。
+* 下载解压打开[MangaManageTool.jar](https://sourceforge.net/projects/mangasort/)。
 *  或者打开来用Netbeans的运行。这是一个NetBeans project。
 
 ###怎么用？
@@ -67,7 +67,7 @@ MangaSort
 #####Update 08.13.2013   Supporting game sorting now!
 
 ###What is this?
-A tool to sort Manga, doujinsin  
+A tool to sort Manga and Doujinsin  
 
 ###How to sort?
 Put manga files into two folders. One is for sorted files, the other is for unsorted.
