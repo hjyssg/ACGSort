@@ -17,8 +17,7 @@ import com.thoughtworks.xstream.*;
 import com.thoughtworks.xstream.io.xml.DomDriver;
 import com.thoughtworks.xstream.io.xml.StaxDriver;
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Iterator;
+
 
 /**
  *
@@ -27,7 +26,7 @@ import java.util.Iterator;
 public class MainInterface extends javax.swing.JFrame {
 
     //private boolean LOG1 = false;
-    private boolean LOG1 = true;
+    private  boolean LOG1 = true;
 
     private final String UNSORTED_FOLDER_PATH_PROPERTY = "unsorted folder path";
     private final String SORTED_FOLDER_PATH_PROPERTY = "sort folder path";
@@ -103,8 +102,8 @@ public class MainInterface extends javax.swing.JFrame {
      */
     private void saveUserSetting() {
         try {
-            String unsortedPath = "";
-            String sortedPath = "";
+            String unsortedPathString = "";
+            String sortedPathString = "";
             Properties userSetting = null;
 
             if (this.rememberBox.isSelected()) {
@@ -117,13 +116,13 @@ public class MainInterface extends javax.swing.JFrame {
                 //init xml generator
                 XStream xstream = new XStream(new StaxDriver());
 
-                unsortedPath = xstream.toXML(unsortedPathArr);
-                sortedPath = xstream.toXML(sortedPathArr);
+                unsortedPathString = xstream.toXML(unsortedPathArr);
+                sortedPathString = xstream.toXML(sortedPathArr);
             }
 
             userSetting = new Properties();
-            userSetting.setProperty(UNSORTED_FOLDER_PATH_PROPERTY, unsortedPath);
-            userSetting.setProperty(SORTED_FOLDER_PATH_PROPERTY, sortedPath);
+            userSetting.setProperty(UNSORTED_FOLDER_PATH_PROPERTY, unsortedPathString);
+            userSetting.setProperty(SORTED_FOLDER_PATH_PROPERTY, sortedPathString);
 
             userSetting.setProperty(UNSORTED_FOLDER_SEARCH_FILE_ON_PROPERTY, (this.scanFileBox.isSelected() ? "yes" : "no"));
             userSetting.setProperty(UNSORTED_FOLDER_SEARCH_FOLDER_ON_PROPERTY, (this.scanFolderBox.isSelected() ? "yes" : "no"));
@@ -199,6 +198,11 @@ public class MainInterface extends javax.swing.JFrame {
 
         rememberBox.setSelected(true);
         rememberBox.setText("Remember Setting");
+        rememberBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                rememberBoxActionPerformed(evt);
+            }
+        });
 
         unsortedFolderList.setModel(new DefaultListModel());
         unsortedFolderList.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
@@ -234,6 +238,11 @@ public class MainInterface extends javax.swing.JFrame {
 
         scanFileBox.setSelected(true);
         scanFileBox.setText("Scan File");
+        scanFileBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                scanFileBoxActionPerformed(evt);
+            }
+        });
 
         createDirSpinter.setPreferredSize(new java.awt.Dimension(1, 30));
 
@@ -248,6 +257,11 @@ public class MainInterface extends javax.swing.JFrame {
         scanFolderBox.setSelected(true);
         scanFolderBox.setText("Scan Folder");
         scanFolderBox.setToolTipText("");
+        scanFolderBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                scanFolderBoxActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -357,8 +371,9 @@ public class MainInterface extends javax.swing.JFrame {
      * read folder and then do the matching
      */
     private void run(java.awt.event.ActionEvent evt)//GEN-FIRST:event_run
-    {//GEN-HEADEREND:event_run
-
+    {
+      
+         if (this.rememberBox.isSelected()){   this.saveUserSetting(); }
         this.runButton.setEnabled(false);
         //this.runButton.setText("Running...");
 
@@ -385,6 +400,7 @@ public class MainInterface extends javax.swing.JFrame {
     {//GEN-HEADEREND:event_chooseWhereUnsortedFilesAre
         String file = chooseFile();
         getDefaultListModel(unsortedFolderList).addElement(file);
+         if (this.rememberBox.isSelected()){   this.saveUserSetting(); }
     }//GEN-LAST:event_chooseWhereUnsortedFilesAre
 
     /*
@@ -393,6 +409,7 @@ public class MainInterface extends javax.swing.JFrame {
     private void ChooseWhereSortedFIlesAre(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ChooseWhereSortedFIlesAre
         String file = chooseFile();
         getDefaultListModel(sortedFolderList).addElement(file);
+         if (this.rememberBox.isSelected()){   this.saveUserSetting(); }
     }//GEN-LAST:event_ChooseWhereSortedFIlesAre
 
     /*
@@ -426,12 +443,25 @@ public class MainInterface extends javax.swing.JFrame {
     }//GEN-LAST:event_sortedFolderListKeyReleased
 
     private void blurMatchingCheckBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_blurMatchingCheckBoxActionPerformed
-        // TODO add your handling code here:
+         if (this.rememberBox.isSelected()){   this.saveUserSetting(); }
     }//GEN-LAST:event_blurMatchingCheckBoxActionPerformed
 
     private void oneLevelCheckBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_oneLevelCheckBoxActionPerformed
-        // TODO add your handling code here:
+
+       if (this.rememberBox.isSelected()){   this.saveUserSetting(); }
     }//GEN-LAST:event_oneLevelCheckBoxActionPerformed
+
+    private void scanFileBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scanFileBoxActionPerformed
+         if (this.rememberBox.isSelected()){   this.saveUserSetting(); }
+    }//GEN-LAST:event_scanFileBoxActionPerformed
+
+    private void scanFolderBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scanFolderBoxActionPerformed
+        if (this.rememberBox.isSelected()){   this.saveUserSetting(); }
+    }//GEN-LAST:event_scanFolderBoxActionPerformed
+
+    private void rememberBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rememberBoxActionPerformed
+       if (this.rememberBox.isSelected()){   this.saveUserSetting(); }
+    }//GEN-LAST:event_rememberBoxActionPerformed
 
     /**
      * a simple utility to get the defaultListModel of JList
@@ -443,12 +473,14 @@ public class MainInterface extends javax.swing.JFrame {
         return (DefaultListModel) list.getModel();
     }
 
+    String sortedPath  = null;
+
     private void scan_folders() {
         usrtFiles = new MangaFileTable();
         usrtFiles.oneLevel = this.oneLevelCheckBox.isSelected();
         //usrtFiles.oneLevel = false;
         usrtFiles.fileOn = true;
-        usrtFiles.folderOn = this.scanFolderBox.isSelected();;
+        usrtFiles.folderOn = this.scanFolderBox.isSelected();
         usrtFiles.folderOn = this.scanFileBox.isSelected();
         usrtFiles.compressedFileOnly = true;
 
@@ -476,6 +508,8 @@ public class MainInterface extends javax.swing.JFrame {
             String[] sortedPathArr = getPathes(sortedFolderList);
             srtFiles.addFolders(sortedPathArr);
             System.out.println("sorted folders scanning: done");
+
+            if (sortedPathArr[0] != null) {sortedPath = sortedPathArr[0];}
 
             if (LOG1) {
                 //srtFiles.debugDisplay();
@@ -527,14 +561,8 @@ public class MainInterface extends javax.swing.JFrame {
 
         int numBeforeMkdir = (Integer) this.createDirSpinner.getValue();
 
-        HashSet<String> skip = new HashSet<String>();
-
          // System.out.println("hehre"+ unsortedAuthorNames.size());
         for (String unsortedAuthorName : unsortedAuthorNames) {
-
-            if (skip.contains(unsortedAuthorName)) {
-                continue;
-            }
 
             //check if there already exist a folder for the file
             AuthorInfo entry = usrtFiles.get(unsortedAuthorName);
@@ -545,12 +573,13 @@ public class MainInterface extends javax.swing.JFrame {
 
             ArrayList<String> names = entry.names;
             File destFolder = getAuthorFolder(unsortedAuthorName, names);
+                ArrayList<File> sourceFiles = usrtFiles.get(unsortedAuthorName).files;
+                 int occurence = sourceFiles.size();
 
             if (destFolder != null) {
 
                 //System.out.println("FOUND MATHCH"+ unsortedAuthorName + destFolder);
                 //tell user to move the file
-                ArrayList<File> sourceFiles = usrtFiles.get(unsortedAuthorName).files;
                 for (File sourceFile : sourceFiles) {
                     StringBuilder line = new StringBuilder();
                     line.append(sourceFile.getPath()).append("\" \"").append(destFolder.getPath()).append("\"\n\r");
@@ -559,24 +588,31 @@ public class MainInterface extends javax.swing.JFrame {
                     mvStr.append(sourceFile.getName()).append("    ").append(destFolder.getName()).append("\n\r");
                     mvCounter++;
                 }
-                continue;
             }
-
-            //calculate the files the author has 
-            int occurence = 0;
-            for (String key : usrtFiles.keySet()) {
-                AuthorInfo tempE = usrtFiles.get(key);
-                if (NameParser.isTwoNamesEqual(names, tempE.names, this.blurMatchingCheckBox.isSelected())) {
-                    occurence += entry.files.size();
-                    //only counter once
-                    skip.add(key);
-                }
-            }
-
-            if (occurence >= numBeforeMkdir) {
+            else if (occurence >= numBeforeMkdir) {
+                
                 //if folder  does not exist and this author have more than two book
                 //tell user to create one
-                mkdirCmd.append("mkdir \"").append(unsortedAuthorName).append("\"\n\r");
+                if (sortedPath != null)
+                {
+                     mkdirCmd.append("mkdir \"").append(sortedPath).append("\\").append(unsortedAuthorName).append("\"\n\r");
+                     
+                   
+                   for (File sourceFile : sourceFiles) {
+                    StringBuilder line = new StringBuilder();
+                        line.append(sourceFile.getPath()).append("\" \"").append(sortedPath).append("\\").append(unsortedAuthorName).append("\"\n\r");
+                        mvMacCmd.append("mv \"").append(line);
+                        mvWinCmd.append("move \"").append(line);
+                        mvStr.append(sourceFile.getName()).append("    ").append(sortedPath).append("\\").append(unsortedAuthorName).append("\n\r");
+                        mvCounter++;
+                 }
+                     
+                     
+                }else
+                {
+                     mkdirCmd.append("mkdir \"").append(unsortedAuthorName).append("\"\n\r");
+                }
+
                 mkdirCounter++;
             }
         }
@@ -658,6 +694,7 @@ public class MainInterface extends javax.swing.JFrame {
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
             public void run() {
                 new MainInterface().setVisible(true);
             }

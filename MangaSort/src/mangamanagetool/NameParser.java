@@ -23,7 +23,7 @@ public class NameParser {
      * "生徒会室(あきもと大)" will return [生徒会室, あきもと大] abgrund (さいかわゆさ) will return
      * [abgrund,さいかわゆさ]
      *
-     * @param the author name
+     * @param s
      * @return an array of author names
      */
     public static ArrayList<String> getAuthorNameEntry(String s) {
@@ -131,6 +131,7 @@ public class NameParser {
 
     /**
      * decide if file is compressed file based on its extension
+     * @param fileExtension
      */
     public static boolean isCompressionFile(String fileExtension) {
         for (String etx : CompressionType) {
@@ -195,7 +196,6 @@ public class NameParser {
         } else {
             for (String n1 : l1) {
                 for (String n2 : l2) {
-
                     // System.out.println(n2 + "  "+ name);
                     int strDistance = NameParser.stringDistance(n2, n1);
 
@@ -208,7 +208,6 @@ public class NameParser {
                 }
             }
         }
-
         return false;
     }
 

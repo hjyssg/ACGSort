@@ -16,8 +16,6 @@ import java.util.*;
  * "生徒会室(あきもと大)" will return [生徒会室, あきもと大] abgrund (さいかわゆさ) will return
  * [abgrund,さいかわゆさ]
  *
- * @param the author name
- * @return an array of author names
  */
 public class MangaFileTable extends Hashtable<String, AuthorInfo> {
     //default is recursive 
@@ -37,9 +35,10 @@ public class MangaFileTable extends Hashtable<String, AuthorInfo> {
 
     public void addFolder(String folderPath) {
         iterate(new File(folderPath));
+        mergeSameKeys();
     }
 
-    private void add(String authorName, File f) {
+    public void add(String authorName, File f) {
         //System.out.println(authorName+"  " + f);
         if (containsKey(authorName)) {
             get(authorName).files.add(f);
@@ -47,6 +46,79 @@ public class MangaFileTable extends Hashtable<String, AuthorInfo> {
             AuthorInfo entry = new AuthorInfo(authorName, f);
             put(authorName, entry);
         }
+    }
+    
+
+    String longerString(String s1, String s2)
+    {
+        if (s1.length()>=s2.length())
+        {
+            return s1;
+        }else
+        {
+            return s2;
+        }
+    }
+
+
+     String shorterString(String s1, String s2)
+    {
+        if (s1.length()<=s2.length())
+        {
+            return s1;
+        }else
+        {
+            return s2;
+        }
+    }
+
+    /**
+     * find the same key and and merge
+     */
+    public void mergeSameKeys()
+    {
+           //get the author of unsorted files     
+        ArrayList<String> keys = new ArrayList(keySet());
+        HashSet<String> goingToRemove = new HashSet<String>();
+        
+         //sort them for more readable output
+        Collections.sort(keys);
+        
+        for (int ii = 0; ii < keys.size();ii++) {
+            
+            String key1 = keys.get(ii);
+            
+            if (goingToRemove.contains(key1)){continue;}
+            ArrayList<String> n1s = this.get(key1).names;
+          
+            for (int jj = ii+1; jj <  keys.size(); jj++) {
+                 String key2 = keys.get(jj);
+                 if (goingToRemove.contains(key2)){continue;}
+                 
+                  ArrayList<String> n2s = this.get(key2).names;
+                 if (NameParser.isTwoNamesEqual(n1s, n2s, false))
+                 {
+                     //goingToRemove.add(key2);
+                     
+                     String ss = shorterString(key1, key2);
+                     String ls = longerString(key1, key2);
+                     
+                     goingToRemove.add(ss);
+                     
+                     //merge files 
+                     this.get(ls).files.addAll(this.get(ss).files);
+
+                     if(ss.equals(key1)){break;}
+                 }
+            }
+        }
+        
+        
+        //remove 
+        for (String rm : goingToRemove) {
+            this.remove(rm);
+        }
+        
     }
 
     private void iterate(File dir) {
@@ -114,6 +186,7 @@ public class MangaFileTable extends Hashtable<String, AuthorInfo> {
         }
     }
 
+    @Override
     public String toString() {
         StringBuilder str = new StringBuilder();
         int fileNum = 0;
