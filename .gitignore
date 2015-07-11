@@ -1,1 +1,36 @@
-/dist/
+/build/
+mkdir_command.txt
+mkdir_easy_read.txt
+mv_easy_read.txt
+mv_mac_command.txt
+mv_win_command.txt
+property.xml
+/Music/nbproject/private/
+/MusicSort/nbproject/private/
+/MusicSort/build/
+
+
+# NetBeans specific #
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Class Files #
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+
+# text files
+*.txt
+
+#log files
+*.log
+*.lck

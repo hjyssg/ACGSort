@@ -39,10 +39,27 @@ Hotmilk|ホットミルク ,					Hotmilk
 __DISABLE_REGEX__
 
 
-#
-#	sort recent anime and music
-# 
-__DESTINATION_FOLDER__: D:\_MUSIC
+__DESTINATION_FOLDER__: D:\_MUSIC\_Sorted
+
+
+アカメが斬る, 								Akame ga Kill! アカメが斬る！
+甘城ブリリアントパーク, 							Amagi Brilliant Park 甘城ブリリアントパーク
+ガールフレンド（仮）, 							Girlfriend (Kari) ガールフレンド（仮）
+異能バトルは日常系のなかで, 					Inou Battle wa Nichijou-kei no Naka de 異能バトルは日常系のなかで
+ツインテールになります, 							Ore Twintail ni Narimasu　俺、ツインテールになります
+Psycho-Pass 2
+Shirobako
+天体のメソッド,								Sora no Method　天体のメソッド
+結城友奈は勇者である,						Yuuki Yuuna wa Yuusha de Aru　結城友奈は勇者である
+トリニティセブン,                               Trinity Seven トリニティセブン
+ゆるゆり,								Yuru Yuri ゆるゆり
+ハナヤマタ, 							Hana Yamata ハナヤマタ
+あの夏で待ってる,							Ano Natsu de Matteru あの夏で待ってる
+のんのんびより,							Non Non Biyori のんのんびより
+"ニセコイ"								Nisekoi ニセコイ	
+たまこまーけっと,         					Tamako Market たまこまーけっと		
+咲-Saki,								Saki 咲-Saki　	
+ヤマノススメ,							Yama no Susume ヤマノススメ						
 
 __ENABLE_REGEX__
 
