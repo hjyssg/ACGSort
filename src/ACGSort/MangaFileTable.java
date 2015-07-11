@@ -1,8 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package mangamanagetool;
+package ACGSort;
 
 /**
  *
@@ -153,22 +149,17 @@ public class MangaFileTable extends Hashtable<String, AuthorInfo> {
         if (dir == null) {
             return;
         }
-
         try {
             File[] files = dir.listFiles();
-
             if (files == null) {
                 return;
             }
-
             for (File f : files) {
                 String fileName = f.getName();
-
                 //skip hidden file and folder
                 if (f.isHidden()) {
                     continue;
                 }
-
                 if (f.isFile() && fileOn) {
                     //get file extension
                     String extension = NameParser.getFileExtension(fileName);
@@ -220,9 +211,7 @@ public class MangaFileTable extends Hashtable<String, AuthorInfo> {
         for (String s : keySet()) {
             arr.add(s);
         }
-
         System.out.println("number of keys " + arr.size());
-
         Collections.sort(arr);
         for (String s : arr) {
             System.out.println("|" + s + "|     " + get(s).names + " | " + get(s).files);

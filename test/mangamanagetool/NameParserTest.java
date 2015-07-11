@@ -4,6 +4,7 @@
  */
 package mangamanagetool;
 
+import ACGSort.NameParser;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;

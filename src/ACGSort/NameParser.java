@@ -1,13 +1,7 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package mangamanagetool;
+package ACGSort;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collection;
-import java.util.HashSet;
 import java.util.Iterator;
 import java.util.regex.*;
 
@@ -77,7 +71,6 @@ public class NameParser {
             if (!NameParser.containWrongWord(ss)) {
             return ss;
             }
-            
         }
         return null;
     }
@@ -116,8 +109,6 @@ public class NameParser {
         "アニメ", "anime", "Anime",
     };
     
-
-
      //comiket (e.g c79, c82) is not an authour name
     final static Pattern wp = Pattern.compile("[Cc][0-9]{2}|[0-9]+|[0-9\\-]+|[Rr][Jj][0-9]+");
 
@@ -141,7 +132,6 @@ public class NameParser {
                 return true;
             }
         }
-   
         return false;
     }
     
@@ -208,7 +198,6 @@ public class NameParser {
     }
 
     public static boolean isTwoNamesEqual(ArrayList<String> l1, ArrayList<String> l2, boolean blur) {
-
         if (!blur) {
             for (String n1 : l1) {
                 for (String n2 : l2) {
